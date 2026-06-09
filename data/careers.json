@@ -1,0 +1,162 @@
+[
+  {
+    "career":"Data Analyst",
+    "skills":["Python","SQL","Excel","Power BI"]
+  },
+  {
+    "career":"Data Scientist",
+    "skills":["Python","Machine Learning","Statistics","Pandas"]
+  },
+  {
+    "career":"Business Analyst",
+    "skills":["Excel","SQL","Business Intelligence","Requirements Gathering"]
+  },
+  {
+    "career":"ML Engineer",
+    "skills":["Python","TensorFlow","PyTorch","Machine Learning"]
+  },
+  {
+    "career":"Software Developer",
+    "skills":["Java","Python","Data Structures","Algorithms"]
+  },
+  {
+    "career":"Database Administrator",
+    "skills":["SQL","Database Design","MySQL","Backup Management"]
+  },
+  {
+    "career":"Frontend Developer",
+    "skills":["HTML","CSS","JavaScript","React"]
+  },
+  {
+    "career":"Backend Developer",
+    "skills":["Node.js","Python","APIs","Databases"]
+  },
+  {
+    "career":"Cloud Engineer",
+    "skills":["AWS","Azure","Linux","Networking"]
+  },
+  {
+    "career":"DevOps Engineer",
+    "skills":["Docker","Kubernetes","CI/CD","Linux"]
+  },
+  {
+    "career":"Cyber Security Analyst",
+    "skills":["Network Security","Linux","SIEM","Penetration Testing"]
+  },
+  {
+    "career":"Full Stack Developer",
+    "skills":["React","Node.js","MongoDB","JavaScript"]
+  },
+  {
+    "career":"Mobile App Developer",
+    "skills":["Flutter","Android","iOS","Dart"]
+  },
+  {
+    "career":"UI UX Designer",
+    "skills":["Figma","Wireframing","Prototyping","User Research"]
+  },
+  {
+    "career":"QA Engineer",
+    "skills":["Testing","Selenium","Automation","Bug Tracking"]
+  },
+  {
+    "career":"Network Engineer",
+    "skills":["Routing","Switching","TCP/IP","Cisco"]
+  },
+  {
+    "career":"System Administrator",
+    "skills":["Linux","Windows Server","Networking","Shell Scripting"]
+  },
+  {
+    "career":"AI Engineer",
+    "skills":["Python","Deep Learning","LLMs","PyTorch"]
+  },
+  {
+    "career":"Big Data Engineer",
+    "skills":["Hadoop","Spark","Kafka","Python"]
+  },
+  {
+    "career":"Data Engineer",
+    "skills":["SQL","ETL","Python","Apache Spark"]
+  },
+  {
+    "career":"Blockchain Developer",
+    "skills":["Solidity","Ethereum","Smart Contracts","Web3"]
+  },
+  {
+    "career":"Game Developer",
+    "skills":["Unity","C#","Game Design","Physics"]
+  },
+  {
+    "career":"AR VR Developer",
+    "skills":["Unity","C#","3D Modeling","XR Development"]
+  },
+  {
+    "career":"Embedded Systems Engineer",
+    "skills":["C","Microcontrollers","RTOS","Electronics"]
+  },
+  {
+    "career":"IoT Engineer",
+    "skills":["Arduino","Raspberry Pi","MQTT","Sensors"]
+  },
+  {
+    "career":"Site Reliability Engineer",
+    "skills":["Linux","Cloud Computing","Monitoring","Automation"]
+  },
+  {
+    "career":"Product Manager",
+    "skills":["Product Strategy","Market Research","Agile","Communication"]
+  },
+  {
+    "career":"Project Manager",
+    "skills":["Planning","Risk Management","Agile","Leadership"]
+  },
+  {
+    "career":"Technical Writer",
+    "skills":["Documentation","Writing","API Documentation","Research"]
+  },
+  {
+    "career":"Salesforce Developer",
+    "skills":["Apex","Salesforce","Lightning","CRM"]
+  },
+  {
+    "career":"SAP Consultant",
+    "skills":["SAP","Business Processes","ERP","Configuration"]
+  },
+  {
+    "career":"Digital Marketing Specialist",
+    "skills":["SEO","Google Analytics","Content Marketing","Ads"]
+  },
+  {
+    "career":"SEO Specialist",
+    "skills":["Keyword Research","SEO","Google Search Console","Analytics"]
+  },
+  {
+    "career":"Content Strategist",
+    "skills":["Content Writing","SEO","Research","Marketing"]
+  },
+  {
+    "career":"Financial Analyst",
+    "skills":["Excel","Financial Modeling","Accounting","Data Analysis"]
+  },
+  {
+    "career":"Investment Analyst",
+    "skills":["Finance","Valuation","Excel","Research"]
+  },
+  {
+    "career":"Business Intelligence Developer",
+    "skills":["Power BI","SQL","Data Warehousing","DAX"]
+  },
+  {
+    "career":"Robotics Engineer",
+    "skills":["ROS","Python","Control Systems","Embedded Systems"]
+  },
+  {
+    "career":"Computer Vision Engineer",
+    "skills":["OpenCV","Python","Deep Learning","Image Processing"]
+  },
+  {
+    "career":"NLP Engineer",
+    "skills":["Python","Transformers","NLP","Deep Learning"]
+  }
+]

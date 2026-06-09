@@ -1,0 +1,213 @@
+[
+  {
+    "skill":"Python",
+    "course":"Ultimate Python Course",
+    "provider":"CodeWithHarry",
+    "link":"https://www.codewithharry.com"
+  },
+  {
+    "skill":"Python",
+    "course":"Python for Everybody",
+    "provider":"Coursera",
+    "link":"https://www.coursera.org/specializations/python"
+  },
+  {
+    "skill":"Python",
+    "course":"Complete Python Bootcamp",
+    "provider":"Udemy",
+    "link":"https://www.udemy.com"
+  },
+
+  {
+    "skill":"SQL",
+    "course":"SQL for Data Analytics",
+    "provider":"CampusX",
+    "link":"https://www.youtube.com/@campusx-official"
+  },
+  {
+    "skill":"SQL",
+    "course":"Databases and SQL for Data Science",
+    "provider":"Coursera",
+    "link":"https://www.coursera.org/learn/sql-data-science"
+  },
+
+  {
+    "skill":"Power BI",
+    "course":"Power BI Course",
+    "provider":"CampusX",
+    "link":"https://www.youtube.com/@campusx-official"
+  },
+  {
+    "skill":"Power BI",
+    "course":"Power BI Desktop for Business Intelligence",
+    "provider":"Udemy",
+    "link":"https://www.udemy.com"
+  },
+
+  {
+    "skill":"Machine Learning",
+    "course":"Machine Learning Course",
+    "provider":"CampusX",
+    "link":"https://www.youtube.com/@campusx-official"
+  },
+  {
+    "skill":"Machine Learning",
+    "course":"Machine Learning Specialization",
+    "provider":"Coursera",
+    "link":"https://www.coursera.org/specializations/machine-learning-introduction"
+  },
+
+  {
+    "skill":"Deep Learning",
+    "course":"Deep Learning Specialization",
+    "provider":"Coursera",
+    "link":"https://www.coursera.org/specializations/deep-learning"
+  },
+
+  {
+    "skill":"Java",
+    "course":"Java Complete Course",
+    "provider":"Apna College",
+    "link":"https://www.youtube.com/@ApnaCollegeOfficial"
+  },
+
+  {
+    "skill":"Data Structures",
+    "course":"DSA Placement Course",
+    "provider":"Apna College",
+    "link":"https://www.youtube.com/@ApnaCollegeOfficial"
+  },
+
+  {
+    "skill":"Algorithms",
+    "course":"DSA Course",
+    "provider":"CodeWithHarry",
+    "link":"https://www.codewithharry.com"
+  },
+
+  {
+    "skill":"HTML",
+    "course":"Sigma Web Development",
+    "provider":"CodeWithHarry",
+    "link":"https://www.codewithharry.com"
+  },
+
+  {
+    "skill":"CSS",
+    "course":"Sigma Web Development",
+    "provider":"CodeWithHarry",
+    "link":"https://www.codewithharry.com"
+  },
+
+  {
+    "skill":"JavaScript",
+    "course":"JavaScript Tutorial",
+    "provider":"CodeWithHarry",
+    "link":"https://www.codewithharry.com"
+  },
+
+  {
+    "skill":"React",
+    "course":"React JS Course",
+    "provider":"CodeWithHarry",
+    "link":"https://www.codewithharry.com"
+  },
+
+  {
+    "skill":"Node.js",
+    "course":"Backend Development",
+    "provider":"Apna College",
+    "link":"https://www.youtube.com/@ApnaCollegeOfficial"
+  },
+
+  {
+    "skill":"MongoDB",
+    "course":"MongoDB Complete Guide",
+    "provider":"Udemy",
+    "link":"https://www.udemy.com"
+  },
+
+  {
+    "skill":"AWS",
+    "course":"AWS Cloud Practitioner",
+    "provider":"Coursera",
+    "link":"https://www.coursera.org"
+  },
+
+  {
+    "skill":"Azure",
+    "course":"Microsoft Azure Fundamentals",
+    "provider":"Coursera",
+    "link":"https://www.coursera.org"
+  },
+
+  {
+    "skill":"Docker",
+    "course":"Docker Mastery",
+    "provider":"Udemy",
+    "link":"https://www.udemy.com"
+  },
+
+  {
+    "skill":"Kubernetes",
+    "course":"Kubernetes for Developers",
+    "provider":"Udemy",
+    "link":"https://www.udemy.com"
+  },
+
+  {
+    "skill":"Git",
+    "course":"Complete Git Tutorials",
+    "provider":"CodeWithHarry",
+    "link":"https://www.codewithharry.com"
+  },
+
+  {
+    "skill":"GitHub",
+    "course":"Git and GitHub",
+    "provider":"Apna College",
+    "link":"https://www.youtube.com/@ApnaCollegeOfficial"
+  },
+
+  {
+    "skill":"Linux",
+    "course":"Linux Administration Bootcamp",
+    "provider":"Udemy",
+    "link":"https://www.udemy.com"
+  },
+
+  {
+    "skill":"Cyber Security",
+    "course":"Cyber Security Course",
+    "provider":"CodeWithHarry",
+    "link":"https://www.codewithharry.com"
+  },
+
+  {
+    "skill":"Networking",
+    "course":"Computer Networking",
+    "provider":"CodeWithHarry",
+    "link":"https://www.codewithharry.com"
+  },
+
+  {
+    "skill":"Figma",
+    "course":"UI UX Design",
+    "provider":"Udemy",
+    "link":"https://www.udemy.com"
+  },
+
+  {
+    "skill":"NLP",
+    "course":"Natural Language Processing Specialization",
+    "provider":"Coursera",
+    "link":"https://www.coursera.org/specializations/natural-language-processing"
+  },
+
+  {
+    "skill":"LLMs",
+    "course":"Generative AI with Large Language Models",
+    "provider":"Coursera",
+    "link":"https://www.coursera.org/learn/generative-ai-with-llms"
+  }
+]
