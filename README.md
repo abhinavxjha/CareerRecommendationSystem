@@ -7,7 +7,7 @@
 - Career Readiness Score
 - Course Recommendation System (In Progress)
 
-## Technologies
+## Technologies (Libraries)
 
 - Python
 - NumPy
