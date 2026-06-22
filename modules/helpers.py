@@ -20,6 +20,11 @@ def career_selection():
     career=input("Which Career You Want To Opt :: ")
     return career
 
+def skills_input():
+    skills=input("Enter Your Skills :: ")
+    user_skills=skills.split()
+    return user_skills
+
 def course_recommendation(final_missing_skills, courses_data):
     recommended_courses=[]
     for course in courses_data:
@@ -33,3 +38,34 @@ def values(required_skills_data, selected_career, user_skills):
     final_missing_skills=sorted(missing_skills)
     return final_missing_skills
     
+
+#Career Matching
+
+
+def calculate_match_percentage(career_skills,  user_skills):
+    match=len(set(career_skills).intersection(set(user_skills)))
+    total=len(career_skills)
+    score=(match/total)*100
+    return score
+
+def matching_score(required_skills_data, user_skills):
+    career_score=[]
+    for skill in required_skills_data:
+        career_name=skill['career']
+        career_skills=skill['skills']
+        score=calculate_match_percentage(career_skills, user_skills)
+        career_score.append((career_name, score))
+    return career_score
+
+#Career_Comparison
+
+def get_career_info(career_info_data, career_name):
+    for ccareer in career_info_data:
+        if ccareer["career"]==career_name:
+            return ccareer
+    return None
+
+def load_career(filename):
+    with open(filename,"r") as f:
+        career_info_data=json.load(f)
+        return career_info_data

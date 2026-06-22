@@ -1,0 +1,19 @@
+[
+  {
+    "career":"Data Analyst",
+    "difficulty":"Medium",
+    "learning_time":"3 Months"
+  },
+
+  {
+    "career":"Data Scientist",
+    "difficulty":"High",
+    "learning_time":"8 Months"
+  },
+
+  {
+    "career":"Business Analyst",
+    "difficulty":"Medium",
+    "learning_time":"4 Months"
+  }
+]
