@@ -1,5 +1,11 @@
 import json
 
+
+#######################################
+#SKILL GAP ANALYSIS & READINESS SCORE
+#######################################
+
+
 def load_json(filename):
     with open(filename,"r") as f:
         required_skills_data=json.load(f)
@@ -25,6 +31,12 @@ def skills_input():
     user_skills=skills.split()
     return user_skills
 
+
+#######################################
+#COURSE RECOMMENDATION
+#######################################
+
+
 def course_recommendation(final_missing_skills, courses_data):
     recommended_courses=[]
     for course in courses_data:
@@ -39,7 +51,9 @@ def values(required_skills_data, selected_career, user_skills):
     return final_missing_skills
     
 
-#Career Matching
+#######################################
+#CAREER MATCHING
+#######################################
 
 
 def calculate_match_percentage(career_skills,  user_skills):
@@ -57,7 +71,11 @@ def matching_score(required_skills_data, user_skills):
         career_score.append((career_name, score))
     return career_score
 
-#Career_Comparison
+
+#######################################
+#CAREER COMPARISON
+#######################################
+
 
 def get_career_info(career_info_data, career_name):
     for ccareer in career_info_data:

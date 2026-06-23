@@ -1,3 +1,53 @@
+# VS Code
+
+.vscode/
+
+# Jupyter Notebook Checkpoints
+
 .ipynb_checkpoints/
-__pycache__/
+
+# Python Cache Files
+
+**pycache**/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+
+venv/
+.venv/
+env/
+ENV/
+
+# Conda Environment Files
+
+conda-meta/
+
+# Environment Variables
+
+.env
+
+# Logs
+
+*.log
+
+# Temporary Files
+
+*.tmp
+*.temp
+
+# Build Files
+
+build/
+dist/
+*.egg-info/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Personal Test Resume
+
+data/AbhinavJhaResume.pdf
