@@ -1,3 +1,8 @@
+##################################################
+#                   IMPORTS                      #
+##################################################
+
+
 import streamlit as st
 import plotly.graph_objects as go
 from modules.helpers import (
@@ -30,7 +35,17 @@ courses_data = load_courses("data/courses.json")
 career_info_data = load_career("data/career_info.json")
 skills_data=load_skills("data/skills.json")
 
+##################################################
+#                     TITLE                      #
+##################################################
+
+
 st.title("CAREER RECOMMENDATION SYSTEM")
+
+
+##################################################
+#                 SKILLS INPUT                   #
+##################################################
 
 
 st.subheader("Upload Resume or Enter Skills")
@@ -51,6 +66,11 @@ elif input_method == "Resume Upload":
         user_skills = extract_skills(resume_text, all_skills)
 
 
+##################################################
+#                 CAREER INPUT                   #
+##################################################
+
+
 st.subheader("Which Career You Want to Opt?")
 career_names=[]
 for career in required_skills_data:
@@ -60,12 +80,23 @@ if selected_career:
     st.success(f"Your Selected Career is {selected_career}")
 
 
+##################################################
+#              SKILL GAP ANALYSIS                #
+##################################################
+
+
 if st.button("Analyze"):
     missing_skills=skill_gap_analysis(required_skills_data, selected_career, user_skills)
     st.subheader("Skill Gap Analysis")
     with st.expander("View Missing Skills"):
         for skill in missing_skills:
             st.write(f"• {skill}")
+
+
+##################################################
+#             CAREER READINESS SCORE             #
+##################################################
+
 
     career_readiness_score=readiness_score(required_skills_data, selected_career, user_skills)
     st.subheader("Career Readiness Score")
