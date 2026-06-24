@@ -1,19 +1,942 @@
 [
   {
-    "career":"Data Analyst",
-    "difficulty":"Medium",
-    "learning_time":"3 Months"
+    "career": "Data Analyst",
+    "difficulty": "Medium",
+    "learning_time": "3 Months"
   },
-
   {
-    "career":"Data Scientist",
-    "difficulty":"High",
-    "learning_time":"8 Months"
+    "career": "Data Scientist",
+    "difficulty": "High",
+    "learning_time": "8 Months"
   },
-
   {
-    "career":"Business Analyst",
-    "difficulty":"Medium",
-    "learning_time":"4 Months"
+    "career": "Business Analyst",
+    "difficulty": "Medium",
+    "learning_time": "4 Months"
+  },
+  {
+    "career": "ML Engineer",
+    "difficulty": "High",
+    "learning_time": "10 Months"
+  },
+  {
+    "career": "Software Developer",
+    "difficulty": "Medium",
+    "learning_time": "6 Months"
+  },
+  {
+    "career": "Database Administrator",
+    "difficulty": "Medium",
+    "learning_time": "5 Months"
+  },
+  {
+    "career": "Frontend Developer",
+    "difficulty": "Medium",
+    "learning_time": "4 Months"
+  },
+  {
+    "career": "Backend Developer",
+    "difficulty": "Medium",
+    "learning_time": "6 Months"
+  },
+  {
+    "career": "Cloud Engineer",
+    "difficulty": "High",
+    "learning_time": "8 Months"
+  },
+  {
+    "career": "DevOps Engineer",
+    "difficulty": "High",
+    "learning_time": "9 Months"
+  },
+  {
+    "career": "Cyber Security Analyst",
+    "difficulty": "High",
+    "learning_time": "9 Months"
+  },
+  {
+    "career": "Full Stack Developer",
+    "difficulty": "High",
+    "learning_time": "9 Months"
+  },
+  {
+    "career": "Mobile App Developer",
+    "difficulty": "Medium",
+    "learning_time": "6 Months"
+  },
+  {
+    "career": "UI UX Designer",
+    "difficulty": "Medium",
+    "learning_time": "4 Months"
+  },
+  {
+    "career": "QA Engineer",
+    "difficulty": "Low",
+    "learning_time": "3 Months"
+  },
+  {
+    "career": "Network Engineer",
+    "difficulty": "Medium",
+    "learning_time": "6 Months"
+  },
+  {
+    "career": "System Administrator",
+    "difficulty": "Medium",
+    "learning_time": "5 Months"
+  },
+  {
+    "career": "AI Engineer",
+    "difficulty": "Very High",
+    "learning_time": "12 Months"
+  },
+  {
+    "career": "Big Data Engineer",
+    "difficulty": "High",
+    "learning_time": "9 Months"
+  },
+  {
+    "career": "Data Engineer",
+    "difficulty": "High",
+    "learning_time": "8 Months"
+  },
+  {
+    "career": "Blockchain Developer",
+    "difficulty": "High",
+    "learning_time": "10 Months"
+  },
+  {
+    "career": "Game Developer",
+    "difficulty": "High",
+    "learning_time": "12 Months"
+  },
+  {
+    "career": "AR VR Developer",
+    "difficulty": "High",
+    "learning_time": "12 Months"
+  },
+  {
+    "career": "Embedded Systems Engineer",
+    "difficulty": "Very High",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "IoT Engineer",
+    "difficulty": "High",
+    "learning_time": "10 Months"
+  },
+  {
+    "career": "Site Reliability Engineer",
+    "difficulty": "High",
+    "learning_time": "10 Months"
+  },
+  {
+    "career": "Product Manager",
+    "difficulty": "Medium",
+    "learning_time": "5 Months"
+  },
+  {
+    "career": "Project Manager",
+    "difficulty": "Medium",
+    "learning_time": "4 Months"
+  },
+  {
+    "career": "Technical Writer",
+    "difficulty": "Low",
+    "learning_time": "2 Months"
+  },
+  {
+    "career": "Salesforce Developer",
+    "difficulty": "Medium",
+    "learning_time": "6 Months"
+  },
+  {
+    "career": "SAP Consultant",
+    "difficulty": "High",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Digital Marketing Specialist",
+    "difficulty": "Low",
+    "learning_time": "3 Months"
+  },
+  {
+    "career": "SEO Specialist",
+    "difficulty": "Low",
+    "learning_time": "2 Months"
+  },
+  {
+    "career": "Content Strategist",
+    "difficulty": "Low",
+    "learning_time": "2 Months"
+  },
+  {
+    "career": "Financial Analyst",
+    "difficulty": "Medium",
+    "learning_time": "5 Months"
+  },
+  {
+    "career": "Investment Analyst",
+    "difficulty": "High",
+    "learning_time": "8 Months"
+  },
+  {
+    "career": "Business Intelligence Developer",
+    "difficulty": "Medium",
+    "learning_time": "5 Months"
+  },
+  {
+    "career": "Robotics Engineer",
+    "difficulty": "Very High",
+    "learning_time": "18 Months"
+  },
+  {
+    "career": "Computer Vision Engineer",
+    "difficulty": "Very High",
+    "learning_time": "12 Months"
+  },
+  {
+    "career": "NLP Engineer",
+    "difficulty": "Very High",
+    "learning_time": "12 Months"
+  },
+  {
+    "career": "Cloud Architect",
+    "difficulty": "Very High",
+    "learning_time": "18 Months"
+  },
+  {
+    "career": "Platform Engineer",
+    "difficulty": "High",
+    "learning_time": "10 Months"
+  },
+  {
+    "career": "Solutions Architect",
+    "difficulty": "Very High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Security Engineer",
+    "difficulty": "High",
+    "learning_time": "10 Months"
+  },
+  {
+    "career": "MLOps Engineer",
+    "difficulty": "High",
+    "learning_time": "10 Months"
+  },
+  {
+    "career": "Data Architect",
+    "difficulty": "Very High",
+    "learning_time": "18 Months"
+  },
+  {
+    "career": "API Developer",
+    "difficulty": "Medium",
+    "learning_time": "5 Months"
+  },
+  {
+    "career": "Prompt Engineer",
+    "difficulty": "Low",
+    "learning_time": "2 Months"
+  },
+  {
+    "career": "Reinforcement Learning Engineer",
+    "difficulty": "Very High",
+    "learning_time": "18 Months"
+  },
+  {
+    "career": "Quantum Computing Engineer",
+    "difficulty": "Very High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Generative AI Developer",
+    "difficulty": "High",
+    "learning_time": "9 Months"
+  },
+  {
+    "career": "Data Governance Analyst",
+    "difficulty": "Medium",
+    "learning_time": "4 Months"
+  },
+  {
+    "career": "Scrum Master",
+    "difficulty": "Low",
+    "learning_time": "2 Months"
+  },
+  {
+    "career": "Enterprise Architect",
+    "difficulty": "Very High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Penetration Tester",
+    "difficulty": "Very High",
+    "learning_time": "18 Months"
+  },
+  {
+    "career": "Malware Analyst",
+    "difficulty": "Very High",
+    "learning_time": "18 Months"
+  },
+  {
+    "career": "Cloud Security Engineer",
+    "difficulty": "High",
+    "learning_time": "10 Months"
+  },
+  {
+    "career": "Firmware Engineer",
+    "difficulty": "Very High",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Hardware Engineer",
+    "difficulty": "Very High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "FPGA Engineer",
+    "difficulty": "Very High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Signal Processing Engineer",
+    "difficulty": "Very High",
+    "learning_time": "18 Months"
+  },
+  {
+    "career": "Controls Engineer",
+    "difficulty": "High",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Telecommunications Engineer",
+    "difficulty": "High",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "RF Engineer",
+    "difficulty": "Very High",
+    "learning_time": "18 Months"
+  },
+  {
+    "career": "Automation Engineer",
+    "difficulty": "High",
+    "learning_time": "9 Months"
+  },
+  {
+    "career": "Mechanical Engineer",
+    "difficulty": "High",
+    "learning_time": "4 Years"
+  },
+  {
+    "career": "Civil Engineer",
+    "difficulty": "High",
+    "learning_time": "4 Years"
+  },
+  {
+    "career": "Chemical Engineer",
+    "difficulty": "Very High",
+    "learning_time": "4 Years"
+  },
+  {
+    "career": "Electrical Engineer",
+    "difficulty": "High",
+    "learning_time": "4 Years"
+  },
+  {
+    "career": "Biomedical Engineer",
+    "difficulty": "Very High",
+    "learning_time": "4 Years"
+  },
+  {
+    "career": "Environmental Engineer",
+    "difficulty": "High",
+    "learning_time": "4 Years"
+  },
+  {
+    "career": "Geospatial Analyst",
+    "difficulty": "Medium",
+    "learning_time": "6 Months"
+  },
+  {
+    "career": "Petroleum Engineer",
+    "difficulty": "Very High",
+    "learning_time": "4 Years"
+  },
+  {
+    "career": "Materials Scientist",
+    "difficulty": "Very High",
+    "learning_time": "4 Years"
+  },
+  {
+    "career": "Aerospace Engineer",
+    "difficulty": "Very High",
+    "learning_time": "4 Years"
+  },
+  {
+    "career": "Nuclear Engineer",
+    "difficulty": "Very High",
+    "learning_time": "4 Years"
+  },
+  {
+    "career": "Bioinformatics Engineer",
+    "difficulty": "Very High",
+    "learning_time": "18 Months"
+  },
+  {
+    "career": "Research Scientist",
+    "difficulty": "Very High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Computational Scientist",
+    "difficulty": "Very High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Pharmacist",
+    "difficulty": "Very High",
+    "learning_time": "4 Years"
+  },
+  {
+    "career": "Clinical Data Analyst",
+    "difficulty": "High",
+    "learning_time": "8 Months"
+  },
+  {
+    "career": "Health Informatics Specialist",
+    "difficulty": "High",
+    "learning_time": "9 Months"
+  },
+  {
+    "career": "Medical Imaging Specialist",
+    "difficulty": "Very High",
+    "learning_time": "18 Months"
+  },
+  {
+    "career": "Epidemiologist",
+    "difficulty": "Very High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Actuary",
+    "difficulty": "Very High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Quantitative Analyst",
+    "difficulty": "Very High",
+    "learning_time": "18 Months"
+  },
+  {
+    "career": "Algorithmic Trader",
+    "difficulty": "Very High",
+    "learning_time": "18 Months"
+  },
+  {
+    "career": "Risk Analyst",
+    "difficulty": "Medium",
+    "learning_time": "5 Months"
+  },
+  {
+    "career": "Supply Chain Analyst",
+    "difficulty": "Medium",
+    "learning_time": "4 Months"
+  },
+  {
+    "career": "Operations Research Analyst",
+    "difficulty": "High",
+    "learning_time": "10 Months"
+  },
+  {
+    "career": "ERP Consultant",
+    "difficulty": "High",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Tableau Developer",
+    "difficulty": "Medium",
+    "learning_time": "3 Months"
+  },
+  {
+    "career": "Power BI Developer",
+    "difficulty": "Medium",
+    "learning_time": "3 Months"
+  },
+  {
+    "career": "Animator",
+    "difficulty": "Medium",
+    "learning_time": "6 Months"
+  },
+  {
+    "career": "Graphic Designer",
+    "difficulty": "Low",
+    "learning_time": "3 Months"
+  },
+  {
+    "career": "Video Editor",
+    "difficulty": "Low",
+    "learning_time": "3 Months"
+  },
+  {
+    "career": "Sound Engineer",
+    "difficulty": "Medium",
+    "learning_time": "6 Months"
+  },
+  {
+    "career": "Music Producer",
+    "difficulty": "Medium",
+    "learning_time": "8 Months"
+  },
+  {
+    "career": "Photographer",
+    "difficulty": "Low",
+    "learning_time": "3 Months"
+  },
+  {
+    "career": "Fashion Designer",
+    "difficulty": "Medium",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Interior Designer",
+    "difficulty": "Medium",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Architect",
+    "difficulty": "Very High",
+    "learning_time": "5 Years"
+  },
+  {
+    "career": "Urban Planner",
+    "difficulty": "High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Lawyer",
+    "difficulty": "Very High",
+    "learning_time": "5 Years"
+  },
+  {
+    "career": "Paralegal",
+    "difficulty": "Medium",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Patent Analyst",
+    "difficulty": "High",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Compliance Officer",
+    "difficulty": "Medium",
+    "learning_time": "6 Months"
+  },
+  {
+    "career": "Human Resources Manager",
+    "difficulty": "Medium",
+    "learning_time": "5 Months"
+  },
+  {
+    "career": "Talent Acquisition Specialist",
+    "difficulty": "Low",
+    "learning_time": "3 Months"
+  },
+  {
+    "career": "Instructional Designer",
+    "difficulty": "Medium",
+    "learning_time": "5 Months"
+  },
+  {
+    "career": "Teacher / Educator",
+    "difficulty": "Medium",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Psychologist",
+    "difficulty": "Very High",
+    "learning_time": "5 Years"
+  },
+  {
+    "career": "Social Worker",
+    "difficulty": "Medium",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Public Health Officer",
+    "difficulty": "High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Nurse (Registered Nurse)",
+    "difficulty": "High",
+    "learning_time": "3 Years"
+  },
+  {
+    "career": "Physician",
+    "difficulty": "Very High",
+    "learning_time": "8 Years"
+  },
+  {
+    "career": "Surgeon",
+    "difficulty": "Very High",
+    "learning_time": "10 Years"
+  },
+  {
+    "career": "Dentist",
+    "difficulty": "Very High",
+    "learning_time": "5 Years"
+  },
+  {
+    "career": "Veterinarian",
+    "difficulty": "Very High",
+    "learning_time": "5 Years"
+  },
+  {
+    "career": "Nutritionist / Dietitian",
+    "difficulty": "Medium",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Physical Therapist",
+    "difficulty": "High",
+    "learning_time": "3 Years"
+  },
+  {
+    "career": "Occupational Therapist",
+    "difficulty": "High",
+    "learning_time": "3 Years"
+  },
+  {
+    "career": "Speech-Language Pathologist",
+    "difficulty": "High",
+    "learning_time": "3 Years"
+  },
+  {
+    "career": "Chef / Culinary Artist",
+    "difficulty": "Medium",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Hospitality Manager",
+    "difficulty": "Medium",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Event Manager",
+    "difficulty": "Low",
+    "learning_time": "4 Months"
+  },
+  {
+    "career": "Travel & Tourism Specialist",
+    "difficulty": "Low",
+    "learning_time": "3 Months"
+  },
+  {
+    "career": "Real Estate Agent",
+    "difficulty": "Low",
+    "learning_time": "3 Months"
+  },
+  {
+    "career": "Accountant",
+    "difficulty": "Medium",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Chartered Accountant",
+    "difficulty": "Very High",
+    "learning_time": "3 Years"
+  },
+  {
+    "career": "Management Consultant",
+    "difficulty": "High",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Public Relations Specialist",
+    "difficulty": "Low",
+    "learning_time": "3 Months"
+  },
+  {
+    "career": "Journalist",
+    "difficulty": "Medium",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Copywriter",
+    "difficulty": "Low",
+    "learning_time": "2 Months"
+  },
+  {
+    "career": "Social Media Manager",
+    "difficulty": "Low",
+    "learning_time": "2 Months"
+  },
+  {
+    "career": "Growth Hacker",
+    "difficulty": "Medium",
+    "learning_time": "4 Months"
+  },
+  {
+    "career": "E-Commerce Manager",
+    "difficulty": "Medium",
+    "learning_time": "4 Months"
+  },
+  {
+    "career": "Logistics Manager",
+    "difficulty": "Medium",
+    "learning_time": "5 Months"
+  },
+  {
+    "career": "Agricultural Scientist",
+    "difficulty": "High",
+    "learning_time": "4 Years"
+  },
+  {
+    "career": "Marine Biologist",
+    "difficulty": "High",
+    "learning_time": "4 Years"
+  },
+  {
+    "career": "Wildlife Biologist",
+    "difficulty": "High",
+    "learning_time": "4 Years"
+  },
+  {
+    "career": "Geologist",
+    "difficulty": "High",
+    "learning_time": "4 Years"
+  },
+  {
+    "career": "Astronomer",
+    "difficulty": "Very High",
+    "learning_time": "5 Years"
+  },
+  {
+    "career": "Sports Scientist",
+    "difficulty": "Medium",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Sports Coach",
+    "difficulty": "Low",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Librarian",
+    "difficulty": "Low",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Archivist",
+    "difficulty": "Low",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Museum Curator",
+    "difficulty": "Medium",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Security Guard / Officer",
+    "difficulty": "Low",
+    "learning_time": "1 Month"
+  },
+  {
+    "career": "Pilot",
+    "difficulty": "Very High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Air Traffic Controller",
+    "difficulty": "Very High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Maritime Captain",
+    "difficulty": "Very High",
+    "learning_time": "3 Years"
+  },
+  {
+    "career": "Railway Engineer",
+    "difficulty": "High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Construction Manager",
+    "difficulty": "High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Safety Officer (HSE)",
+    "difficulty": "Medium",
+    "learning_time": "6 Months"
+  },
+  {
+    "career": "Quality Assurance Manager",
+    "difficulty": "Medium",
+    "learning_time": "5 Months"
+  },
+  {
+    "career": "Procurement Manager",
+    "difficulty": "Medium",
+    "learning_time": "5 Months"
+  },
+  {
+    "career": "Entrepreneur",
+    "difficulty": "Very High",
+    "learning_time": "Ongoing"
+  },
+  {
+    "career": "Startup Founder",
+    "difficulty": "Very High",
+    "learning_time": "Ongoing"
+  },
+  {
+    "career": "Brand Manager",
+    "difficulty": "Medium",
+    "learning_time": "4 Months"
+  },
+  {
+    "career": "E-Learning Developer",
+    "difficulty": "Medium",
+    "learning_time": "4 Months"
+  },
+  {
+    "career": "Crypto Analyst",
+    "difficulty": "High",
+    "learning_time": "8 Months"
+  },
+  {
+    "career": "Drone Operator / UAV Pilot",
+    "difficulty": "Medium",
+    "learning_time": "4 Months"
+  },
+  {
+    "career": "Data Privacy Officer",
+    "difficulty": "High",
+    "learning_time": "8 Months"
+  },
+  {
+    "career": "Sustainability Analyst",
+    "difficulty": "Medium",
+    "learning_time": "5 Months"
+  },
+  {
+    "career": "Renewable Energy Engineer",
+    "difficulty": "High",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Ethical Hacker / Bug Bounty Hunter",
+    "difficulty": "Very High",
+    "learning_time": "18 Months"
+  },
+  {
+    "career": "Digital Forensics Analyst",
+    "difficulty": "High",
+    "learning_time": "10 Months"
+  },
+  {
+    "career": "Technical Support Engineer",
+    "difficulty": "Low",
+    "learning_time": "2 Months"
+  },
+  {
+    "career": "IT Auditor",
+    "difficulty": "Medium",
+    "learning_time": "6 Months"
+  },
+  {
+    "career": "Statistician",
+    "difficulty": "High",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Economist",
+    "difficulty": "High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Political Scientist",
+    "difficulty": "High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Linguist",
+    "difficulty": "Medium",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Translator / Interpreter",
+    "difficulty": "Medium",
+    "learning_time": "1 Year"
+  },
+  {
+    "career": "Philosopher / Ethicist",
+    "difficulty": "High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "AI Ethics Researcher",
+    "difficulty": "Very High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "UX Researcher",
+    "difficulty": "Medium",
+    "learning_time": "4 Months"
+  },
+  {
+    "career": "DevRel (Developer Relations Engineer)",
+    "difficulty": "Medium",
+    "learning_time": "5 Months"
+  },
+  {
+    "career": "Information Security Manager",
+    "difficulty": "Very High",
+    "learning_time": "2 Years"
+  },
+  {
+    "career": "Chief Technology Officer (CTO)",
+    "difficulty": "Very High",
+    "learning_time": "10+ Years"
+  },
+  {
+    "career": "Chief Data Officer (CDO)",
+    "difficulty": "Very High",
+    "learning_time": "10+ Years"
+  },
+  {
+    "career": "Smart Contract Auditor",
+    "difficulty": "Very High",
+    "learning_time": "18 Months"
+  },
+  {
+    "career": "Web3 Developer",
+    "difficulty": "High",
+    "learning_time": "10 Months"
+  },
+  {
+    "career": "Digital Twins Engineer",
+    "difficulty": "Very High",
+    "learning_time": "18 Months"
+  },
+  {
+    "career": "Edge Computing Engineer",
+    "difficulty": "High",
+    "learning_time": "10 Months"
+  },
+  {
+    "career": "Synthetic Biology Engineer",
+    "difficulty": "Very High",
+    "learning_time": "3 Years"
+  },
+  {
+    "career": "Space Systems Engineer",
+    "difficulty": "Very High",
+    "learning_time": "3 Years"
   }
 ]
