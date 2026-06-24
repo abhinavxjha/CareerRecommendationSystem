@@ -66,7 +66,7 @@ def readiness_score(required_skills_data, selected_career, user_skills):
     total=len(required_skills)
     have=len(set(required_skills).intersection(set(user_skills)))
     score=(have/total)*100 
-    print("You are",score,"% ready to become",selected_career)
+    return score
 
 
 ##################################################
