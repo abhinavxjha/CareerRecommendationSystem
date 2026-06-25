@@ -144,44 +144,9 @@ if st.button("Analyze"):
 
     
     df=pd.DataFrame(rec_career, columns=["Rank","Career","Match Score"])
-    fig, ax = plt.subplots(figsize=(10,5))
-    ax.tick_params(axis='y', colors='white')
-    ax.tick_params(axis='x', colors='white')
-
-    df.plot(kind="barh", x="Career", y="Match Score", color="#4CAF50", legend=False, ax=ax )
-    ax.invert_yaxis()
-    ax.set_xlabel("Match Score (%)", color="white")
-    ax.set_ylabel("")
-    ax.xaxis.label.set_color("white")
-    ax.title.set_color("white")
-    
-    ax.set_facecolor('#0E1117')
-    fig.set_facecolor('#0E1117')
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    ax.spines["left"].set_color("white")
-    ax.spines["bottom"].set_color("white")
-
-    for container in ax.containers:
-        ax.bar_label(container, fmt="%.2f%%", padding=5, color="white")
-    plt.tight_layout()
-    st.pyplot(fig)
-    
-
-    st.dataframe(df, hide_index=True, use_container_width=True, column_config={     #this is done by AI
-        "Rank": st.column_config.NumberColumn(
-            width="small"
-        ),
-        "Career": st.column_config.TextColumn(
-            width="medium"
-        ),
-        "Match Score": st.column_config.NumberColumn(
-            format="%.2f%%",
-            width="small"
-        ),
-        }
-    )
+    st.bar_chart(df, x="Career", y="Match Score")
     st.divider()
+
     ##################################################
     #             COURSE RECOMMENDATION              #
     ##################################################
