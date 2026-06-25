@@ -73,16 +73,19 @@ def readiness_score(required_skills_data, selected_career, user_skills):
 #               CAREER MATCHING                  #
 ##################################################
 
+
 def career_matching(results):
     filtered_results = [(career, score) for career, score in results if score > 0 ]
     scores = np.array([score for career, score in filtered_results])
     ranking = np.argsort(scores)[::-1]
+    top5 = []
     rank = 1
     for index in ranking[:5]:
         career_name = filtered_results[index][0]
         score = filtered_results[index][1]
-        print(f"{rank}. {career_name} : {score:.2f}%")
+        top5.append((rank, career_name, round(score,2)))
         rank += 1
+    return top5
 
 
 ##################################################
@@ -100,13 +103,10 @@ def course_recommendation(final_missing_skills, courses_data):
 
 def fcourse_recommend(required_skills, courses_data):
     courses=course_recommendation(required_skills, courses_data)
-    print("RECOMMENDED COURSES FOR YOUR MISSING SKILL","\n")
+    recommended_courses = []
     for course in courses:
-        print("Skill :", course["skill"])
-        print("Course :", course["course"])
-        print("Provider :", course["provider"])
-        print("Link :", course["link"])
-        print("-" * 50)
+        recommended_courses.append((course["skill"], course["course"], course["provider"], course["link"]))
+    return recommended_courses
 
 
 def get_required_skills(required_skills_data, selected_career):
