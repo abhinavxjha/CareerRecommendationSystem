@@ -50,7 +50,7 @@ st.set_page_config(
 )
 
 st.markdown(
-"<h1 style='text-align: center;' id='#skill-gap'>CAREER RECOMMENDATION SYSTEM</h1>",
+"<h1 style='text-align: center; margin-top: -25px; margin-bottom: 50px;' id='#skill-gap'>CAREER RECOMMENDATION SYSTEM</h1>",
 unsafe_allow_html=True, 
 )
 
@@ -181,6 +181,46 @@ if analyze:
 
             df=pd.DataFrame(rec_career, columns=["Rank","Career","Match Score"])
             st.bar_chart(df, x="Career", y="Match Score", )
+
+
+
+##################################################
+#               CAREER COMPARISON                #
+##################################################
+
+    col2, col3 = st.columns(2)
+    with col2:
+        with st.container(height=445,border=True):
+            st.markdown(
+            "<h3 style='text-align: center;'>MATCHED CAREER INSIGHTS</h3>",
+            unsafe_allow_html=True)
+
+            get_career_info(career_info_data, selected_career)
+            comp_rows=career_comparison(results, career_info_data)
+            df3=career_comparison_table(comp_rows)
+            df3=df3.iloc[0:5]
+            df3["Learning Time"] = (
+            df3["Learning Time"]
+            .str.replace(" Months", "", regex=False)
+            .astype(int)
+            )
+            st.bar_chart(df3, x="Career", y="Learning Time")
+        
+    with col3:
+        with st.container(height=445, border=True):
+            st.markdown(f"""
+            <div style="
+            text-align:center;
+            padding:15px;
+            border:1px;
+            border-radius:10px;
+            ">
+            <h3 style="margin:0;">BEST CAREER MATCH</h3>
+            <h1 style="margin:50px 0;">{df3.iloc[0]["Career"]}</h1>
+            <h3 style="color:#22c55e;">{df3.iloc[0]["Match Score"]:.2f}% Match</h3>
+            </div>
+""", unsafe_allow_html=True)
+
 
 
     ##################################################
