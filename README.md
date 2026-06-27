@@ -123,6 +123,8 @@ CareerRecommendationSystem/
 ## Author
 
 Abhinav Jha
+BTech CSE
+JUIT Solan
 
 
 
