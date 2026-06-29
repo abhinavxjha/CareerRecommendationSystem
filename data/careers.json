@@ -1,754 +1,4500 @@
 [
   {
     "career": "Data Analyst",
-    "skills": ["Python", "SQL", "Excel", "Power BI", "Tableau", "R", "Statistics", "Data Cleaning", "Data Visualization", "Pandas", "NumPy", "Google Sheets", "Business Intelligence", "ETL", "Critical Thinking", "Storytelling with Data", "DAX", "Looker", "Jupyter Notebook", "PostgreSQL"]
+    "skills": [
+      "Python",
+      "SQL",
+      "Excel",
+      "Power BI",
+      "R",
+      "Statistics",
+      "Data Cleaning",
+      "Data Visualization",
+      "Pandas",
+      "NumPy",
+      "Critical Thinking",
+      "Storytelling with Data",
+      "Looker",
+      "Jupyter Notebook",
+      "PostgreSQL",
+      "Tableau",
+      "Business Intelligence",
+      "ETL"
+    ]
   },
   {
     "career": "Data Scientist",
-    "skills": ["Python", "Machine Learning", "Statistics", "Pandas", "NumPy", "Scikit-learn", "R", "SQL", "Deep Learning", "Feature Engineering", "Data Wrangling", "Matplotlib", "Seaborn", "Jupyter Notebook", "TensorFlow", "PyTorch", "A/B Testing", "Probability", "Natural Language Processing", "Big Data", "Spark", "Model Deployment", "MLflow", "Hypothesis Testing"]
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Statistics",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "R",
+      "SQL",
+      "Data Wrangling",
+      "Matplotlib",
+      "Seaborn",
+      "Jupyter Notebook",
+      "A/B Testing",
+      "Probability",
+      "Natural Language Processing",
+      "Hypothesis Testing",
+      "Big Data",
+      "Model Deployment",
+      "MLflow",
+      "Deep Learning",
+      "Feature Engineering",
+      "TensorFlow",
+      "PyTorch",
+      "Spark"
+    ]
   },
   {
     "career": "Business Analyst",
-    "skills": ["Excel", "SQL", "Business Intelligence", "Requirements Gathering", "Power BI", "Tableau", "Process Mapping", "Stakeholder Management", "JIRA", "Agile", "Documentation", "Data Analysis", "Communication", "SWOT Analysis", "Use Case Modeling", "Wireframing", "UAT", "Visio", "ERP Systems", "Project Management"]
+    "skills": [
+      "Excel",
+      "SQL",
+      "Requirements Gathering",
+      "Power BI",
+      "Process Mapping",
+      "Stakeholder Management",
+      "JIRA",
+      "Agile",
+      "Documentation",
+      "Data Analysis",
+      "Communication",
+      "Wireframing",
+      "Project Management",
+      "Business Intelligence",
+      "Tableau",
+      "UAT"
+    ]
   },
   {
     "career": "ML Engineer",
-    "skills": ["Python", "TensorFlow", "PyTorch", "Machine Learning", "Scikit-learn", "MLflow", "Model Deployment", "Docker", "Kubernetes", "REST APIs", "Feature Engineering", "Data Pipelines", "Cloud Platforms", "A/B Testing", "Spark", "SQL", "Deep Learning", "ONNX", "FastAPI", "Ray", "Distributed Training", "GPU Programming"]
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Scikit-learn",
+      "Docker",
+      "REST APIs",
+      "Cloud Platforms",
+      "A/B Testing",
+      "SQL",
+      "Ray",
+      "MLflow",
+      "Model Deployment",
+      "Data Pipelines",
+      "FastAPI",
+      "TensorFlow",
+      "PyTorch",
+      "Kubernetes",
+      "Feature Engineering",
+      "Spark",
+      "Deep Learning",
+      "Distributed Training",
+      "GPU Programming"
+    ]
   },
   {
     "career": "Software Developer",
-    "skills": ["Java", "Python", "Data Structures", "Algorithms", "C++", "Git", "Object-Oriented Programming", "Design Patterns", "REST APIs", "SQL", "Testing", "Linux", "Agile", "CI/CD", "JavaScript", "Spring Boot", "Debugging", "Code Review", "Microservices", "Maven"]
+    "skills": [
+      "Java",
+      "Python",
+      "Data Structures",
+      "Algorithms",
+      "C++",
+      "Git",
+      "Object-Oriented Programming",
+      "Design Patterns",
+      "REST APIs",
+      "SQL",
+      "Testing",
+      "Linux",
+      "Agile",
+      "JavaScript",
+      "Spring Boot",
+      "Debugging",
+      "Code Review",
+      "CI/CD",
+      "Microservices"
+    ]
   },
   {
     "career": "Database Administrator",
-    "skills": ["SQL", "Database Design", "MySQL", "Backup Management", "PostgreSQL", "Oracle", "SQL Server", "Performance Tuning", "Replication", "High Availability", "Query Optimization", "Database Security", "Indexing", "Data Modeling", "ETL", "Stored Procedures", "MongoDB", "Database Monitoring", "Linux", "Shell Scripting"]
+    "skills": [
+      "SQL",
+      "MySQL",
+      "PostgreSQL",
+      "Oracle",
+      "SQL Server",
+      "Performance Tuning",
+      "Replication",
+      "Query Optimization",
+      "Database Security",
+      "Stored Procedures",
+      "Database Monitoring",
+      "Linux",
+      "Shell Scripting",
+      "Database Design",
+      "Backup Management",
+      "Indexing",
+      "Data Modeling",
+      "ETL",
+      "MongoDB",
+      "High Availability"
+    ]
   },
   {
     "career": "Frontend Developer",
-    "skills": ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Vue.js", "Next.js", "Redux", "Webpack", "Tailwind CSS", "SASS/SCSS", "Git", "REST APIs", "GraphQL", "Responsive Design", "Accessibility", "Testing (Jest)", "Performance Optimization", "Figma", "Browser DevTools", "Angular", "Web Animations"]
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "Redux",
+      "Tailwind CSS",
+      "SASS/SCSS",
+      "Git",
+      "REST APIs",
+      "GraphQL",
+      "Responsive Design",
+      "Testing (Jest)",
+      "Performance Optimization",
+      "Figma",
+      "Browser DevTools",
+      "Vue.js",
+      "Next.js",
+      "Webpack",
+      "Accessibility"
+    ]
   },
   {
     "career": "Backend Developer",
-    "skills": ["Node.js", "Python", "APIs", "Databases", "Java", "Spring Boot", "Django", "FastAPI", "PostgreSQL", "MySQL", "MongoDB", "Redis", "Message Queues", "Authentication", "Docker", "Linux", "REST APIs", "GraphQL", "Microservices", "CI/CD", "Caching", "Security", "Go", "Nginx"]
+    "skills": [
+      "Python",
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "Docker",
+      "Linux",
+      "REST APIs",
+      "GraphQL",
+      "Security",
+      "Node.js",
+      "APIs",
+      "Databases",
+      "Django",
+      "FastAPI",
+      "MongoDB",
+      "Message Queues",
+      "Authentication",
+      "CI/CD",
+      "Caching",
+      "Go",
+      "Microservices"
+    ]
   },
   {
     "career": "Cloud Engineer",
-    "skills": ["AWS", "Azure", "Linux", "Networking", "Google Cloud Platform", "Terraform", "Infrastructure as Code", "Docker", "Kubernetes", "CI/CD", "Cloud Security", "Load Balancing", "Auto Scaling", "S3", "VPC", "IAM", "Monitoring", "Cost Optimization", "Serverless", "CloudFormation", "Ansible"]
+    "skills": [
+      "Azure",
+      "Linux",
+      "Networking",
+      "Google Cloud Platform",
+      "Terraform",
+      "Infrastructure as Code",
+      "Docker",
+      "Cloud Security",
+      "Monitoring",
+      "Serverless",
+      "AWS",
+      "CI/CD",
+      "Load Balancing",
+      "Auto Scaling",
+      "S3",
+      "VPC",
+      "IAM",
+      "Cost Optimization",
+      "Ansible",
+      "Kubernetes"
+    ]
   },
   {
     "career": "DevOps Engineer",
-    "skills": ["Docker", "Kubernetes", "CI/CD", "Linux", "Jenkins", "GitHub Actions", "Terraform", "Ansible", "AWS", "Azure", "Monitoring", "Prometheus", "Grafana", "Shell Scripting", "Python", "Networking", "Helm", "GitOps", "ELK Stack", "Security", "Configuration Management"]
+    "skills": [
+      "Docker",
+      "Linux",
+      "GitHub Actions",
+      "Terraform",
+      "Azure",
+      "Monitoring",
+      "Prometheus",
+      "Grafana",
+      "Shell Scripting",
+      "Python",
+      "Networking",
+      "GitOps",
+      "Security",
+      "Configuration Management",
+      "CI/CD",
+      "Ansible",
+      "AWS",
+      "Helm",
+      "ELK Stack",
+      "Kubernetes"
+    ]
   },
   {
     "career": "Cyber Security Analyst",
-    "skills": ["Network Security", "Linux", "SIEM", "Penetration Testing", "Firewalls", "IDS/IPS", "Vulnerability Assessment", "Incident Response", "OWASP", "Encryption", "Forensics", "Threat Intelligence", "NIST Framework", "Wireshark", "Metasploit", "Python", "SOC Operations", "Risk Assessment", "Compliance", "Cloud Security"]
+    "skills": [
+      "Network Security",
+      "Linux",
+      "Firewalls",
+      "Vulnerability Assessment",
+      "Incident Response",
+      "Encryption",
+      "Forensics",
+      "Threat Intelligence",
+      "NIST Framework",
+      "Wireshark",
+      "Python",
+      "SOC Operations",
+      "Risk Assessment",
+      "Cloud Security",
+      "SIEM",
+      "IDS/IPS",
+      "OWASP",
+      "Metasploit",
+      "Compliance",
+      "Penetration Testing"
+    ]
   },
   {
     "career": "Full Stack Developer",
-    "skills": ["React", "Node.js", "MongoDB", "JavaScript", "TypeScript", "HTML", "CSS", "REST APIs", "PostgreSQL", "Docker", "Git", "Redis", "Authentication", "GraphQL", "AWS", "Next.js", "Express.js", "Testing", "CI/CD", "Microservices", "System Design"]
+    "skills": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "REST APIs",
+      "PostgreSQL",
+      "Docker",
+      "Git",
+      "Redis",
+      "GraphQL",
+      "Express.js",
+      "Testing",
+      "Node.js",
+      "MongoDB",
+      "Authentication",
+      "AWS",
+      "Next.js",
+      "CI/CD",
+      "Microservices",
+      "System Design"
+    ]
   },
   {
     "career": "Mobile App Developer",
-    "skills": ["Flutter", "Android", "iOS", "Dart", "React Native", "Swift", "Kotlin", "Java", "Firebase", "REST APIs", "Push Notifications", "App Store Deployment", "SQLite", "UI/UX Principles", "Debugging", "Performance Optimization", "Bluetooth", "GPS Integration", "In-App Purchases", "Testing"]
+    "skills": [
+      "Flutter",
+      "Android",
+      "Dart",
+      "React Native",
+      "Java",
+      "Firebase",
+      "REST APIs",
+      "App Store Deployment",
+      "UI/UX Principles",
+      "Debugging",
+      "Performance Optimization",
+      "In-App Purchases",
+      "Testing",
+      "iOS",
+      "Swift",
+      "Kotlin",
+      "Push Notifications"
+    ]
   },
   {
     "career": "UI UX Designer",
-    "skills": ["Figma", "Wireframing", "Prototyping", "User Research", "Adobe XD", "Sketch", "User Journey Mapping", "Information Architecture", "Usability Testing", "Design Systems", "Typography", "Color Theory", "Accessibility", "Interaction Design", "HTML/CSS (Basic)", "Persona Creation", "A/B Testing", "Animation", "InVision", "Zeplin"]
+    "skills": [
+      "Figma",
+      "Wireframing",
+      "Prototyping",
+      "User Research",
+      "User Journey Mapping",
+      "Information Architecture",
+      "Usability Testing",
+      "Typography",
+      "Color Theory",
+      "Interaction Design",
+      "HTML/CSS (Basic)",
+      "Persona Creation",
+      "A/B Testing",
+      "Design Systems",
+      "Accessibility",
+      "Animation"
+    ]
   },
   {
     "career": "QA Engineer",
-    "skills": ["Testing", "Selenium", "Automation", "Bug Tracking", "Manual Testing", "Test Planning", "JIRA", "Postman", "API Testing", "Performance Testing", "JUnit", "TestNG", "Cucumber", "Load Testing", "Regression Testing", "Agile", "Python", "CI/CD", "Mobile Testing", "Accessibility Testing"]
+    "skills": [
+      "Testing",
+      "Bug Tracking",
+      "Manual Testing",
+      "Test Planning",
+      "JIRA",
+      "Postman",
+      "API Testing",
+      "Performance Testing",
+      "Cucumber",
+      "Load Testing",
+      "Regression Testing",
+      "Agile",
+      "Python",
+      "Mobile Testing",
+      "Accessibility Testing",
+      "Selenium",
+      "Automation",
+      "CI/CD"
+    ]
   },
   {
     "career": "Network Engineer",
-    "skills": ["Routing", "Switching", "TCP/IP", "Cisco", "BGP", "OSPF", "VLAN", "Firewall Configuration", "VPN", "Network Security", "Wireshark", "MPLS", "DNS", "DHCP", "Linux", "Network Monitoring", "SD-WAN", "Load Balancing", "Troubleshooting", "Juniper"]
+    "skills": [
+      "Routing",
+      "TCP/IP",
+      "Firewall Configuration",
+      "Network Security",
+      "Wireshark",
+      "DNS",
+      "DHCP",
+      "Linux",
+      "Network Monitoring",
+      "Troubleshooting",
+      "Switching",
+      "Cisco",
+      "BGP",
+      "OSPF",
+      "VLAN",
+      "VPN",
+      "SD-WAN",
+      "Load Balancing"
+    ]
   },
   {
     "career": "System Administrator",
-    "skills": ["Linux", "Windows Server", "Networking", "Shell Scripting", "Active Directory", "Virtualization", "VMware", "Backup and Recovery", "Patch Management", "Monitoring", "DNS", "DHCP", "Storage Management", "Security Hardening", "Python", "PowerShell", "Cloud Basics", "Hyper-V", "Troubleshooting", "ITIL"]
+    "skills": [
+      "Linux",
+      "Windows Server",
+      "Networking",
+      "Shell Scripting",
+      "Active Directory",
+      "Virtualization",
+      "VMware",
+      "Backup and Recovery",
+      "Monitoring",
+      "DNS",
+      "DHCP",
+      "Security Hardening",
+      "Python",
+      "PowerShell",
+      "Troubleshooting",
+      "Patch Management",
+      "Cloud Basics",
+      "ITIL",
+      "Storage Management"
+    ]
   },
   {
     "career": "AI Engineer",
-    "skills": ["Python", "Deep Learning", "LLMs", "PyTorch", "TensorFlow", "Transformers", "LangChain", "Prompt Engineering", "RAG", "Fine-tuning", "Hugging Face", "Vector Databases", "NLP", "Computer Vision", "MLOps", "FastAPI", "Docker", "Cloud AI Services", "Reinforcement Learning", "CUDA"]
+    "skills": [
+      "Python",
+      "Prompt Engineering",
+      "Computer Vision",
+      "Docker",
+      "Cloud AI Services",
+      "LangChain",
+      "Hugging Face",
+      "NLP",
+      "MLOps",
+      "FastAPI",
+      "Deep Learning",
+      "LLMs",
+      "PyTorch",
+      "TensorFlow",
+      "Transformers",
+      "RAG",
+      "Fine-tuning",
+      "Vector Databases",
+      "Reinforcement Learning",
+      "CUDA"
+    ]
   },
   {
     "career": "Big Data Engineer",
-    "skills": ["Hadoop", "Spark", "Kafka", "Python", "Hive", "HDFS", "SQL", "Scala", "Flink", "Data Lakehouse", "Delta Lake", "Airflow", "Cloud Storage", "Data Modeling", "ETL", "Streaming Data", "Parquet", "Zookeeper", "Databricks", "Presto"]
+    "skills": [
+      "Python",
+      "SQL",
+      "Parquet",
+      "Databricks",
+      "Hadoop",
+      "HDFS",
+      "Scala",
+      "Data Modeling",
+      "ETL",
+      "Spark",
+      "Kafka",
+      "Flink",
+      "Data Lakehouse",
+      "Delta Lake",
+      "Airflow",
+      "Cloud Storage",
+      "Streaming Data"
+    ]
   },
   {
     "career": "Data Engineer",
-    "skills": ["SQL", "ETL", "Python", "Apache Spark", "Airflow", "Kafka", "Data Modeling", "Data Warehousing", "dbt", "PostgreSQL", "Redshift", "BigQuery", "Snowflake", "Terraform", "Docker", "Cloud Platforms", "Pandas", "Data Quality", "Delta Lake", "Databricks", "Shell Scripting"]
+    "skills": [
+      "SQL",
+      "Python",
+      "Data Warehousing",
+      "PostgreSQL",
+      "Redshift",
+      "BigQuery",
+      "Terraform",
+      "Docker",
+      "Cloud Platforms",
+      "Pandas",
+      "Databricks",
+      "ETL",
+      "Data Modeling",
+      "dbt",
+      "Snowflake",
+      "Data Quality",
+      "Apache Spark",
+      "Airflow",
+      "Kafka",
+      "Delta Lake"
+    ]
   },
   {
     "career": "Blockchain Developer",
-    "skills": ["Solidity", "Ethereum", "Smart Contracts", "Web3", "Hardhat", "Truffle", "IPFS", "DeFi Protocols", "NFT Standards", "JavaScript", "Rust", "Cryptography", "Consensus Mechanisms", "Chainlink", "Layer 2", "Security Auditing", "Polygon", "Solana", "Testing (Mocha)", "DApp Development"]
+    "skills": [
+      "Ethereum",
+      "Hardhat",
+      "NFT Standards",
+      "JavaScript",
+      "Rust",
+      "Layer 2",
+      "Testing (Mocha)",
+      "Solidity",
+      "Web3",
+      "IPFS",
+      "Consensus Mechanisms",
+      "Chainlink",
+      "Polygon",
+      "Solana",
+      "DApp Development",
+      "Smart Contracts",
+      "DeFi Protocols",
+      "Cryptography",
+      "Security Auditing"
+    ]
   },
   {
     "career": "Game Developer",
-    "skills": ["Unity", "C#", "Game Design", "Physics", "Unreal Engine", "C++", "3D Modeling", "Animation", "AI for Games", "Shaders", "Lighting", "Audio Integration", "Multiplayer Networking", "UI Systems", "Performance Optimization", "Debugging", "Version Control", "Level Design", "Physics Engines", "VFX"]
+    "skills": [
+      "C#",
+      "Unreal Engine",
+      "C++",
+      "AI for Games",
+      "Shaders",
+      "Lighting",
+      "Audio Integration",
+      "Multiplayer Networking",
+      "Performance Optimization",
+      "Debugging",
+      "Version Control",
+      "Unity",
+      "Game Design",
+      "Physics",
+      "3D Modeling",
+      "Animation",
+      "UI Systems",
+      "Level Design",
+      "VFX"
+    ]
   },
   {
     "career": "AR VR Developer",
-    "skills": ["Unity", "C#", "3D Modeling", "XR Development", "Unreal Engine", "ARKit", "ARCore", "WebXR", "Spatial Computing", "Hand Tracking", "Oculus SDK", "Shader Programming", "Interaction Design", "Physics Simulation", "Optimization for XR", "Blender", "Audio Spatialization", "Mixed Reality", "HoloLens", "Eye Tracking"]
+    "skills": [
+      "C#",
+      "XR Development",
+      "Unreal Engine",
+      "ARKit",
+      "ARCore",
+      "WebXR",
+      "Hand Tracking",
+      "Shader Programming",
+      "Interaction Design",
+      "Optimization for XR",
+      "Blender",
+      "Mixed Reality",
+      "Unity",
+      "3D Modeling",
+      "Spatial Computing",
+      "Oculus SDK",
+      "Physics Simulation",
+      "Audio Spatialization",
+      "HoloLens"
+    ]
   },
   {
     "career": "Embedded Systems Engineer",
-    "skills": ["C", "Microcontrollers", "RTOS", "Electronics", "C++", "ARM Architecture", "UART/SPI/I2C", "Firmware Development", "Debugging (JTAG)", "PCB Design", "Assembly Language", "Power Management", "Bootloaders", "Device Drivers", "FreeRTOS", "CAN Bus", "Sensors", "Oscilloscope", "Interrupt Handling", "Bare Metal Programming"]
+    "skills": [
+      "Electronics",
+      "C++",
+      "UART/SPI/I2C",
+      "Firmware Development",
+      "Debugging (JTAG)",
+      "Power Management",
+      "Sensors",
+      "Interrupt Handling",
+      "C",
+      "PCB Design",
+      "CAN Bus",
+      "Oscilloscope",
+      "Microcontrollers",
+      "RTOS",
+      "ARM Architecture",
+      "Bootloaders",
+      "Device Drivers",
+      "FreeRTOS",
+      "Bare Metal Programming"
+    ]
   },
   {
     "career": "IoT Engineer",
-    "skills": ["Arduino", "Raspberry Pi", "MQTT", "Sensors", "C/C++", "Python", "Edge Computing", "Firmware", "Cloud IoT Platforms", "BLE", "ZigBee", "LoRa", "AWS IoT", "Node-RED", "Embedded Linux", "Security", "Real-Time Systems", "Data Telemetry", "PCB Basics", "Networking Protocols"]
+    "skills": [
+      "Arduino",
+      "Raspberry Pi",
+      "Sensors",
+      "C/C++",
+      "Python",
+      "Firmware",
+      "Cloud IoT Platforms",
+      "LoRa",
+      "Node-RED",
+      "Embedded Linux",
+      "Security",
+      "Real-Time Systems",
+      "Data Telemetry",
+      "Networking Protocols",
+      "MQTT",
+      "Edge Computing",
+      "BLE",
+      "AWS IoT",
+      "PCB Basics"
+    ]
   },
   {
     "career": "Site Reliability Engineer",
-    "skills": ["Linux", "Cloud Computing", "Monitoring", "Automation", "Kubernetes", "Docker", "Python", "Go", "Prometheus", "Grafana", "Incident Management", "SLOs/SLAs", "CI/CD", "Terraform", "Chaos Engineering", "Observability", "Shell Scripting", "Networking", "Capacity Planning", "On-Call Management"]
+    "skills": [
+      "Linux",
+      "Monitoring",
+      "Docker",
+      "Python",
+      "Prometheus",
+      "Grafana",
+      "Terraform",
+      "Observability",
+      "Shell Scripting",
+      "Networking",
+      "Capacity Planning",
+      "Cloud Computing",
+      "Automation",
+      "Go",
+      "Incident Management",
+      "SLOs/SLAs",
+      "CI/CD",
+      "On-Call Management",
+      "Kubernetes",
+      "Chaos Engineering"
+    ]
   },
   {
     "career": "Product Manager",
-    "skills": ["Product Strategy", "Market Research", "Agile", "Communication", "Roadmapping", "User Story Writing", "Stakeholder Management", "Data Analysis", "A/B Testing", "Competitive Analysis", "OKRs", "Prioritization Frameworks", "Go-to-Market Strategy", "SQL (Basic)", "Figma (Basic)", "JIRA", "Product Analytics", "Customer Interviews", "Risk Management", "Business Acumen"]
+    "skills": [
+      "Product Strategy",
+      "Market Research",
+      "Agile",
+      "Communication",
+      "Roadmapping",
+      "User Story Writing",
+      "Stakeholder Management",
+      "Data Analysis",
+      "A/B Testing",
+      "Competitive Analysis",
+      "OKRs",
+      "Prioritization Frameworks",
+      "Go-to-Market Strategy",
+      "SQL (Basic)",
+      "JIRA",
+      "Product Analytics",
+      "Customer Interviews",
+      "Risk Management",
+      "Business Acumen"
+    ]
   },
   {
     "career": "Project Manager",
-    "skills": ["Planning", "Risk Management", "Agile", "Leadership", "Scrum", "Kanban", "Budget Management", "Stakeholder Communication", "JIRA", "MS Project", "Resource Allocation", "Change Management", "PMP", "Critical Path Method", "Documentation", "Reporting", "Conflict Resolution", "Waterfall", "Team Coordination", "KPI Tracking"]
+    "skills": [
+      "Planning",
+      "Risk Management",
+      "Agile",
+      "Leadership",
+      "Scrum",
+      "Stakeholder Communication",
+      "JIRA",
+      "Resource Allocation",
+      "Documentation",
+      "Reporting",
+      "Conflict Resolution",
+      "Team Coordination",
+      "KPI Tracking",
+      "Kanban",
+      "Budget Management",
+      "Change Management",
+      "PMP"
+    ]
   },
   {
     "career": "Technical Writer",
-    "skills": ["Documentation", "Writing", "API Documentation", "Research", "Markdown", "Confluence", "DITA", "Docs-as-Code", "Git", "XML", "Information Architecture", "User Guides", "Style Guides", "Editing", "Interviewing SMEs", "Swagger/OpenAPI", "Visio/Draw.io", "HTML Basics", "Content Management Systems", "Localization"]
+    "skills": [
+      "Documentation",
+      "Writing",
+      "API Documentation",
+      "Research",
+      "Markdown",
+      "Git",
+      "Information Architecture",
+      "User Guides",
+      "Interviewing SMEs",
+      "Swagger/OpenAPI",
+      "HTML Basics",
+      "Confluence",
+      "Docs-as-Code",
+      "Style Guides",
+      "Editing",
+      "Content Management Systems",
+      "Localization"
+    ]
   },
   {
     "career": "Salesforce Developer",
-    "skills": ["Apex", "Salesforce", "Lightning", "CRM", "Visualforce", "SOQL", "SOSL", "Flows", "Process Builder", "REST/SOAP APIs", "Triggers", "Integration", "Einstein Analytics", "Permission Sets", "Deployment (CI/CD)", "LWC", "Sandbox Management", "CPQ", "Service Cloud", "Marketing Cloud"]
+    "skills": [
+      "Salesforce",
+      "CRM",
+      "REST/SOAP APIs",
+      "Triggers",
+      "Integration",
+      "Permission Sets",
+      "Service Cloud",
+      "Apex",
+      "Lightning",
+      "SOQL",
+      "Flows",
+      "Einstein Analytics",
+      "Deployment (CI/CD)",
+      "LWC",
+      "Sandbox Management"
+    ]
   },
   {
     "career": "SAP Consultant",
-    "skills": ["SAP", "Business Processes", "ERP", "Configuration", "ABAP", "SAP S/4HANA", "SAP FICO", "SAP MM", "SAP SD", "SAP HR", "Integration", "Data Migration", "Testing", "Documentation", "Change Management", "Business Analysis", "BAPI", "SAP Basis", "SAP BW", "Reporting"]
+    "skills": [
+      "Business Processes",
+      "ERP",
+      "Configuration",
+      "SAP HR",
+      "Integration",
+      "Data Migration",
+      "Testing",
+      "Documentation",
+      "Reporting",
+      "SAP",
+      "ABAP",
+      "SAP S/4HANA",
+      "SAP FICO",
+      "SAP MM",
+      "SAP SD",
+      "Change Management",
+      "Business Analysis",
+      "SAP Basis"
+    ]
   },
   {
     "career": "Digital Marketing Specialist",
-    "skills": ["SEO", "Google Analytics", "Content Marketing", "Ads", "PPC", "Social Media Marketing", "Email Marketing", "Copywriting", "Facebook Ads", "Google Ads", "Marketing Automation", "CRM", "A/B Testing", "Funnel Optimization", "Influencer Marketing", "Video Marketing", "Brand Strategy", "Analytics Dashboards", "Affiliate Marketing", "HubSpot"]
+    "skills": [
+      "SEO",
+      "Content Marketing",
+      "Social Media Marketing",
+      "Email Marketing",
+      "Copywriting",
+      "Marketing Automation",
+      "CRM",
+      "A/B Testing",
+      "Influencer Marketing",
+      "Video Marketing",
+      "Brand Strategy",
+      "Analytics Dashboards",
+      "Google Analytics",
+      "Ads",
+      "PPC",
+      "Facebook Ads",
+      "Google Ads",
+      "Funnel Optimization",
+      "HubSpot"
+    ]
   },
   {
     "career": "SEO Specialist",
-    "skills": ["Keyword Research", "SEO", "Google Search Console", "Analytics", "On-Page SEO", "Off-Page SEO", "Technical SEO", "Link Building", "Content Strategy", "Ahrefs", "SEMrush", "Moz", "Screaming Frog", "Schema Markup", "Core Web Vitals", "Local SEO", "E-commerce SEO", "International SEO", "Competitor Analysis", "Rank Tracking"]
+    "skills": [
+      "Keyword Research",
+      "SEO",
+      "Google Search Console",
+      "On-Page SEO",
+      "Off-Page SEO",
+      "Technical SEO",
+      "Content Strategy",
+      "Ahrefs",
+      "SEMrush",
+      "Screaming Frog",
+      "Schema Markup",
+      "Core Web Vitals",
+      "Local SEO",
+      "E-commerce SEO",
+      "International SEO",
+      "Competitor Analysis",
+      "Rank Tracking",
+      "Analytics",
+      "Link Building"
+    ]
   },
   {
     "career": "Content Strategist",
-    "skills": ["Content Writing", "SEO", "Research", "Marketing", "Content Planning", "Editorial Calendar", "Brand Voice", "Audience Analysis", "Analytics", "Social Media", "Email Marketing", "CMS (WordPress)", "Storytelling", "Copy Editing", "Content Auditing", "Video Scripts", "Infographic Planning", "Collaboration", "Long-Form Writing", "Persona Development"]
+    "skills": [
+      "Content Writing",
+      "SEO",
+      "Research",
+      "Marketing",
+      "Content Planning",
+      "Editorial Calendar",
+      "Brand Voice",
+      "Social Media",
+      "Email Marketing",
+      "CMS (WordPress)",
+      "Storytelling",
+      "Video Scripts",
+      "Collaboration",
+      "Long-Form Writing",
+      "Persona Development",
+      "Audience Analysis",
+      "Analytics",
+      "Copy Editing",
+      "Content Auditing"
+    ]
   },
   {
     "career": "Financial Analyst",
-    "skills": ["Excel", "Financial Modeling", "Accounting", "Data Analysis", "Valuation", "Forecasting", "Budgeting", "Financial Statements", "Power BI", "SQL", "VBA", "DCF Analysis", "GAAP", "Variance Analysis", "Bloomberg Terminal", "Risk Analysis", "Scenario Planning", "ERP Systems", "PowerPoint", "Communication"]
+    "skills": [
+      "Excel",
+      "Data Analysis",
+      "Forecasting",
+      "Budgeting",
+      "Financial Statements",
+      "Power BI",
+      "SQL",
+      "Variance Analysis",
+      "Risk Analysis",
+      "Scenario Planning",
+      "ERP Systems",
+      "PowerPoint",
+      "Communication",
+      "Financial Modeling",
+      "Accounting",
+      "Valuation",
+      "GAAP",
+      "DCF Analysis"
+    ]
   },
   {
     "career": "Investment Analyst",
-    "skills": ["Finance", "Valuation", "Excel", "Research", "DCF Modeling", "Equity Research", "Financial Statements", "Bloomberg", "Portfolio Management", "Risk Assessment", "Industry Analysis", "Pitch Decks", "Capital Markets", "Python (Finance)", "Derivatives", "Fixed Income", "Hedge Funds", "Mergers & Acquisitions", "CFA Knowledge", "Macroeconomics"]
+    "skills": [
+      "Excel",
+      "Research",
+      "Financial Statements",
+      "Bloomberg",
+      "Portfolio Management",
+      "Risk Assessment",
+      "Industry Analysis",
+      "Capital Markets",
+      "Python (Finance)",
+      "Derivatives",
+      "Mergers & Acquisitions",
+      "Macroeconomics",
+      "Finance",
+      "Valuation",
+      "Pitch Decks",
+      "CFA Knowledge",
+      "DCF Modeling",
+      "Equity Research"
+    ]
   },
   {
     "career": "Business Intelligence Developer",
-    "skills": ["Power BI", "SQL", "Data Warehousing", "DAX", "Tableau", "ETL", "SSAS", "SSRS", "SSIS", "Data Modeling", "Star Schema", "Snowflake", "Azure Synapse", "Python", "Excel", "KPI Design", "Report Development", "Dashboard Design", "MDX", "Data Governance"]
+    "skills": [
+      "Power BI",
+      "SQL",
+      "Data Warehousing",
+      "Star Schema",
+      "Azure Synapse",
+      "Python",
+      "Excel",
+      "Report Development",
+      "Dashboard Design",
+      "Data Governance",
+      "DAX",
+      "Tableau",
+      "ETL",
+      "SSAS",
+      "Data Modeling",
+      "Snowflake",
+      "KPI Design"
+    ]
   },
   {
     "career": "Robotics Engineer",
-    "skills": ["ROS", "Python", "Control Systems", "Embedded Systems", "C++", "SLAM", "Computer Vision", "Kinematics", "Actuators", "Sensors", "Motion Planning", "PID Controllers", "Gazebo Simulation", "Path Planning", "Mechanical Design Basics", "MATLAB", "Electronics", "PCB Design", "Real-Time Systems", "Machine Learning"]
+    "skills": [
+      "ROS",
+      "Python",
+      "Control Systems",
+      "C++",
+      "Computer Vision",
+      "Actuators",
+      "Sensors",
+      "PID Controllers",
+      "Path Planning",
+      "Electronics",
+      "Real-Time Systems",
+      "Machine Learning",
+      "Embedded Systems",
+      "Gazebo Simulation",
+      "Mechanical Design Basics",
+      "SLAM",
+      "Kinematics",
+      "Motion Planning"
+    ]
   },
   {
     "career": "Computer Vision Engineer",
-    "skills": ["OpenCV", "Python", "Deep Learning", "Image Processing", "PyTorch", "TensorFlow", "YOLO", "CNNs", "Object Detection", "Image Segmentation", "Data Augmentation", "CUDA", "OCR", "3D Vision", "SLAM", "Camera Calibration", "Feature Extraction", "Tracking Algorithms", "Video Analytics", "Annotation Tools"]
+    "skills": [
+      "Python",
+      "Image Processing",
+      "OCR",
+      "Camera Calibration",
+      "Tracking Algorithms",
+      "OpenCV",
+      "YOLO",
+      "CNNs",
+      "Data Augmentation",
+      "Video Analytics",
+      "Deep Learning",
+      "PyTorch",
+      "TensorFlow",
+      "Object Detection",
+      "Image Segmentation",
+      "CUDA",
+      "3D Vision",
+      "SLAM",
+      "Feature Extraction"
+    ]
   },
   {
     "career": "NLP Engineer",
-    "skills": ["Python", "Transformers", "NLP", "Deep Learning", "Hugging Face", "BERT", "GPT", "Text Classification", "Named Entity Recognition", "Sentiment Analysis", "Tokenization", "Word Embeddings", "SpaCy", "NLTK", "Fine-tuning LLMs", "RAG", "Vector Databases", "PyTorch", "Text Generation", "Language Modeling", "Question Answering"]
+    "skills": [
+      "Python",
+      "BERT",
+      "Word Embeddings",
+      "Text Generation",
+      "Question Answering",
+      "NLP",
+      "Hugging Face",
+      "GPT",
+      "Text Classification",
+      "Sentiment Analysis",
+      "Tokenization",
+      "SpaCy",
+      "Transformers",
+      "Deep Learning",
+      "Named Entity Recognition",
+      "Fine-tuning LLMs",
+      "RAG",
+      "Vector Databases",
+      "PyTorch",
+      "Language Modeling"
+    ]
   },
   {
     "career": "Cloud Architect",
-    "skills": ["AWS", "Azure", "Google Cloud", "Solution Design", "Terraform", "Kubernetes", "Networking", "Security Architecture", "Cost Optimization", "Microservices", "Serverless", "High Availability Design", "Disaster Recovery", "CI/CD", "Identity & Access Management", "Multi-Cloud", "Cloud Migration", "Architecture Diagrams", "Compliance", "Performance Engineering"]
+    "skills": [
+      "Azure",
+      "Terraform",
+      "Networking",
+      "Security Architecture",
+      "Serverless",
+      "Cloud Migration",
+      "Architecture Diagrams",
+      "Performance Engineering",
+      "AWS",
+      "Google Cloud",
+      "Solution Design",
+      "Cost Optimization",
+      "CI/CD",
+      "Identity & Access Management",
+      "Multi-Cloud",
+      "Compliance",
+      "Kubernetes",
+      "Microservices",
+      "High Availability Design",
+      "Disaster Recovery"
+    ]
   },
   {
     "career": "Platform Engineer",
-    "skills": ["Kubernetes", "Terraform", "Helm", "Docker", "CI/CD", "Developer Experience", "Internal Developer Platforms", "Go", "Python", "Observability", "Linux", "GitOps", "Backstage", "Security Policies", "Networking", "AWS/GCP/Azure", "Automation", "Service Mesh", "Secrets Management", "SLO Monitoring"]
+    "skills": [
+      "Terraform",
+      "Docker",
+      "Developer Experience",
+      "Internal Developer Platforms",
+      "Python",
+      "Observability",
+      "Linux",
+      "GitOps",
+      "Security Policies",
+      "Networking",
+      "AWS/GCP/Azure",
+      "Service Mesh",
+      "Secrets Management",
+      "SLO Monitoring",
+      "Helm",
+      "CI/CD",
+      "Go",
+      "Automation",
+      "Kubernetes"
+    ]
   },
   {
     "career": "Solutions Architect",
-    "skills": ["System Design", "Cloud Platforms", "Microservices", "API Design", "Security", "Networking", "Databases", "Communication", "Technical Presentations", "Cost Estimation", "Stakeholder Management", "Enterprise Architecture", "Integration Patterns", "DevOps", "Pre-Sales", "Diagrams", "SLAs", "Performance", "Scalability", "Risk Assessment"]
+    "skills": [
+      "Cloud Platforms",
+      "Security",
+      "Networking",
+      "Communication",
+      "Technical Presentations",
+      "Stakeholder Management",
+      "Integration Patterns",
+      "Diagrams",
+      "Performance",
+      "Risk Assessment",
+      "API Design",
+      "Databases",
+      "Cost Estimation",
+      "DevOps",
+      "SLAs",
+      "Scalability",
+      "System Design",
+      "Microservices",
+      "Enterprise Architecture"
+    ]
   },
   {
     "career": "Security Engineer",
-    "skills": ["Application Security", "Penetration Testing", "Python", "Network Security", "Cloud Security", "DevSecOps", "Threat Modeling", "SAST/DAST", "OWASP", "Cryptography", "Identity & Access Management", "SIEM", "Incident Response", "Vulnerability Management", "Container Security", "Zero Trust", "Code Review", "Compliance", "Linux", "Bug Bounty"]
+    "skills": [
+      "Application Security",
+      "Python",
+      "Network Security",
+      "Cloud Security",
+      "Incident Response",
+      "Vulnerability Management",
+      "Container Security",
+      "Zero Trust",
+      "Code Review",
+      "Linux",
+      "DevSecOps",
+      "SAST/DAST",
+      "OWASP",
+      "Identity & Access Management",
+      "SIEM",
+      "Compliance",
+      "Penetration Testing",
+      "Threat Modeling",
+      "Cryptography"
+    ]
   },
   {
     "career": "MLOps Engineer",
-    "skills": ["Python", "Docker", "Kubernetes", "MLflow", "Kubeflow", "CI/CD for ML", "Cloud AI Platforms", "Model Monitoring", "Data Versioning", "DVC", "Feature Stores", "Experiment Tracking", "Model Serving", "FastAPI", "Airflow", "Ray", "Terraform", "Observability", "Git", "Linux"]
+    "skills": [
+      "Python",
+      "Docker",
+      "CI/CD for ML",
+      "Cloud AI Platforms",
+      "Model Monitoring",
+      "Data Versioning",
+      "Experiment Tracking",
+      "Ray",
+      "Terraform",
+      "Observability",
+      "Git",
+      "Linux",
+      "MLflow",
+      "DVC",
+      "FastAPI",
+      "Kubernetes",
+      "Kubeflow",
+      "Feature Stores",
+      "Model Serving",
+      "Airflow"
+    ]
   },
   {
     "career": "Data Architect",
-    "skills": ["Data Modeling", "SQL", "NoSQL", "Data Warehousing", "ETL Design", "Cloud Data Platforms", "Snowflake", "BigQuery", "Redshift", "Data Governance", "Master Data Management", "Data Lineage", "Metadata Management", "Architecture Diagrams", "dbt", "Apache Spark", "Security", "Performance Tuning", "Business Requirements", "OLAP/OLTP Design"]
+    "skills": [
+      "SQL",
+      "NoSQL",
+      "Data Warehousing",
+      "Cloud Data Platforms",
+      "BigQuery",
+      "Redshift",
+      "Data Governance",
+      "Master Data Management",
+      "Architecture Diagrams",
+      "Security",
+      "Performance Tuning",
+      "Business Requirements",
+      "Data Modeling",
+      "ETL Design",
+      "Snowflake",
+      "Data Lineage",
+      "Metadata Management",
+      "dbt",
+      "Apache Spark"
+    ]
   },
   {
     "career": "API Developer",
-    "skills": ["REST APIs", "GraphQL", "gRPC", "OpenAPI/Swagger", "Node.js", "Python", "Java", "Postman", "Authentication (OAuth/JWT)", "Rate Limiting", "API Versioning", "Documentation", "Testing", "Microservices", "Caching", "Security", "Performance", "API Gateway", "Webhooks", "SDK Development"]
+    "skills": [
+      "REST APIs",
+      "GraphQL",
+      "gRPC",
+      "OpenAPI/Swagger",
+      "Python",
+      "Java",
+      "Postman",
+      "Rate Limiting",
+      "API Versioning",
+      "Documentation",
+      "Testing",
+      "Security",
+      "Performance",
+      "Node.js",
+      "Authentication (OAuth/JWT)",
+      "Caching",
+      "API Gateway",
+      "Webhooks",
+      "Microservices"
+    ]
   },
   {
     "career": "Prompt Engineer",
-    "skills": ["Prompt Design", "LLMs", "Python", "OpenAI API", "LangChain", "RAG", "Chain-of-Thought", "Few-Shot Learning", "System Prompts", "Token Optimization", "Evaluation Frameworks", "NLP Basics", "Fine-tuning", "JSON Formatting", "API Integration", "A/B Testing Prompts", "Documentation", "Hugging Face", "Tool Use", "AI Safety Awareness"]
+    "skills": [
+      "Prompt Design",
+      "Python",
+      "Few-Shot Learning",
+      "System Prompts",
+      "Evaluation Frameworks",
+      "API Integration",
+      "A/B Testing Prompts",
+      "Documentation",
+      "AI Safety Awareness",
+      "OpenAI API",
+      "LangChain",
+      "Chain-of-Thought",
+      "Token Optimization",
+      "NLP Basics",
+      "Hugging Face",
+      "Tool Use",
+      "LLMs",
+      "RAG",
+      "Fine-tuning"
+    ]
   },
   {
     "career": "Reinforcement Learning Engineer",
-    "skills": ["Python", "PyTorch", "TensorFlow", "Gymnasium (OpenAI Gym)", "Deep RL", "Q-Learning", "Policy Gradient", "PPO", "SAC", "Reward Shaping", "Simulation Environments", "CUDA", "Mathematics (Calculus, Linear Algebra)", "Statistics", "Model Evaluation", "Research Reading", "C++", "Game Theory", "Robotics Applications", "Multi-Agent Systems"]
+    "skills": [
+      "Python",
+      "Deep RL",
+      "Q-Learning",
+      "Reward Shaping",
+      "Simulation Environments",
+      "Mathematics (Calculus, Linear Algebra)",
+      "Statistics",
+      "Research Reading",
+      "C++",
+      "Robotics Applications",
+      "Gymnasium (OpenAI Gym)",
+      "Model Evaluation",
+      "PyTorch",
+      "TensorFlow",
+      "Policy Gradient",
+      "PPO",
+      "SAC",
+      "CUDA",
+      "Multi-Agent Systems"
+    ]
   },
   {
     "career": "Quantum Computing Engineer",
-    "skills": ["Qiskit", "Python", "Linear Algebra", "Quantum Mechanics (Basics)", "Quantum Circuits", "Quantum Algorithms", "Cirq", "PennyLane", "Quantum Error Correction", "Optimization Algorithms", "Mathematics", "IBM Quantum", "Research", "C++", "Cryptography", "Physics", "Simulation", "Variational Quantum Eigensolver", "QAOA", "Cloud Quantum Platforms"]
+    "skills": [
+      "Python",
+      "Linear Algebra",
+      "Cirq",
+      "Optimization Algorithms",
+      "Research",
+      "C++",
+      "Qiskit",
+      "PennyLane",
+      "Mathematics",
+      "Physics",
+      "Simulation",
+      "QAOA",
+      "Quantum Mechanics (Basics)",
+      "Quantum Circuits",
+      "Quantum Algorithms",
+      "Quantum Error Correction",
+      "IBM Quantum",
+      "Cryptography",
+      "Variational Quantum Eigensolver",
+      "Cloud Quantum Platforms"
+    ]
   },
   {
     "career": "Generative AI Developer",
-    "skills": ["Python", "Diffusion Models", "GANs", "LLMs", "Stable Diffusion", "ControlNet", "Hugging Face", "PyTorch", "Image Generation", "Text Generation", "Fine-tuning", "LoRA", "DALL-E API", "Midjourney API", "LangChain", "Vector Databases", "Prompt Engineering", "Model Evaluation", "Ethics in AI", "API Integration"]
+    "skills": [
+      "Python",
+      "ControlNet",
+      "Image Generation",
+      "Text Generation",
+      "LoRA",
+      "Prompt Engineering",
+      "Ethics in AI",
+      "API Integration",
+      "Diffusion Models",
+      "GANs",
+      "Stable Diffusion",
+      "Hugging Face",
+      "LangChain",
+      "Model Evaluation",
+      "LLMs",
+      "PyTorch",
+      "Fine-tuning",
+      "Vector Databases"
+    ]
   },
   {
     "career": "Data Governance Analyst",
-    "skills": ["Data Quality", "Metadata Management", "Data Lineage", "SQL", "Data Cataloging", "Compliance (GDPR, CCPA)", "Data Stewardship", "Master Data Management", "Apache Atlas", "Collibra", "Alation", "Policy Writing", "Stakeholder Communication", "Data Classification", "Risk Assessment", "Data Auditing", "Excel", "Business Glossary", "Process Documentation", "Reporting"]
+    "skills": [
+      "SQL",
+      "Compliance (GDPR, CCPA)",
+      "Data Stewardship",
+      "Master Data Management",
+      "Collibra",
+      "Policy Writing",
+      "Stakeholder Communication",
+      "Risk Assessment",
+      "Excel",
+      "Business Glossary",
+      "Process Documentation",
+      "Reporting",
+      "Data Quality",
+      "Metadata Management",
+      "Data Lineage",
+      "Data Cataloging",
+      "Alation",
+      "Data Classification",
+      "Data Auditing"
+    ]
   },
   {
     "career": "Scrum Master",
-    "skills": ["Scrum", "Agile", "Kanban", "Facilitation", "JIRA", "Sprint Planning", "Retrospectives", "Conflict Resolution", "Coaching", "Servant Leadership", "Metrics (Velocity, Burndown)", "Stakeholder Communication", "Impediment Removal", "Continuous Improvement", "SAFe", "Team Dynamics", "Documentation", "Confluence", "Risk Management", "Product Backlog Grooming"]
+    "skills": [
+      "Scrum",
+      "Agile",
+      "JIRA",
+      "Sprint Planning",
+      "Retrospectives",
+      "Conflict Resolution",
+      "Servant Leadership",
+      "Metrics (Velocity, Burndown)",
+      "Stakeholder Communication",
+      "Impediment Removal",
+      "Continuous Improvement",
+      "Documentation",
+      "Risk Management",
+      "Product Backlog Grooming",
+      "Kanban",
+      "Facilitation",
+      "Coaching",
+      "Team Dynamics",
+      "Confluence"
+    ]
   },
   {
     "career": "Enterprise Architect",
-    "skills": ["TOGAF", "Business Architecture", "Solution Design", "Technology Strategy", "Integration Architecture", "Cloud Strategy", "Stakeholder Management", "IT Governance", "EA Tools (ArchiMate, Sparx)", "Risk Management", "Vendor Management", "API Strategy", "Microservices", "Data Architecture", "Security Architecture", "Roadmapping", "Communication", "Compliance", "Change Management", "Business Acumen"]
+    "skills": [
+      "Business Architecture",
+      "Technology Strategy",
+      "Integration Architecture",
+      "Cloud Strategy",
+      "Stakeholder Management",
+      "IT Governance",
+      "Risk Management",
+      "Vendor Management",
+      "API Strategy",
+      "Data Architecture",
+      "Security Architecture",
+      "Roadmapping",
+      "Communication",
+      "Solution Design",
+      "Compliance",
+      "Change Management",
+      "Business Acumen",
+      "TOGAF",
+      "Microservices"
+    ]
   },
   {
     "career": "Penetration Tester",
-    "skills": ["Kali Linux", "Metasploit", "Burp Suite", "Python", "Network Scanning", "Web Application Testing", "Social Engineering", "Exploitation Techniques", "OWASP", "Wireless Security", "Report Writing", "Reverse Engineering", "Active Directory Attacks", "Cloud Penetration Testing", "C Programming", "CVE Research", "Red Teaming", "Privilege Escalation", "Forensics", "CTF Experience"]
+    "skills": [
+      "Kali Linux",
+      "Burp Suite",
+      "Python",
+      "Network Scanning",
+      "Web Application Testing",
+      "Social Engineering",
+      "Report Writing",
+      "CVE Research",
+      "Forensics",
+      "CTF Experience",
+      "Metasploit",
+      "OWASP",
+      "Exploitation Techniques",
+      "Reverse Engineering",
+      "Active Directory Attacks",
+      "Cloud Penetration Testing",
+      "Red Teaming",
+      "Privilege Escalation"
+    ]
   },
   {
     "career": "Malware Analyst",
-    "skills": ["Reverse Engineering", "Assembly Language", "IDA Pro", "Ghidra", "Malware Analysis", "Windows Internals", "Python", "C/C++", "Sandbox Analysis", "Static Analysis", "Dynamic Analysis", "Wireshark", "YARA Rules", "Memory Forensics", "Threat Intelligence", "Cuckoo Sandbox", "Linux", "Scripting", "Debugging", "Incident Response"]
+    "skills": [
+      "IDA Pro",
+      "Ghidra",
+      "Windows Internals",
+      "Python",
+      "C/C++",
+      "Static Analysis",
+      "Dynamic Analysis",
+      "Wireshark",
+      "YARA Rules",
+      "Threat Intelligence",
+      "Linux",
+      "Scripting",
+      "Debugging",
+      "Incident Response",
+      "Assembly Language",
+      "Sandbox Analysis",
+      "Reverse Engineering",
+      "Malware Analysis",
+      "Memory Forensics"
+    ]
   },
   {
     "career": "Cloud Security Engineer",
-    "skills": ["AWS Security", "Azure Security", "GCP Security", "IAM", "Zero Trust Architecture", "CSPM", "Container Security", "Kubernetes Security", "Terraform (Security)", "Encryption", "Secret Management", "SIEM", "Threat Detection", "Compliance (SOC2, ISO27001)", "DevSecOps", "Python", "Networking", "Incident Response", "Vulnerability Management", "Penetration Testing"]
+    "skills": [
+      "AWS Security",
+      "Azure Security",
+      "GCP Security",
+      "Zero Trust Architecture",
+      "Container Security",
+      "Terraform (Security)",
+      "Encryption",
+      "Secret Management",
+      "Threat Detection",
+      "Python",
+      "Networking",
+      "Incident Response",
+      "Vulnerability Management",
+      "IAM",
+      "CSPM",
+      "SIEM",
+      "Compliance (SOC2, ISO27001)",
+      "DevSecOps",
+      "Kubernetes Security",
+      "Penetration Testing"
+    ]
   },
   {
     "career": "Firmware Engineer",
-    "skills": ["C", "C++", "RTOS", "ARM Cortex", "Bootloader Development", "Device Drivers", "I2C", "SPI", "UART", "USB Protocols", "Power Management", "Memory Management", "Debugging (GDB, JTAG)", "PCB Schematic Reading", "Interrupt Handling", "Low-Level Optimization", "Linux Kernel", "Assembly", "Bare Metal", "Safety Standards (IEC 61508)"]
+    "skills": [
+      "C++",
+      "ARM Cortex",
+      "UART",
+      "USB Protocols",
+      "Power Management",
+      "Memory Management",
+      "Debugging (GDB, JTAG)",
+      "PCB Schematic Reading",
+      "Interrupt Handling",
+      "Linux Kernel",
+      "C",
+      "I2C",
+      "SPI",
+      "Low-Level Optimization",
+      "Assembly",
+      "RTOS",
+      "Bootloader Development",
+      "Device Drivers",
+      "Bare Metal"
+    ]
   },
   {
     "career": "Hardware Engineer",
-    "skills": ["PCB Design", "Altium Designer", "KiCad", "Circuit Design", "Analog Electronics", "Digital Electronics", "FPGA", "VHDL/Verilog", "Oscilloscope", "Logic Analyzer", "Signal Integrity", "Power Electronics", "EMI/EMC", "Schematic Capture", "Component Selection", "Prototyping", "BOM Management", "DFM/DFT", "Soldering", "Embedded Systems"]
+    "skills": [
+      "Altium Designer",
+      "Circuit Design",
+      "Analog Electronics",
+      "Digital Electronics",
+      "Logic Analyzer",
+      "Signal Integrity",
+      "Power Electronics",
+      "Schematic Capture",
+      "Prototyping",
+      "PCB Design",
+      "KiCad",
+      "FPGA",
+      "Oscilloscope",
+      "EMI/EMC",
+      "Component Selection",
+      "BOM Management",
+      "DFM/DFT",
+      "Embedded Systems",
+      "VHDL/Verilog"
+    ]
   },
   {
     "career": "FPGA Engineer",
-    "skills": ["VHDL", "Verilog", "SystemVerilog", "FPGA Architecture", "Xilinx", "Intel (Altera)", "Timing Analysis", "RTL Design", "Simulation (ModelSim)", "Synthesis", "Place and Route", "High-Speed Interfaces", "DSP on FPGA", "AXI Protocols", "HLS (High-Level Synthesis)", "Embedded Systems", "C++", "Signal Processing", "JTAG Debugging", "DMA Design"]
+    "skills": [
+      "Intel (Altera)",
+      "High-Speed Interfaces",
+      "AXI Protocols",
+      "C++",
+      "Signal Processing",
+      "JTAG Debugging",
+      "Xilinx",
+      "Timing Analysis",
+      "Simulation (ModelSim)",
+      "DSP on FPGA",
+      "Embedded Systems",
+      "VHDL",
+      "Verilog",
+      "SystemVerilog",
+      "FPGA Architecture",
+      "RTL Design",
+      "Synthesis",
+      "Place and Route",
+      "HLS (High-Level Synthesis)"
+    ]
   },
   {
     "career": "Signal Processing Engineer",
-    "skills": ["MATLAB", "Python", "DSP Theory", "FFT", "Filtering", "C/C++", "Embedded Systems", "Communication Systems", "Audio Processing", "Image Processing", "Radar Signal Processing", "Kalman Filters", "Wavelets", "Spectrum Analysis", "FPGA", "Simulation", "Linear Algebra", "NumPy/SciPy", "Noise Reduction", "Real-Time Processing"]
+    "skills": [
+      "Python",
+      "DSP Theory",
+      "Filtering",
+      "C/C++",
+      "Communication Systems",
+      "Audio Processing",
+      "Image Processing",
+      "Radar Signal Processing",
+      "Kalman Filters",
+      "Spectrum Analysis",
+      "Linear Algebra",
+      "NumPy/SciPy",
+      "Noise Reduction",
+      "Real-Time Processing",
+      "MATLAB",
+      "FFT",
+      "Embedded Systems",
+      "FPGA",
+      "Simulation"
+    ]
   },
   {
     "career": "Controls Engineer",
-    "skills": ["MATLAB/Simulink", "PID Control", "State Space", "Python", "Embedded C", "PLC Programming", "SCADA", "Sensor Integration", "Actuators", "Motion Control", "Robotics", "ROS", "Signal Processing", "System Identification", "Model Predictive Control", "Feedback Systems", "LabVIEW", "Automation", "Industrial Protocols (Modbus, OPC-UA)", "Safety Systems"]
+    "skills": [
+      "PID Control",
+      "Python",
+      "PLC Programming",
+      "Sensor Integration",
+      "Actuators",
+      "Motion Control",
+      "Robotics",
+      "ROS",
+      "Signal Processing",
+      "Industrial Protocols (Modbus, OPC-UA)",
+      "MATLAB/Simulink",
+      "Embedded C",
+      "SCADA",
+      "System Identification",
+      "Feedback Systems",
+      "Automation",
+      "Safety Systems",
+      "State Space",
+      "Model Predictive Control"
+    ]
   },
   {
     "career": "Telecommunications Engineer",
-    "skills": ["RF Design", "Signal Processing", "Antenna Design", "LTE/5G", "Network Protocols", "MATLAB", "C/C++", "Wireless Systems", "Fiber Optics", "VoIP", "Network Planning", "Spectrum Management", "Satellite Communications", "Propagation Modeling", "SDR", "Simulation Tools", "ETSI/3GPP Standards", "Troubleshooting", "OFDM", "MIMO"]
+    "skills": [
+      "RF Design",
+      "Signal Processing",
+      "Network Protocols",
+      "C/C++",
+      "Wireless Systems",
+      "Fiber Optics",
+      "Network Planning",
+      "Spectrum Management",
+      "Satellite Communications",
+      "Propagation Modeling",
+      "SDR",
+      "ETSI/3GPP Standards",
+      "Troubleshooting",
+      "Antenna Design",
+      "LTE/5G",
+      "MATLAB",
+      "Simulation Tools",
+      "OFDM",
+      "MIMO"
+    ]
   },
   {
     "career": "RF Engineer",
-    "skills": ["RF Circuit Design", "Antenna Design", "Vector Network Analyzer", "MATLAB", "C/C++", "LTE/5G/Wi-Fi Standards", "Spectrum Analysis", "Impedance Matching", "PCB Design", "Signal Propagation", "HFSS/CST Simulation", "RF Test Equipment", "PA Design", "Filter Design", "EMC", "System Link Budget", "SDR", "FPGA", "Calibration", "Measurement Techniques"]
+    "skills": [
+      "RF Circuit Design",
+      "Vector Network Analyzer",
+      "C/C++",
+      "LTE/5G/Wi-Fi Standards",
+      "Spectrum Analysis",
+      "Signal Propagation",
+      "RF Test Equipment",
+      "Filter Design",
+      "SDR",
+      "Measurement Techniques",
+      "Antenna Design",
+      "MATLAB",
+      "Impedance Matching",
+      "PCB Design",
+      "HFSS/CST Simulation",
+      "PA Design",
+      "EMC",
+      "System Link Budget",
+      "FPGA"
+    ]
   },
   {
     "career": "Automation Engineer",
-    "skills": ["PLC Programming", "SCADA", "HMI", "Python", "Robotics", "Industrial Protocols", "Control Systems", "Ladder Logic", "Structured Text", "Vision Systems", "Sensor Integration", "Pneumatics", "Servo Drives", "VFDs", "Safety Systems", "Electrical Drawings", "Troubleshooting", "Siemens TIA Portal", "Rockwell Studio 5000", "OPC-UA"]
+    "skills": [
+      "PLC Programming",
+      "Python",
+      "Robotics",
+      "Industrial Protocols",
+      "Control Systems",
+      "Ladder Logic",
+      "Structured Text",
+      "Sensor Integration",
+      "Servo Drives",
+      "Electrical Drawings",
+      "Troubleshooting",
+      "Siemens TIA Portal",
+      "Rockwell Studio 5000",
+      "SCADA",
+      "HMI",
+      "Vision Systems",
+      "Safety Systems",
+      "OPC-UA"
+    ]
   },
   {
     "career": "Mechanical Engineer",
-    "skills": ["SolidWorks", "AutoCAD", "CATIA", "FEA", "CAE", "GD&T", "Manufacturing Processes", "Thermodynamics", "Fluid Mechanics", "Materials Science", "3D Printing", "Prototype Development", "CNC Machining", "ANSYS", "Technical Drawing", "DFM", "Structural Analysis", "BOM", "Root Cause Analysis", "Product Development"]
+    "skills": [
+      "SolidWorks",
+      "Manufacturing Processes",
+      "Materials Science",
+      "3D Printing",
+      "Prototype Development",
+      "Technical Drawing",
+      "Structural Analysis",
+      "Root Cause Analysis",
+      "Product Development",
+      "AutoCAD",
+      "CATIA",
+      "GD&T",
+      "Fluid Mechanics",
+      "CNC Machining",
+      "ANSYS",
+      "DFM",
+      "BOM",
+      "FEA",
+      "Thermodynamics"
+    ]
   },
   {
     "career": "Civil Engineer",
-    "skills": ["AutoCAD", "Structural Analysis", "STAAD Pro", "ETABS", "Revit", "Soil Mechanics", "Concrete Design", "Steel Design", "Project Management", "Construction Planning", "Surveying", "Hydrology", "Transportation Engineering", "BIM", "Cost Estimation", "Building Codes", "Site Inspection", "Geotechnical Engineering", "Environmental Regulations", "MS Project"]
+    "skills": [
+      "Structural Analysis",
+      "Revit",
+      "Concrete Design",
+      "Project Management",
+      "Construction Planning",
+      "Surveying",
+      "Hydrology",
+      "Transportation Engineering",
+      "Geotechnical Engineering",
+      "Environmental Regulations",
+      "AutoCAD",
+      "ETABS",
+      "Soil Mechanics",
+      "Steel Design",
+      "BIM",
+      "Cost Estimation",
+      "Building Codes",
+      "Site Inspection"
+    ]
   },
   {
     "career": "Chemical Engineer",
-    "skills": ["Process Design", "ASPEN Plus", "HYSYS", "Thermodynamics", "Mass Transfer", "Heat Transfer", "Reaction Engineering", "P&ID", "HAZOP", "Safety Engineering", "Process Control", "Piping Design", "MATLAB", "Python", "Six Sigma", "Environmental Compliance", "Lab Techniques", "Quality Control", "Plant Operations", "Distillation"]
+    "skills": [
+      "Process Design",
+      "Mass Transfer",
+      "Reaction Engineering",
+      "Safety Engineering",
+      "Process Control",
+      "Python",
+      "Environmental Compliance",
+      "Quality Control",
+      "Plant Operations",
+      "ASPEN Plus",
+      "HYSYS",
+      "P&ID",
+      "HAZOP",
+      "Piping Design",
+      "MATLAB",
+      "Six Sigma",
+      "Distillation",
+      "Thermodynamics",
+      "Heat Transfer"
+    ]
   },
   {
     "career": "Electrical Engineer",
-    "skills": ["Circuit Design", "Power Systems", "AutoCAD Electrical", "MATLAB/Simulink", "PLC Programming", "Motor Drives", "Transformers", "Protection Systems", "Power Electronics", "PCB Design", "SCADA", "HMI", "Electrical Safety", "Load Analysis", "Panel Design", "Relay Coordination", "Energy Management", "IEC Standards", "EMC", "Switchgear"]
+    "skills": [
+      "Circuit Design",
+      "Power Systems",
+      "AutoCAD Electrical",
+      "PLC Programming",
+      "Motor Drives",
+      "Protection Systems",
+      "Power Electronics",
+      "Electrical Safety",
+      "Relay Coordination",
+      "Energy Management",
+      "IEC Standards",
+      "MATLAB/Simulink",
+      "PCB Design",
+      "SCADA",
+      "HMI",
+      "Load Analysis",
+      "Panel Design",
+      "EMC",
+      "Transformers"
+    ]
   },
   {
     "career": "Biomedical Engineer",
-    "skills": ["Medical Device Design", "MATLAB", "Python", "Signal Processing (ECG, EEG)", "Biomechanics", "3D Printing (Medical)", "Regulatory Compliance (FDA, CE)", "LabVIEW", "Electronics", "Clinical Trials Knowledge", "Imaging Systems", "Prosthetics Design", "Tissue Engineering", "Biological Systems", "ISO 13485", "Risk Management", "Instrumentation", "C++", "Embedded Systems", "SolidWorks"]
+    "skills": [
+      "Python",
+      "Signal Processing (ECG, EEG)",
+      "Biomechanics",
+      "3D Printing (Medical)",
+      "Regulatory Compliance (FDA, CE)",
+      "Electronics",
+      "Clinical Trials Knowledge",
+      "Prosthetics Design",
+      "Risk Management",
+      "Instrumentation",
+      "C++",
+      "SolidWorks",
+      "Medical Device Design",
+      "MATLAB",
+      "LabVIEW",
+      "Imaging Systems",
+      "Biological Systems",
+      "ISO 13485",
+      "Embedded Systems"
+    ]
   },
   {
     "career": "Environmental Engineer",
-    "skills": ["Environmental Impact Assessment", "GIS (ArcGIS)", "Water Treatment", "Air Quality Modeling", "MATLAB", "Python", "EPA Regulations", "Hazardous Waste Management", "Soil Remediation", "CAD", "Environmental Monitoring", "Statistical Analysis", "Lab Analysis", "Sustainability", "Life Cycle Assessment", "Report Writing", "Project Management", "ISO 14001", "Climate Modeling", "Hydrology"]
+    "skills": [
+      "Environmental Impact Assessment",
+      "GIS (ArcGIS)",
+      "Water Treatment",
+      "Air Quality Modeling",
+      "Python",
+      "EPA Regulations",
+      "Hazardous Waste Management",
+      "Soil Remediation",
+      "Environmental Monitoring",
+      "Report Writing",
+      "Project Management",
+      "Hydrology",
+      "MATLAB",
+      "CAD",
+      "Statistical Analysis",
+      "Sustainability",
+      "Life Cycle Assessment",
+      "ISO 14001",
+      "Climate Modeling"
+    ]
   },
   {
     "career": "Geospatial Analyst",
-    "skills": ["ArcGIS", "QGIS", "Remote Sensing", "Python", "R", "Google Earth Engine", "Spatial Statistics", "Cartography", "GPS Systems", "LiDAR Processing", "Satellite Imagery Analysis", "Data Visualization", "PostgreSQL/PostGIS", "Drone Data Processing", "OpenLayers", "Leaflet.js", "Machine Learning for GIS", "UAV Operations", "Field Data Collection", "MapInfo"]
+    "skills": [
+      "ArcGIS",
+      "Remote Sensing",
+      "Python",
+      "R",
+      "Google Earth Engine",
+      "Spatial Statistics",
+      "Cartography",
+      "LiDAR Processing",
+      "Satellite Imagery Analysis",
+      "Data Visualization",
+      "PostgreSQL/PostGIS",
+      "Drone Data Processing",
+      "OpenLayers",
+      "Machine Learning for GIS",
+      "Field Data Collection",
+      "QGIS",
+      "GPS Systems",
+      "Leaflet.js"
+    ]
   },
   {
     "career": "Petroleum Engineer",
-    "skills": ["Reservoir Simulation", "Eclipse", "Petrel", "Drilling Engineering", "Production Engineering", "Well Log Analysis", "Fluid Mechanics", "Thermodynamics", "MATLAB", "Python", "Petrophysics", "Enhanced Oil Recovery", "Pipeline Hydraulics", "HSE", "Formation Evaluation", "Completion Engineering", "Pressure Testing", "Cost Estimation", "Geology Basics", "Field Operations"]
+    "skills": [
+      "Reservoir Simulation",
+      "Petrel",
+      "Drilling Engineering",
+      "Production Engineering",
+      "Python",
+      "Petrophysics",
+      "Enhanced Oil Recovery",
+      "Pipeline Hydraulics",
+      "Formation Evaluation",
+      "Completion Engineering",
+      "Pressure Testing",
+      "Field Operations",
+      "Eclipse",
+      "Well Log Analysis",
+      "Fluid Mechanics",
+      "MATLAB",
+      "HSE",
+      "Cost Estimation",
+      "Thermodynamics"
+    ]
   },
   {
     "career": "Materials Scientist",
-    "skills": ["Materials Characterization", "X-Ray Diffraction", "SEM/TEM", "MATLAB", "Python", "Computational Materials Science", "Metallurgy", "Polymer Science", "Nanomaterials", "Mechanical Testing", "Phase Diagrams", "Failure Analysis", "CALPHAD", "DFT (VASP, Quantum ESPRESSO)", "3D Printing (Materials)", "Statistical Analysis", "LaTeX", "Lab Safety", "Technical Writing", "Process Development"]
+    "skills": [
+      "Materials Characterization",
+      "X-Ray Diffraction",
+      "Python",
+      "Computational Materials Science",
+      "Metallurgy",
+      "Polymer Science",
+      "Nanomaterials",
+      "Mechanical Testing",
+      "Phase Diagrams",
+      "Failure Analysis",
+      "3D Printing (Materials)",
+      "Technical Writing",
+      "Process Development",
+      "SEM/TEM",
+      "MATLAB",
+      "CALPHAD",
+      "Statistical Analysis",
+      "Lab Safety",
+      "DFT (VASP, Quantum ESPRESSO)"
+    ]
   },
   {
     "career": "Aerospace Engineer",
-    "skills": ["MATLAB/Simulink", "CFD (ANSYS Fluent)", "FEA", "AutoCAD", "CATIA", "Aerodynamics", "Flight Mechanics", "Propulsion", "Structural Analysis", "GD&T", "Systems Engineering", "Python", "C++", "Flight Simulation", "Avionics", "Control Systems", "Composite Materials", "DO-178C", "System Integration Testing", "Orbit Mechanics"]
+    "skills": [
+      "Aerodynamics",
+      "Propulsion",
+      "Structural Analysis",
+      "Systems Engineering",
+      "Python",
+      "C++",
+      "Control Systems",
+      "Composite Materials",
+      "System Integration Testing",
+      "MATLAB/Simulink",
+      "AutoCAD",
+      "CATIA",
+      "Flight Mechanics",
+      "GD&T",
+      "Flight Simulation",
+      "Avionics",
+      "DO-178C",
+      "CFD (ANSYS Fluent)",
+      "FEA"
+    ]
   },
   {
     "career": "Nuclear Engineer",
-    "skills": ["Reactor Physics", "MCNP", "RELAP5", "Thermodynamics", "Heat Transfer", "Radiation Safety", "MATLAB", "Python", "Fluid Dynamics", "Fuel Cycle Analysis", "Nuclear Materials", "Criticality Safety", "NRC Regulations", "Shielding Design", "Instrumentation & Control", "Quality Assurance", "Computational Simulations", "Nonproliferation", "Systems Engineering", "Technical Writing"]
+    "skills": [
+      "Radiation Safety",
+      "Python",
+      "Nuclear Materials",
+      "NRC Regulations",
+      "Instrumentation & Control",
+      "Quality Assurance",
+      "Systems Engineering",
+      "Technical Writing",
+      "MATLAB",
+      "Fuel Cycle Analysis",
+      "Shielding Design",
+      "Computational Simulations",
+      "Reactor Physics",
+      "MCNP",
+      "RELAP5",
+      "Thermodynamics",
+      "Heat Transfer",
+      "Fluid Dynamics",
+      "Criticality Safety"
+    ]
   },
   {
     "career": "Bioinformatics Engineer",
-    "skills": ["Python", "R", "Genomics", "Sequence Alignment (BWA, STAR)", "Variant Calling", "Next-Generation Sequencing", "Bioconductor", "Machine Learning", "Linux", "SQL", "Biopython", "Statistical Genetics", "Single-Cell RNA-seq", "Proteomics", "Metagenomics", "HPC Clusters", "Pipeline Development (Snakemake, Nextflow)", "GATK", "Phylogenetics", "Galaxy Platform"]
+    "skills": [
+      "Python",
+      "R",
+      "Sequence Alignment (BWA, STAR)",
+      "Next-Generation Sequencing",
+      "Bioconductor",
+      "Machine Learning",
+      "Linux",
+      "SQL",
+      "Biopython",
+      "Proteomics",
+      "Genomics",
+      "Statistical Genetics",
+      "Pipeline Development (Snakemake, Nextflow)",
+      "GATK",
+      "Variant Calling",
+      "Single-Cell RNA-seq",
+      "Metagenomics",
+      "HPC Clusters"
+    ]
   },
   {
     "career": "Research Scientist",
-    "skills": ["Research Design", "Statistical Analysis", "Python", "R", "MATLAB", "Literature Review", "Scientific Writing", "LaTeX", "Experimental Design", "Machine Learning", "Data Visualization", "Lab Techniques", "Grant Writing", "Peer Review", "Interdisciplinary Collaboration", "Hypothesis Testing", "Simulation", "Programming", "Ethics in Research", "Presentation Skills"]
+    "skills": [
+      "Research Design",
+      "Python",
+      "R",
+      "Literature Review",
+      "Scientific Writing",
+      "Experimental Design",
+      "Machine Learning",
+      "Data Visualization",
+      "Grant Writing",
+      "Peer Review",
+      "Interdisciplinary Collaboration",
+      "Hypothesis Testing",
+      "Programming",
+      "Presentation Skills",
+      "Statistical Analysis",
+      "MATLAB",
+      "LaTeX",
+      "Lab Techniques",
+      "Simulation"
+    ]
   },
   {
     "career": "Computational Scientist",
-    "skills": ["Python", "C++", "Fortran", "HPC", "MPI/OpenMP", "Numerical Methods", "MATLAB", "Linux", "Slurm", "Scientific Simulation", "Mathematical Modeling", "Data Analysis", "Visualization (ParaView)", "GPU Computing (CUDA)", "Machine Learning", "Statistics", "Research", "Algorithm Development", "Version Control", "Technical Writing"]
+    "skills": [
+      "Python",
+      "C++",
+      "Numerical Methods",
+      "Linux",
+      "Data Analysis",
+      "Machine Learning",
+      "Statistics",
+      "Research",
+      "Algorithm Development",
+      "Version Control",
+      "Technical Writing",
+      "MATLAB",
+      "Scientific Simulation",
+      "Mathematical Modeling",
+      "HPC",
+      "MPI/OpenMP",
+      "GPU Computing (CUDA)"
+    ]
   },
   {
     "career": "Pharmacist",
-    "skills": ["Drug Dispensing", "Pharmacology", "Drug Interactions", "Patient Counseling", "Compounding", "Medication Therapy Management", "Pharmacy Software", "Clinical Knowledge", "Inventory Management", "Regulatory Compliance", "Sterile Techniques", "IV Admixture", "Pharmacokinetics", "OTC Recommendations", "Insurance Billing", "Communication", "Documentation", "Drug Safety", "Herbal Medicine Knowledge", "Immunization Administration"]
+    "skills": [
+      "Drug Dispensing",
+      "Pharmacology",
+      "Drug Interactions",
+      "Patient Counseling",
+      "Medication Therapy Management",
+      "Pharmacy Software",
+      "Inventory Management",
+      "Regulatory Compliance",
+      "Sterile Techniques",
+      "Pharmacokinetics",
+      "OTC Recommendations",
+      "Insurance Billing",
+      "Communication",
+      "Documentation",
+      "Drug Safety",
+      "Immunization Administration",
+      "Compounding",
+      "Clinical Knowledge"
+    ]
   },
   {
     "career": "Clinical Data Analyst",
-    "skills": ["SAS", "R", "Python", "Clinical Trials Data", "CDISC Standards (SDTM, ADaM)", "FDA Regulations", "SPSS", "Statistical Analysis", "Data Cleaning", "Data Validation", "SQL", "Excel", "Regulatory Submissions", "EDC Systems (Medidata Rave)", "Medical Terminology", "ICH Guidelines", "Report Writing", "Quality Control", "Pharmacovigilance", "Biostatistics"]
+    "skills": [
+      "R",
+      "Python",
+      "Clinical Trials Data",
+      "CDISC Standards (SDTM, ADaM)",
+      "FDA Regulations",
+      "Data Cleaning",
+      "SQL",
+      "Excel",
+      "Regulatory Submissions",
+      "EDC Systems (Medidata Rave)",
+      "Medical Terminology",
+      "Report Writing",
+      "Quality Control",
+      "Pharmacovigilance",
+      "Biostatistics",
+      "SAS",
+      "Statistical Analysis",
+      "Data Validation",
+      "ICH Guidelines"
+    ]
   },
   {
     "career": "Health Informatics Specialist",
-    "skills": ["Electronic Health Records (EHR)", "HL7/FHIR", "Health Data Standards", "SQL", "Python", "Data Analytics", "Interoperability", "ICD-10 Coding", "Clinical Workflows", "HIPAA Compliance", "Database Management", "Health IT Systems", "Epic/Cerner", "Data Governance", "Project Management", "Communication", "Telehealth", "Business Intelligence", "Security", "Training"]
+    "skills": [
+      "Electronic Health Records (EHR)",
+      "HL7/FHIR",
+      "Health Data Standards",
+      "SQL",
+      "Python",
+      "Interoperability",
+      "Clinical Workflows",
+      "Epic/Cerner",
+      "Data Governance",
+      "Project Management",
+      "Communication",
+      "Security",
+      "Training",
+      "Data Analytics",
+      "ICD-10 Coding",
+      "HIPAA Compliance",
+      "Database Management",
+      "Health IT Systems",
+      "Telehealth",
+      "Business Intelligence"
+    ]
   },
   {
     "career": "Medical Imaging Specialist",
-    "skills": ["DICOM", "Medical Image Processing", "Python", "Deep Learning", "ITK/VTK", "3D Slicer", "MATLAB", "Radiology Knowledge", "Image Segmentation", "Computer Vision", "PACS Systems", "MRI Physics", "CT Reconstruction", "Clinical Validation", "C++", "Quality Assurance", "Research", "Statistics", "FDA Submission Knowledge", "Annotation Tools"]
+    "skills": [
+      "Medical Image Processing",
+      "Python",
+      "3D Slicer",
+      "Radiology Knowledge",
+      "Computer Vision",
+      "MRI Physics",
+      "CT Reconstruction",
+      "C++",
+      "Quality Assurance",
+      "Research",
+      "Statistics",
+      "DICOM",
+      "ITK/VTK",
+      "MATLAB",
+      "PACS Systems",
+      "Clinical Validation",
+      "FDA Submission Knowledge",
+      "Annotation Tools",
+      "Deep Learning",
+      "Image Segmentation"
+    ]
   },
   {
     "career": "Epidemiologist",
-    "skills": ["Statistical Analysis", "SAS", "R", "Python", "Study Design", "Epidemiological Methods", "SPSS", "GIS/Spatial Analysis", "Biostatistics", "Public Health", "Data Collection", "Survey Design", "Regression Models", "Infectious Disease Knowledge", "CDC Guidelines", "IRB Protocols", "Scientific Writing", "Field Investigation", "Literature Review", "Disease Surveillance"]
+    "skills": [
+      "R",
+      "Python",
+      "Biostatistics",
+      "Data Collection",
+      "Survey Design",
+      "Regression Models",
+      "IRB Protocols",
+      "Scientific Writing",
+      "Literature Review",
+      "Disease Surveillance",
+      "Statistical Analysis",
+      "SAS",
+      "Study Design",
+      "Epidemiological Methods",
+      "GIS/Spatial Analysis",
+      "Public Health",
+      "Infectious Disease Knowledge",
+      "CDC Guidelines",
+      "Field Investigation"
+    ]
   },
   {
     "career": "Actuary",
-    "skills": ["Statistics", "Probability", "Excel", "SAS", "R", "Python", "Actuarial Models", "Financial Mathematics", "Insurance Knowledge", "Risk Assessment", "Mortality Tables", "Regression Analysis", "Reserving", "Capital Modeling", "Communication", "Exam P/FM/STAM", "VBA", "Stochastic Modeling", "Pricing", "Regulatory Knowledge"]
+    "skills": [
+      "Statistics",
+      "Probability",
+      "Excel",
+      "R",
+      "Python",
+      "Insurance Knowledge",
+      "Risk Assessment",
+      "Mortality Tables",
+      "Regression Analysis",
+      "Reserving",
+      "Communication",
+      "Pricing",
+      "Regulatory Knowledge",
+      "SAS",
+      "Financial Mathematics",
+      "Stochastic Modeling",
+      "Actuarial Models",
+      "Capital Modeling"
+    ]
   },
   {
     "career": "Quantitative Analyst",
-    "skills": ["Python", "R", "C++", "MATLAB", "Financial Mathematics", "Statistics", "Stochastic Calculus", "Machine Learning", "Risk Modeling", "Derivatives Pricing", "Black-Scholes", "Monte Carlo Simulation", "Algorithmic Trading", "SQL", "Data Analysis", "Linear Algebra", "Time Series Analysis", "Bloomberg", "Backtesting", "Portfolio Optimization"]
+    "skills": [
+      "Python",
+      "R",
+      "C++",
+      "Statistics",
+      "Machine Learning",
+      "Risk Modeling",
+      "Monte Carlo Simulation",
+      "Algorithmic Trading",
+      "SQL",
+      "Data Analysis",
+      "Linear Algebra",
+      "Time Series Analysis",
+      "Bloomberg",
+      "Backtesting",
+      "Portfolio Optimization",
+      "Financial Mathematics",
+      "Stochastic Calculus",
+      "Derivatives Pricing",
+      "Black-Scholes"
+    ]
   },
   {
     "career": "Algorithmic Trader",
-    "skills": ["Python", "C++", "Financial Markets", "Quantitative Finance", "Backtesting Frameworks", "Statistics", "Machine Learning", "SQL", "Risk Management", "Market Microstructure", "Order Book Analysis", "Trading APIs", "NumPy/Pandas", "High-Frequency Trading", "Options Pricing", "Strategy Development", "Linux", "Real-Time Systems", "Regulatory Knowledge", "MATLAB"]
+    "skills": [
+      "Python",
+      "C++",
+      "Financial Markets",
+      "Backtesting Frameworks",
+      "Statistics",
+      "Machine Learning",
+      "SQL",
+      "Risk Management",
+      "Market Microstructure",
+      "Order Book Analysis",
+      "Trading APIs",
+      "NumPy/Pandas",
+      "Options Pricing",
+      "Strategy Development",
+      "Linux",
+      "Real-Time Systems",
+      "Regulatory Knowledge",
+      "Quantitative Finance"
+    ]
   },
   {
     "career": "Risk Analyst",
-    "skills": ["Risk Assessment", "Excel", "Python", "R", "Statistical Modeling", "Financial Risk", "Credit Risk", "Operational Risk", "SQL", "Regulatory Compliance (Basel III)", "VaR Modeling", "Scenario Analysis", "Monte Carlo", "Communication", "Documentation", "Data Analysis", "ERM Frameworks", "Bloomberg", "Power BI", "Stress Testing"]
+    "skills": [
+      "Risk Assessment",
+      "Excel",
+      "Python",
+      "R",
+      "Financial Risk",
+      "Credit Risk",
+      "Operational Risk",
+      "SQL",
+      "Regulatory Compliance (Basel III)",
+      "VaR Modeling",
+      "Scenario Analysis",
+      "Monte Carlo",
+      "Communication",
+      "Documentation",
+      "Data Analysis",
+      "Bloomberg",
+      "Power BI",
+      "Stress Testing",
+      "Statistical Modeling"
+    ]
   },
   {
     "career": "Supply Chain Analyst",
-    "skills": ["SQL", "Excel", "Python", "ERP Systems (SAP)", "Supply Chain Management", "Logistics", "Inventory Optimization", "Demand Forecasting", "Power BI", "Tableau", "Vendor Management", "Procurement", "Data Analysis", "Statistical Modeling", "S&OP", "Warehouse Management", "Transportation Planning", "Cost Analysis", "Process Improvement", "Lean/Six Sigma"]
+    "skills": [
+      "SQL",
+      "Excel",
+      "Python",
+      "ERP Systems (SAP)",
+      "Inventory Optimization",
+      "Demand Forecasting",
+      "Power BI",
+      "Vendor Management",
+      "Procurement",
+      "Data Analysis",
+      "Warehouse Management",
+      "Transportation Planning",
+      "Cost Analysis",
+      "Process Improvement",
+      "Supply Chain Management",
+      "Logistics",
+      "Tableau",
+      "Statistical Modeling",
+      "Lean/Six Sigma"
+    ]
   },
   {
     "career": "Operations Research Analyst",
-    "skills": ["Linear Programming", "Python", "R", "MATLAB", "Simulation Modeling", "Gurobi/CPLEX", "Statistics", "Machine Learning", "Network Optimization", "Decision Analysis", "Supply Chain Optimization", "Scheduling Algorithms", "Stochastic Modeling", "Excel", "Data Visualization", "SQL", "Game Theory", "Queueing Theory", "Project Management", "Technical Writing"]
+    "skills": [
+      "Linear Programming",
+      "Python",
+      "R",
+      "Gurobi/CPLEX",
+      "Statistics",
+      "Machine Learning",
+      "Network Optimization",
+      "Scheduling Algorithms",
+      "Excel",
+      "Data Visualization",
+      "SQL",
+      "Game Theory",
+      "Project Management",
+      "Technical Writing",
+      "MATLAB",
+      "Simulation Modeling",
+      "Decision Analysis",
+      "Supply Chain Optimization",
+      "Stochastic Modeling"
+    ]
   },
   {
     "career": "ERP Consultant",
-    "skills": ["SAP", "Oracle ERP", "Microsoft Dynamics", "Business Process Analysis", "Requirements Gathering", "System Configuration", "Data Migration", "Testing", "Training", "Documentation", "Project Management", "SQL", "Change Management", "Integration", "Functional Knowledge (Finance, HR, SCM)", "Communication", "ABAP Basics", "Gap Analysis", "Go-Live Support", "Report Development"]
+    "skills": [
+      "Oracle ERP",
+      "Microsoft Dynamics",
+      "Business Process Analysis",
+      "Requirements Gathering",
+      "System Configuration",
+      "Data Migration",
+      "Testing",
+      "Training",
+      "Documentation",
+      "Project Management",
+      "SQL",
+      "Integration",
+      "Functional Knowledge (Finance, HR, SCM)",
+      "Communication",
+      "Report Development",
+      "SAP",
+      "Change Management",
+      "Gap Analysis",
+      "Go-Live Support"
+    ]
   },
   {
     "career": "Tableau Developer",
-    "skills": ["Tableau", "SQL", "Data Visualization", "Dashboard Design", "Calculated Fields", "Data Blending", "LOD Expressions", "Tableau Prep", "Data Modeling", "Excel", "Python", "Storytelling with Data", "Performance Optimization", "Tableau Server/Cloud", "Publishing Workbooks", "User Requirements", "Business Intelligence", "Statistical Analysis", "REST API Integration", "Data Sources"]
+    "skills": [
+      "SQL",
+      "Data Visualization",
+      "Dashboard Design",
+      "LOD Expressions",
+      "Tableau Prep",
+      "Excel",
+      "Python",
+      "Storytelling with Data",
+      "Performance Optimization",
+      "Tableau Server/Cloud",
+      "Publishing Workbooks",
+      "User Requirements",
+      "Data Sources",
+      "Tableau",
+      "Calculated Fields",
+      "Data Blending",
+      "Data Modeling",
+      "Business Intelligence",
+      "Statistical Analysis"
+    ]
   },
   {
     "career": "Power BI Developer",
-    "skills": ["Power BI", "DAX", "Power Query", "SQL", "Data Modeling", "ETL", "Dashboard Design", "M Language", "Azure Data Services", "Excel", "Data Warehousing", "KPI Design", "Report Publishing", "Row-Level Security", "Python", "R Integration", "SSAS", "Paginated Reports", "Dataflows", "Business Intelligence"]
+    "skills": [
+      "Power BI",
+      "Power Query",
+      "SQL",
+      "Dashboard Design",
+      "Azure Data Services",
+      "Excel",
+      "Data Warehousing",
+      "Report Publishing",
+      "Row-Level Security",
+      "Python",
+      "R Integration",
+      "DAX",
+      "Data Modeling",
+      "ETL",
+      "M Language",
+      "KPI Design",
+      "Business Intelligence"
+    ]
   },
   {
     "career": "Animator",
-    "skills": ["Maya", "Blender", "3D Animation", "Rigging", "Keyframing", "Character Animation", "After Effects", "Motion Graphics", "Storyboarding", "Rendering", "Compositing", "Lip Sync", "Physics Simulation", "VFX", "Lighting", "Color Grading", "2D Animation", "Creative Storytelling", "Unity (for Game Animation)", "Nuke"]
+    "skills": [
+      "Blender",
+      "Rigging",
+      "Keyframing",
+      "Character Animation",
+      "After Effects",
+      "Motion Graphics",
+      "Storyboarding",
+      "Rendering",
+      "Lighting",
+      "Color Grading",
+      "Creative Storytelling",
+      "Unity (for Game Animation)",
+      "Maya",
+      "3D Animation",
+      "Compositing",
+      "Lip Sync",
+      "Physics Simulation",
+      "VFX",
+      "2D Animation"
+    ]
   },
   {
     "career": "Graphic Designer",
-    "skills": ["Adobe Illustrator", "Photoshop", "InDesign", "Figma", "Typography", "Color Theory", "Layout Design", "Branding", "Logo Design", "Print Design", "Vector Art", "Wireframing", "Creative Thinking", "Client Communication", "Photo Editing", "Social Media Graphics", "Packaging Design", "After Effects (Basic)", "CorelDRAW", "Motion Graphics"]
+    "skills": [
+      "Adobe Illustrator",
+      "Photoshop",
+      "Figma",
+      "Typography",
+      "Color Theory",
+      "Branding",
+      "Print Design",
+      "Vector Art",
+      "Wireframing",
+      "Creative Thinking",
+      "Client Communication",
+      "Social Media Graphics",
+      "Motion Graphics",
+      "InDesign",
+      "Layout Design",
+      "Logo Design",
+      "Photo Editing",
+      "Packaging Design"
+    ]
   },
   {
     "career": "Video Editor",
-    "skills": ["Adobe Premiere Pro", "Final Cut Pro", "After Effects", "DaVinci Resolve", "Color Grading", "Sound Design", "Motion Graphics", "Storytelling", "Storyboarding", "Transitions", "Visual Effects", "Audio Mixing", "Subtitling", "YouTube Optimization", "Multicam Editing", "Green Screen", "Script to Screen", "File Management", "Export Formats", "Client Communication"]
+    "skills": [
+      "Adobe Premiere Pro",
+      "Final Cut Pro",
+      "After Effects",
+      "DaVinci Resolve",
+      "Color Grading",
+      "Motion Graphics",
+      "Storytelling",
+      "Storyboarding",
+      "Transitions",
+      "Audio Mixing",
+      "Script to Screen",
+      "Export Formats",
+      "Client Communication",
+      "Sound Design",
+      "Visual Effects",
+      "Subtitling",
+      "YouTube Optimization",
+      "File Management"
+    ]
   },
   {
     "career": "Sound Engineer",
-    "skills": ["Pro Tools", "Logic Pro", "Ableton Live", "Audio Mixing", "Mastering", "Sound Design", "Recording Techniques", "Studio Equipment", "MIDI", "Plugins (EQ, Compression)", "Acoustics", "Foley", "Post-Production Audio", "Sound for Film", "Live Sound", "Podcast Production", "Audio Restoration", "Voiceover Recording", "Spatial Audio", "Music Theory"]
+    "skills": [
+      "Pro Tools",
+      "Logic Pro",
+      "Audio Mixing",
+      "Mastering",
+      "Recording Techniques",
+      "Plugins (EQ, Compression)",
+      "Post-Production Audio",
+      "Sound for Film",
+      "Podcast Production",
+      "Voiceover Recording",
+      "Music Theory",
+      "Ableton Live",
+      "Sound Design",
+      "Studio Equipment",
+      "MIDI",
+      "Acoustics",
+      "Live Sound",
+      "Spatial Audio"
+    ]
   },
   {
     "career": "Music Producer",
-    "skills": ["Ableton Live", "FL Studio", "Logic Pro", "Music Theory", "Sound Design", "Beat Making", "Mixing", "Mastering", "Sampling", "MIDI Programming", "Synthesizers", "Arrangement", "Collaboration", "Audio Recording", "Creative Direction", "Genre Knowledge", "VST Plugins", "Vocal Production", "Marketing (Music)", "Royalties & Licensing"]
+    "skills": [
+      "Logic Pro",
+      "Music Theory",
+      "Mastering",
+      "MIDI Programming",
+      "Synthesizers",
+      "Arrangement",
+      "Collaboration",
+      "Audio Recording",
+      "Creative Direction",
+      "Genre Knowledge",
+      "Vocal Production",
+      "Royalties & Licensing",
+      "Ableton Live",
+      "FL Studio",
+      "Sound Design",
+      "Beat Making",
+      "Mixing",
+      "Sampling",
+      "VST Plugins"
+    ]
   },
   {
     "career": "Photographer",
-    "skills": ["Camera Operation", "Lighting", "Composition", "Adobe Lightroom", "Photoshop", "Photo Editing", "Studio Photography", "Portrait Photography", "Landscape Photography", "Product Photography", "Event Photography", "Drone Photography", "Color Grading", "File Management", "Client Communication", "Business (Freelancing)", "Social Media", "Marketing", "Storytelling", "Post-Processing"]
+    "skills": [
+      "Camera Operation",
+      "Lighting",
+      "Composition",
+      "Adobe Lightroom",
+      "Photoshop",
+      "Studio Photography",
+      "Portrait Photography",
+      "Landscape Photography",
+      "Product Photography",
+      "Event Photography",
+      "Color Grading",
+      "Client Communication",
+      "Business (Freelancing)",
+      "Social Media",
+      "Marketing",
+      "Storytelling",
+      "Post-Processing",
+      "Photo Editing",
+      "File Management"
+    ]
   },
   {
     "career": "Fashion Designer",
-    "skills": ["Sketching", "Pattern Making", "Textile Knowledge", "Adobe Illustrator", "Sewing", "Trend Forecasting", "Draping", "CAD for Fashion", "Merchandising", "Color Theory", "Brand Development", "Sustainable Fashion", "Sourcing", "Production Management", "Portfolio Development", "Creativity", "Communication", "Market Research", "Embroidery/Embellishment", "3D Fashion Design"]
+    "skills": [
+      "Sketching",
+      "Pattern Making",
+      "Adobe Illustrator",
+      "Trend Forecasting",
+      "Draping",
+      "CAD for Fashion",
+      "Merchandising",
+      "Color Theory",
+      "Brand Development",
+      "Sourcing",
+      "Production Management",
+      "Portfolio Development",
+      "Creativity",
+      "Communication",
+      "Market Research",
+      "Textile Knowledge",
+      "Sewing",
+      "Sustainable Fashion",
+      "3D Fashion Design"
+    ]
   },
   {
     "career": "Interior Designer",
-    "skills": ["AutoCAD", "SketchUp", "Revit", "Space Planning", "Color Theory", "Material Selection", "3D Rendering", "V-Ray", "Furniture Design", "Client Communication", "Lighting Design", "Budget Management", "Building Codes", "Sustainability", "Project Management", "Photography", "Adobe Photoshop", "Presentation Skills", "Site Measurement", "Trend Awareness"]
+    "skills": [
+      "Revit",
+      "Space Planning",
+      "Color Theory",
+      "Material Selection",
+      "3D Rendering",
+      "V-Ray",
+      "Furniture Design",
+      "Client Communication",
+      "Lighting Design",
+      "Project Management",
+      "Adobe Photoshop",
+      "Presentation Skills",
+      "Site Measurement",
+      "Trend Awareness",
+      "AutoCAD",
+      "SketchUp",
+      "Budget Management",
+      "Building Codes",
+      "Sustainability"
+    ]
   },
   {
     "career": "Architect",
-    "skills": ["AutoCAD", "Revit", "SketchUp", "Rhino", "BIM", "Architectural Design", "Structural Knowledge", "Building Codes", "Construction Documents", "Rendering (V-Ray, Lumion)", "Site Analysis", "Sustainable Design", "Project Management", "Client Communication", "Urban Planning", "3D Printing (Models)", "Adobe Suite", "Cost Estimation", "Building Materials", "Zoning Laws"]
+    "skills": [
+      "Revit",
+      "Rhino",
+      "Architectural Design",
+      "Structural Knowledge",
+      "Construction Documents",
+      "Rendering (V-Ray, Lumion)",
+      "Project Management",
+      "Client Communication",
+      "Urban Planning",
+      "Building Materials",
+      "AutoCAD",
+      "SketchUp",
+      "BIM",
+      "Building Codes",
+      "Site Analysis",
+      "Sustainable Design",
+      "Adobe Suite",
+      "Cost Estimation",
+      "Zoning Laws"
+    ]
   },
   {
     "career": "Urban Planner",
-    "skills": ["GIS (ArcGIS)", "AutoCAD", "Urban Design", "Zoning Laws", "Land Use Planning", "Transportation Planning", "Environmental Impact Assessment", "Community Engagement", "Policy Analysis", "Data Analysis", "Python", "Demographic Analysis", "Report Writing", "Sustainable Development", "Housing Policy", "Public Administration", "Presentation", "QGIS", "Visualization Tools", "Stakeholder Management"]
+    "skills": [
+      "GIS (ArcGIS)",
+      "Urban Design",
+      "Land Use Planning",
+      "Transportation Planning",
+      "Environmental Impact Assessment",
+      "Data Analysis",
+      "Python",
+      "Demographic Analysis",
+      "Report Writing",
+      "Public Administration",
+      "Presentation",
+      "Stakeholder Management",
+      "AutoCAD",
+      "Zoning Laws",
+      "Community Engagement",
+      "Policy Analysis",
+      "Sustainable Development",
+      "Housing Policy",
+      "Visualization Tools"
+    ]
   },
   {
     "career": "Lawyer",
-    "skills": ["Legal Research", "Contract Drafting", "Negotiation", "Legal Writing", "Case Analysis", "Litigation", "Client Communication", "Corporate Law", "Criminal Law", "Intellectual Property", "Due Diligence", "Document Review", "Court Procedures", "Legal Tech (Westlaw, LexisNexis)", "Regulatory Compliance", "Mediation", "Persuasion", "Ethics", "International Law", "Trial Preparation"]
+    "skills": [
+      "Legal Research",
+      "Contract Drafting",
+      "Negotiation",
+      "Legal Writing",
+      "Client Communication",
+      "Corporate Law",
+      "Criminal Law",
+      "Intellectual Property",
+      "Document Review",
+      "Court Procedures",
+      "Regulatory Compliance",
+      "Persuasion",
+      "Ethics",
+      "Trial Preparation",
+      "Case Analysis",
+      "Litigation",
+      "Due Diligence",
+      "Legal Tech (Westlaw, LexisNexis)",
+      "Mediation"
+    ]
   },
   {
     "career": "Paralegal",
-    "skills": ["Legal Research", "Document Drafting", "Case Management", "Legal Writing", "Court Filings", "Discovery", "Client Communication", "Billing", "Legal Software (Clio, LexisNexis)", "Contract Review", "Due Diligence", "Deposition Preparation", "Regulatory Knowledge", "Organization", "Attention to Detail", "Communication", "MS Office", "E-Discovery", "Confidentiality", "Ethics"]
+    "skills": [
+      "Legal Research",
+      "Document Drafting",
+      "Legal Writing",
+      "Court Filings",
+      "Discovery",
+      "Client Communication",
+      "Legal Software (Clio, LexisNexis)",
+      "Contract Review",
+      "Deposition Preparation",
+      "Regulatory Knowledge",
+      "Organization",
+      "Communication",
+      "MS Office",
+      "E-Discovery",
+      "Ethics",
+      "Case Management",
+      "Due Diligence",
+      "Attention to Detail",
+      "Confidentiality"
+    ]
   },
   {
     "career": "Patent Analyst",
-    "skills": ["Patent Law", "Patent Searching (Google Patents, Espacenet)", "Technical Writing", "Intellectual Property", "Claim Analysis", "Prior Art Research", "USPTO Procedures", "Domain Knowledge (Tech/Bio/Chemical)", "Patent Drafting", "IP Strategy", "Competitive Intelligence", "Patent Analytics", "Freedom-to-Operate Analysis", "Legal Research", "Communication", "MS Excel", "Database Management", "Patent Classification", "WIPO", "Office Actions"]
+    "skills": [
+      "Patent Searching (Google Patents, Espacenet)",
+      "Technical Writing",
+      "Intellectual Property",
+      "Prior Art Research",
+      "USPTO Procedures",
+      "Patent Drafting",
+      "IP Strategy",
+      "Freedom-to-Operate Analysis",
+      "Legal Research",
+      "Communication",
+      "MS Excel",
+      "Patent Law",
+      "Claim Analysis",
+      "Domain Knowledge (Tech/Bio/Chemical)",
+      "Competitive Intelligence",
+      "Patent Analytics",
+      "Database Management",
+      "Patent Classification",
+      "Office Actions"
+    ]
   },
   {
     "career": "Compliance Officer",
-    "skills": ["Regulatory Knowledge", "Risk Assessment", "Audit Management", "Policy Writing", "AML/KYC", "GDPR", "SOX Compliance", "Communication", "Documentation", "Training Development", "Internal Investigations", "Financial Regulations", "Legal Knowledge", "Excel", "Data Analysis", "Ethics", "Whistleblower Programs", "Vendor Management", "Reporting", "Cross-Functional Collaboration"]
+    "skills": [
+      "Regulatory Knowledge",
+      "Risk Assessment",
+      "Audit Management",
+      "Policy Writing",
+      "GDPR",
+      "Communication",
+      "Documentation",
+      "Training Development",
+      "Internal Investigations",
+      "Financial Regulations",
+      "Excel",
+      "Data Analysis",
+      "Ethics",
+      "Vendor Management",
+      "Reporting",
+      "Cross-Functional Collaboration",
+      "AML/KYC",
+      "SOX Compliance",
+      "Legal Knowledge"
+    ]
   },
   {
     "career": "Human Resources Manager",
-    "skills": ["Recruitment", "HRIS Systems (Workday, SAP SuccessFactors)", "Employee Relations", "Performance Management", "Compensation & Benefits", "Training & Development", "Compliance (Labor Laws)", "Onboarding", "Conflict Resolution", "HR Analytics", "Excel", "Communication", "Organizational Development", "Succession Planning", "Diversity & Inclusion", "Payroll", "Interview Techniques", "Employment Law", "Workforce Planning", "Change Management"]
+    "skills": [
+      "Recruitment",
+      "HRIS Systems (Workday, SAP SuccessFactors)",
+      "Employee Relations",
+      "Performance Management",
+      "Training & Development",
+      "Compliance (Labor Laws)",
+      "Onboarding",
+      "Conflict Resolution",
+      "HR Analytics",
+      "Excel",
+      "Communication",
+      "Organizational Development",
+      "Diversity & Inclusion",
+      "Payroll",
+      "Interview Techniques",
+      "Workforce Planning",
+      "Compensation & Benefits",
+      "Employment Law",
+      "Change Management"
+    ]
   },
   {
     "career": "Talent Acquisition Specialist",
-    "skills": ["Sourcing", "LinkedIn Recruiter", "ATS (Greenhouse, Lever)", "Interview Coordination", "Job Description Writing", "Candidate Assessment", "Employer Branding", "Boolean Search", "Diversity Recruiting", "Stakeholder Management", "Negotiation", "Onboarding", "Metrics & Reporting", "Communication", "Social Media Recruiting", "Pipeline Management", "Technical Hiring", "Assessment Tools", "CRM Tools", "Market Mapping"]
+    "skills": [
+      "Sourcing",
+      "LinkedIn Recruiter",
+      "ATS (Greenhouse, Lever)",
+      "Interview Coordination",
+      "Job Description Writing",
+      "Employer Branding",
+      "Boolean Search",
+      "Diversity Recruiting",
+      "Stakeholder Management",
+      "Negotiation",
+      "Onboarding",
+      "Metrics & Reporting",
+      "Communication",
+      "Social Media Recruiting",
+      "Technical Hiring",
+      "CRM Tools",
+      "Candidate Assessment",
+      "Pipeline Management",
+      "Assessment Tools"
+    ]
   },
   {
     "career": "Instructional Designer",
-    "skills": ["eLearning Development (Articulate Storyline)", "Instructional Design Models (ADDIE, SAM)", "Learning Management Systems (LMS)", "Curriculum Design", "Content Writing", "Multimedia Production", "Assessment Design", "Adobe Captivate", "Video Production", "Storyboarding", "Camtasia", "Adult Learning Theory", "Communication", "Needs Analysis", "Accessibility (WCAG)", "Graphic Design Basics", "Microsoft Office", "Evaluation & Feedback", "Collaboration", "Knowledge Management"]
+    "skills": [
+      "eLearning Development (Articulate Storyline)",
+      "Instructional Design Models (ADDIE, SAM)",
+      "Learning Management Systems (LMS)",
+      "Curriculum Design",
+      "Content Writing",
+      "Multimedia Production",
+      "Video Production",
+      "Storyboarding",
+      "Adult Learning Theory",
+      "Communication",
+      "Graphic Design Basics",
+      "Microsoft Office",
+      "Collaboration",
+      "Assessment Design",
+      "Adobe Captivate",
+      "Needs Analysis",
+      "Accessibility (WCAG)",
+      "Evaluation & Feedback",
+      "Knowledge Management"
+    ]
   },
   {
     "career": "Teacher / Educator",
-    "skills": ["Lesson Planning", "Curriculum Development", "Classroom Management", "Student Assessment", "Differentiated Instruction", "Communication", "Subject Matter Expertise", "Educational Technology", "Learning Management Systems", "Parent Communication", "Special Needs Awareness", "Critical Thinking Facilitation", "Storytelling", "Google Classroom", "Presentation Skills", "Patience", "Collaborative Learning", "STEM Education", "Motivation", "Inclusive Education"]
+    "skills": [
+      "Lesson Planning",
+      "Curriculum Development",
+      "Classroom Management",
+      "Differentiated Instruction",
+      "Communication",
+      "Subject Matter Expertise",
+      "Learning Management Systems",
+      "Parent Communication",
+      "Special Needs Awareness",
+      "Critical Thinking Facilitation",
+      "Storytelling",
+      "Google Classroom",
+      "Presentation Skills",
+      "Collaborative Learning",
+      "Student Assessment",
+      "Educational Technology",
+      "Patience",
+      "Motivation",
+      "Inclusive Education"
+    ]
   },
   {
     "career": "Psychologist",
-    "skills": ["Psychological Assessment", "Therapy (CBT, DBT)", "Diagnosis (DSM-5)", "Research Methods", "Statistical Analysis (SPSS)", "Clinical Interviewing", "Report Writing", "Ethics", "Empathy", "Case Conceptualization", "Trauma-Informed Care", "Neuropsychology Basics", "Group Therapy", "Crisis Intervention", "Cultural Competence", "Supervision", "Documentation", "Evidence-Based Practice", "Mindfulness Techniques", "Patient Confidentiality"]
+    "skills": [
+      "Therapy (CBT, DBT)",
+      "Research Methods",
+      "Clinical Interviewing",
+      "Report Writing",
+      "Ethics",
+      "Trauma-Informed Care",
+      "Neuropsychology Basics",
+      "Group Therapy",
+      "Crisis Intervention",
+      "Cultural Competence",
+      "Supervision",
+      "Documentation",
+      "Evidence-Based Practice",
+      "Psychological Assessment",
+      "Diagnosis (DSM-5)",
+      "Statistical Analysis (SPSS)",
+      "Empathy",
+      "Case Conceptualization",
+      "Patient Confidentiality"
+    ]
   },
   {
     "career": "Social Worker",
-    "skills": ["Case Management", "Crisis Intervention", "Counseling", "Community Resources Knowledge", "Advocacy", "Report Writing", "Child Protection", "Mental Health", "Substance Abuse Awareness", "Cultural Competence", "Family Therapy", "Communication", "Ethics", "Home Visits", "Legal Knowledge (Social Work)", "Collaboration", "Trauma-Informed Practice", "Risk Assessment", "Documentation", "Empathy"]
+    "skills": [
+      "Crisis Intervention",
+      "Community Resources Knowledge",
+      "Report Writing",
+      "Child Protection",
+      "Substance Abuse Awareness",
+      "Cultural Competence",
+      "Family Therapy",
+      "Communication",
+      "Ethics",
+      "Legal Knowledge (Social Work)",
+      "Collaboration",
+      "Trauma-Informed Practice",
+      "Risk Assessment",
+      "Documentation",
+      "Case Management",
+      "Counseling",
+      "Advocacy",
+      "Mental Health",
+      "Empathy"
+    ]
   },
   {
     "career": "Public Health Officer",
-    "skills": ["Epidemiology", "Health Policy", "Program Planning", "Statistics", "GIS", "Community Health Assessment", "Health Education", "Disease Surveillance", "Data Analysis", "R/SPSS/Python", "Grant Writing", "Communication", "Emergency Preparedness", "Environmental Health", "Social Determinants of Health", "Health Promotion", "Immunization Programs", "Research", "Advocacy", "Report Writing"]
+    "skills": [
+      "Program Planning",
+      "Statistics",
+      "Disease Surveillance",
+      "Data Analysis",
+      "R/SPSS/Python",
+      "Grant Writing",
+      "Communication",
+      "Emergency Preparedness",
+      "Environmental Health",
+      "Social Determinants of Health",
+      "Health Promotion",
+      "Immunization Programs",
+      "Research",
+      "Report Writing",
+      "Epidemiology",
+      "Health Policy",
+      "GIS",
+      "Community Health Assessment",
+      "Health Education",
+      "Advocacy"
+    ]
   },
   {
     "career": "Nurse (Registered Nurse)",
-    "skills": ["Patient Assessment", "Medication Administration", "IV Therapy", "Clinical Documentation", "Critical Thinking", "Wound Care", "Patient Education", "Electronic Health Records", "Communication", "Emergency Care", "Infection Control", "Medical Terminology", "Anatomy & Physiology", "Ethics", "Teamwork", "Time Management", "Pain Management", "Catheter Care", "Phlebotomy", "Life Support (BLS/ACLS)"]
+    "skills": [
+      "Patient Assessment",
+      "Medication Administration",
+      "IV Therapy",
+      "Clinical Documentation",
+      "Critical Thinking",
+      "Wound Care",
+      "Electronic Health Records",
+      "Communication",
+      "Emergency Care",
+      "Infection Control",
+      "Medical Terminology",
+      "Ethics",
+      "Teamwork",
+      "Time Management",
+      "Patient Education",
+      "Anatomy & Physiology",
+      "Pain Management",
+      "Phlebotomy",
+      "Life Support (BLS/ACLS)"
+    ]
   },
   {
     "career": "Physician",
-    "skills": ["Clinical Diagnosis", "Patient History Taking", "Physical Examination", "Prescribing Medications", "Medical Knowledge", "Anatomy", "Pathology", "Medical Imaging Interpretation", "Communication", "EHR Systems", "Evidence-Based Medicine", "Surgical Procedures (Basic)", "Emergency Medicine", "Patient Counseling", "Ethics", "Collaboration", "Referral Management", "Medical Research", "Differential Diagnosis", "Specialty Knowledge"]
+    "skills": [
+      "Patient History Taking",
+      "Prescribing Medications",
+      "Medical Imaging Interpretation",
+      "Communication",
+      "EHR Systems",
+      "Emergency Medicine",
+      "Patient Counseling",
+      "Ethics",
+      "Collaboration",
+      "Referral Management",
+      "Medical Research",
+      "Differential Diagnosis",
+      "Clinical Diagnosis",
+      "Physical Examination",
+      "Medical Knowledge",
+      "Anatomy",
+      "Pathology",
+      "Evidence-Based Medicine",
+      "Specialty Knowledge"
+    ]
   },
   {
     "career": "Surgeon",
-    "skills": ["Surgical Techniques", "Anatomy", "Clinical Diagnosis", "Pre-Operative Planning", "Intraoperative Decision Making", "Post-Operative Care", "Laparoscopic Surgery", "Robotics-Assisted Surgery", "Sterile Technique", "Emergency Surgery", "Medical Imaging", "Leadership in OR", "Communication", "Patient Assessment", "Complication Management", "Medical Documentation", "Teamwork", "Continuing Medical Education", "Specialty Skills (Cardiac, Neuro, etc.)", "Ethics"]
+    "skills": [
+      "Surgical Techniques",
+      "Pre-Operative Planning",
+      "Intraoperative Decision Making",
+      "Post-Operative Care",
+      "Laparoscopic Surgery",
+      "Robotics-Assisted Surgery",
+      "Sterile Technique",
+      "Emergency Surgery",
+      "Leadership in OR",
+      "Communication",
+      "Patient Assessment",
+      "Medical Documentation",
+      "Teamwork",
+      "Specialty Skills (Cardiac, Neuro, etc.)",
+      "Ethics",
+      "Anatomy",
+      "Clinical Diagnosis",
+      "Medical Imaging",
+      "Complication Management",
+      "Continuing Medical Education"
+    ]
   },
   {
     "career": "Dentist",
-    "skills": ["Dental Diagnosis", "Tooth Extraction", "Restorative Dentistry", "Root Canal Treatment", "Orthodontics Basics", "Periodontics", "Dental Imaging (X-rays)", "Anesthesia Administration", "Patient Communication", "Infection Control", "Dental Software", "Implantology", "Prosthetics", "Cosmetic Dentistry", "Oral Surgery", "Pediatric Dentistry", "Documentation", "Preventive Care", "Teamwork", "Business Management"]
+    "skills": [
+      "Tooth Extraction",
+      "Restorative Dentistry",
+      "Root Canal Treatment",
+      "Orthodontics Basics",
+      "Periodontics",
+      "Dental Imaging (X-rays)",
+      "Anesthesia Administration",
+      "Patient Communication",
+      "Infection Control",
+      "Dental Software",
+      "Prosthetics",
+      "Cosmetic Dentistry",
+      "Oral Surgery",
+      "Documentation",
+      "Preventive Care",
+      "Teamwork",
+      "Dental Diagnosis",
+      "Implantology",
+      "Business Management"
+    ]
   },
   {
     "career": "Veterinarian",
-    "skills": ["Animal Diagnosis", "Surgical Techniques", "Pharmacology", "Animal Anatomy", "Emergency Care", "Radiology", "Dentistry (Animal)", "Client Communication", "Medical Documentation", "Anesthesia", "Lab Interpretation", "Nutrition Counseling", "Preventive Care", "Exotic Animal Medicine", "Pain Management", "Pathology", "Regulatory Compliance", "Public Health (Zoonotic Diseases)", "Ultrasound", "Ethics"]
+    "skills": [
+      "Surgical Techniques",
+      "Pharmacology",
+      "Emergency Care",
+      "Radiology",
+      "Dentistry (Animal)",
+      "Client Communication",
+      "Medical Documentation",
+      "Lab Interpretation",
+      "Nutrition Counseling",
+      "Preventive Care",
+      "Regulatory Compliance",
+      "Ultrasound",
+      "Ethics",
+      "Animal Diagnosis",
+      "Animal Anatomy",
+      "Anesthesia",
+      "Pain Management",
+      "Pathology",
+      "Public Health (Zoonotic Diseases)"
+    ]
   },
   {
     "career": "Nutritionist / Dietitian",
-    "skills": ["Nutritional Assessment", "Diet Planning", "Macronutrient Knowledge", "Micronutrient Knowledge", "Medical Nutrition Therapy", "Counseling", "Public Health Nutrition", "Food Science", "Sports Nutrition", "Pediatric Nutrition", "Research", "Communication", "Meal Prep Education", "Eating Disorders Management", "Documentation", "Food Labeling", "EHR Systems", "Cultural Sensitivity", "Motivational Interviewing", "Community Nutrition Programs"]
+    "skills": [
+      "Nutritional Assessment",
+      "Diet Planning",
+      "Macronutrient Knowledge",
+      "Micronutrient Knowledge",
+      "Medical Nutrition Therapy",
+      "Public Health Nutrition",
+      "Sports Nutrition",
+      "Pediatric Nutrition",
+      "Research",
+      "Communication",
+      "Meal Prep Education",
+      "Eating Disorders Management",
+      "Documentation",
+      "EHR Systems",
+      "Cultural Sensitivity",
+      "Motivational Interviewing",
+      "Counseling",
+      "Food Science",
+      "Food Labeling"
+    ]
   },
   {
     "career": "Physical Therapist",
-    "skills": ["Patient Assessment", "Exercise Prescription", "Manual Therapy", "Rehabilitation Planning", "Anatomy & Kinesiology", "Electrotherapy", "Sports Injury Management", "Post-Surgical Rehab", "Pain Management", "Documentation", "Communication", "Gait Analysis", "Dry Needling", "Ultrasound Therapy", "Geriatric Rehabilitation", "Pediatric PT", "Neurological Rehab", "Patient Education", "Teamwork", "Ethics"]
+    "skills": [
+      "Patient Assessment",
+      "Exercise Prescription",
+      "Manual Therapy",
+      "Rehabilitation Planning",
+      "Electrotherapy",
+      "Sports Injury Management",
+      "Post-Surgical Rehab",
+      "Documentation",
+      "Communication",
+      "Ultrasound Therapy",
+      "Geriatric Rehabilitation",
+      "Pediatric PT",
+      "Neurological Rehab",
+      "Teamwork",
+      "Ethics",
+      "Anatomy & Kinesiology",
+      "Pain Management",
+      "Gait Analysis",
+      "Patient Education"
+    ]
   },
   {
     "career": "Occupational Therapist",
-    "skills": ["Functional Assessment", "Activity of Daily Living Training", "Cognitive Rehabilitation", "Adaptive Equipment", "Hand Therapy", "Mental Health OT", "Pediatric OT", "Sensory Integration", "Splinting/Orthotics", "Home Modification", "Documentation", "Communication", "Collaboration", "Evidence-Based Practice", "Ergonomics", "Client-Centered Approach", "Neurological Rehab", "Vocational Rehabilitation", "Education", "Ethics"]
+    "skills": [
+      "Activity of Daily Living Training",
+      "Cognitive Rehabilitation",
+      "Hand Therapy",
+      "Pediatric OT",
+      "Sensory Integration",
+      "Splinting/Orthotics",
+      "Documentation",
+      "Communication",
+      "Collaboration",
+      "Evidence-Based Practice",
+      "Ergonomics",
+      "Client-Centered Approach",
+      "Neurological Rehab",
+      "Vocational Rehabilitation",
+      "Ethics",
+      "Functional Assessment",
+      "Adaptive Equipment",
+      "Mental Health OT",
+      "Home Modification",
+      "Education"
+    ]
   },
   {
     "career": "Speech-Language Pathologist",
-    "skills": ["Articulation Therapy", "Language Intervention", "Swallowing Disorders (Dysphagia)", "AAC Devices", "Autism Spectrum Therapy", "Voice Therapy", "Fluency Disorders", "Aphasia Treatment", "Pediatric Speech Therapy", "Assessment & Diagnosis", "Documentation", "Communication", "Collaboration", "Neurogenic Disorders", "Hearing Basics", "Patient Education", "Teletherapy", "Counseling", "Goal Writing", "Evidence-Based Practice"]
+    "skills": [
+      "Articulation Therapy",
+      "Language Intervention",
+      "Swallowing Disorders (Dysphagia)",
+      "Autism Spectrum Therapy",
+      "Voice Therapy",
+      "Fluency Disorders",
+      "Aphasia Treatment",
+      "Pediatric Speech Therapy",
+      "Documentation",
+      "Communication",
+      "Collaboration",
+      "Neurogenic Disorders",
+      "Hearing Basics",
+      "Teletherapy",
+      "Goal Writing",
+      "Evidence-Based Practice",
+      "AAC Devices",
+      "Assessment & Diagnosis",
+      "Patient Education",
+      "Counseling"
+    ]
   },
   {
     "career": "Chef / Culinary Artist",
-    "skills": ["Culinary Techniques", "Menu Planning", "Knife Skills", "Food Safety & Hygiene", "Baking & Pastry", "Food Presentation", "Flavor Pairing", "Inventory Management", "Cost Control", "Team Leadership", "International Cuisines", "Allergen Awareness", "Food Sourcing", "Creativity", "Kitchen Equipment Operation", "Recipe Development", "Nutrition Basics", "Wine & Beverage Pairing", "Speed & Efficiency", "Customer Service"]
+    "skills": [
+      "Culinary Techniques",
+      "Menu Planning",
+      "Knife Skills",
+      "Food Safety & Hygiene",
+      "Baking & Pastry",
+      "Food Presentation",
+      "Flavor Pairing",
+      "Inventory Management",
+      "Cost Control",
+      "Team Leadership",
+      "International Cuisines",
+      "Allergen Awareness",
+      "Food Sourcing",
+      "Creativity",
+      "Kitchen Equipment Operation",
+      "Recipe Development",
+      "Nutrition Basics",
+      "Customer Service",
+      "Speed & Efficiency"
+    ]
   },
   {
     "career": "Hospitality Manager",
-    "skills": ["Hotel Operations", "Customer Service", "Revenue Management", "Front Desk Management", "Housekeeping Management", "Food & Beverage", "Budgeting", "Team Leadership", "Property Management Systems (Opera, Fidelio)", "Event Management", "Marketing", "Complaint Handling", "Inventory Control", "HR Management", "Communication", "Tourism Knowledge", "Loyalty Programs", "Crisis Management", "Safety & Security", "Cross-Cultural Communication"]
+    "skills": [
+      "Hotel Operations",
+      "Customer Service",
+      "Revenue Management",
+      "Front Desk Management",
+      "Budgeting",
+      "Team Leadership",
+      "Property Management Systems (Opera, Fidelio)",
+      "Marketing",
+      "Inventory Control",
+      "HR Management",
+      "Communication",
+      "Tourism Knowledge",
+      "Crisis Management",
+      "Safety & Security",
+      "Cross-Cultural Communication",
+      "Housekeeping Management",
+      "Event Management",
+      "Complaint Handling",
+      "Food & Beverage"
+    ]
   },
   {
     "career": "Event Manager",
-    "skills": ["Event Planning", "Vendor Management", "Budget Management", "Logistics", "Marketing", "Social Media", "Communication", "Negotiation", "Project Management", "On-Site Management", "Risk Management", "Catering Coordination", "Audio-Visual Setup", "CRM Tools", "Sponsorship Management", "Creativity", "Virtual Event Platforms", "Legal Permits", "Team Coordination", "Post-Event Reporting"]
+    "skills": [
+      "Event Planning",
+      "Vendor Management",
+      "Marketing",
+      "Social Media",
+      "Communication",
+      "Negotiation",
+      "Project Management",
+      "Risk Management",
+      "Catering Coordination",
+      "CRM Tools",
+      "Sponsorship Management",
+      "Creativity",
+      "Virtual Event Platforms",
+      "Team Coordination",
+      "Post-Event Reporting",
+      "Budget Management",
+      "Logistics",
+      "On-Site Management",
+      "Audio-Visual Setup"
+    ]
   },
   {
     "career": "Travel & Tourism Specialist",
-    "skills": ["Travel Planning", "GDS (Amadeus, Sabre)", "Booking Systems", "Destination Knowledge", "Customer Service", "Visa & Immigration Knowledge", "Sales", "Cultural Awareness", "Communication", "Itinerary Design", "Budget Management", "Corporate Travel", "Leisure Travel", "Crisis Management", "Social Media Marketing", "Tour Guiding", "Language Skills", "Insurance Knowledge", "B2B Relations", "Reporting"]
+    "skills": [
+      "Travel Planning",
+      "Customer Service",
+      "Visa & Immigration Knowledge",
+      "Cultural Awareness",
+      "Communication",
+      "Itinerary Design",
+      "Corporate Travel",
+      "Leisure Travel",
+      "Crisis Management",
+      "Social Media Marketing",
+      "Tour Guiding",
+      "Insurance Knowledge",
+      "B2B Relations",
+      "Reporting",
+      "Booking Systems",
+      "Destination Knowledge",
+      "Sales",
+      "Budget Management",
+      "Language Skills"
+    ]
   },
   {
     "career": "Real Estate Agent",
-    "skills": ["Property Valuation", "Market Analysis", "Negotiation", "Client Communication", "Contract Knowledge", "CRM Tools", "Lead Generation", "Social Media Marketing", "MLS Systems", "Property Listing", "Photography (Basic)", "Finance & Mortgage Knowledge", "Local Market Expertise", "Networking", "Presentation Skills", "Time Management", "Legal Compliance", "Cold Calling", "Customer Service", "Virtual Tours"]
+    "skills": [
+      "Property Valuation",
+      "Market Analysis",
+      "Negotiation",
+      "Client Communication",
+      "Contract Knowledge",
+      "CRM Tools",
+      "Lead Generation",
+      "Social Media Marketing",
+      "Property Listing",
+      "Photography (Basic)",
+      "Finance & Mortgage Knowledge",
+      "Local Market Expertise",
+      "Networking",
+      "Presentation Skills",
+      "Time Management",
+      "Customer Service",
+      "Virtual Tours",
+      "MLS Systems",
+      "Legal Compliance"
+    ]
   },
   {
     "career": "Accountant",
-    "skills": ["Accounting Principles (GAAP/IFRS)", "Excel", "Tally ERP", "QuickBooks", "Financial Statements", "Tax Preparation", "Auditing", "Accounts Payable/Receivable", "Bank Reconciliation", "Payroll", "Budgeting", "Variance Analysis", "SAP (FI Module)", "Cost Accounting", "Cash Flow Management", "MS Word", "Communication", "Attention to Detail", "Ethics", "GST/VAT Knowledge"]
+    "skills": [
+      "Accounting Principles (GAAP/IFRS)",
+      "Excel",
+      "Financial Statements",
+      "Tax Preparation",
+      "Accounts Payable/Receivable",
+      "Bank Reconciliation",
+      "Payroll",
+      "Budgeting",
+      "Variance Analysis",
+      "Communication",
+      "Ethics",
+      "QuickBooks",
+      "Auditing",
+      "SAP (FI Module)",
+      "Cost Accounting",
+      "Cash Flow Management",
+      "Attention to Detail"
+    ]
   },
   {
     "career": "Chartered Accountant",
-    "skills": ["GAAP/IFRS", "Auditing", "Tax Laws", "Financial Reporting", "Excel", "SAP", "Corporate Finance", "Cost Accounting", "Statutory Compliance", "GST", "Income Tax", "Ind AS", "Communication", "Risk Management", "Internal Controls", "Tally ERP", "Business Advisory", "Due Diligence", "Mergers & Acquisitions", "Ethics"]
+    "skills": [
+      "GAAP/IFRS",
+      "Financial Reporting",
+      "Excel",
+      "Corporate Finance",
+      "Statutory Compliance",
+      "Communication",
+      "Risk Management",
+      "Internal Controls",
+      "Business Advisory",
+      "Mergers & Acquisitions",
+      "Ethics",
+      "Auditing",
+      "Tax Laws",
+      "SAP",
+      "Cost Accounting",
+      "GST",
+      "Income Tax",
+      "Due Diligence"
+    ]
   },
   {
     "career": "Management Consultant",
-    "skills": ["Business Strategy", "Data Analysis", "PowerPoint", "Excel", "Stakeholder Management", "Process Improvement", "Change Management", "Financial Modeling", "Project Management", "Market Research", "Communication", "Problem Solving", "Industry Analysis", "Six Sigma/Lean", "Workshop Facilitation", "Benchmarking", "Competitive Intelligence", "Cost Reduction", "Transformation Programs", "Client Relationship Management"]
+    "skills": [
+      "Business Strategy",
+      "Data Analysis",
+      "PowerPoint",
+      "Excel",
+      "Stakeholder Management",
+      "Process Improvement",
+      "Project Management",
+      "Market Research",
+      "Communication",
+      "Problem Solving",
+      "Industry Analysis",
+      "Workshop Facilitation",
+      "Cost Reduction",
+      "Transformation Programs",
+      "Client Relationship Management",
+      "Change Management",
+      "Financial Modeling",
+      "Six Sigma/Lean",
+      "Competitive Intelligence"
+    ]
   },
   {
     "career": "Public Relations Specialist",
-    "skills": ["Media Relations", "Press Release Writing", "Crisis Communication", "Social Media", "Brand Management", "Content Creation", "Event Management", "Stakeholder Communication", "SEO Basics", "Reputation Management", "Copywriting", "Research", "Networking", "Analytics", "Email Campaigns", "Influencer Relations", "Internal Communications", "Measurement & Reporting", "Creative Thinking", "Presentation"]
+    "skills": [
+      "Media Relations",
+      "Press Release Writing",
+      "Crisis Communication",
+      "Social Media",
+      "Brand Management",
+      "Content Creation",
+      "Stakeholder Communication",
+      "SEO Basics",
+      "Reputation Management",
+      "Copywriting",
+      "Research",
+      "Networking",
+      "Influencer Relations",
+      "Internal Communications",
+      "Measurement & Reporting",
+      "Creative Thinking",
+      "Presentation",
+      "Event Management",
+      "Analytics",
+      "Email Campaigns"
+    ]
   },
   {
     "career": "Journalist",
-    "skills": ["Investigative Research", "Writing", "Interviewing", "Fact Checking", "Storytelling", "SEO", "Social Media", "Ethics in Journalism", "Video Journalism", "Data Journalism", "Content Management Systems", "Photography", "Legal Knowledge (Defamation)", "Editing", "Breaking News Reporting", "Source Development", "Podcast Production", "Critical Thinking", "Language Proficiency", "Digital Media Tools"]
+    "skills": [
+      "Investigative Research",
+      "Writing",
+      "Interviewing",
+      "Storytelling",
+      "SEO",
+      "Social Media",
+      "Ethics in Journalism",
+      "Video Journalism",
+      "Data Journalism",
+      "Photography",
+      "Breaking News Reporting",
+      "Source Development",
+      "Critical Thinking",
+      "Language Proficiency",
+      "Digital Media Tools",
+      "Fact Checking",
+      "Content Management Systems",
+      "Legal Knowledge (Defamation)",
+      "Editing"
+    ]
   },
   {
     "career": "Copywriter",
-    "skills": ["Persuasive Writing", "SEO Writing", "Brand Voice", "Storytelling", "Research", "Content Strategy", "Ad Copywriting", "Email Marketing Copy", "Landing Page Copy", "Social Media Content", "Editing", "A/B Testing", "Target Audience Analysis", "CMS (WordPress)", "Creativity", "Product Descriptions", "Long-Form Content", "Headline Crafting", "Grammar & Style", "Collaboration"]
+    "skills": [
+      "Persuasive Writing",
+      "SEO Writing",
+      "Brand Voice",
+      "Storytelling",
+      "Research",
+      "Content Strategy",
+      "Ad Copywriting",
+      "Email Marketing Copy",
+      "Social Media Content",
+      "A/B Testing",
+      "Target Audience Analysis",
+      "CMS (WordPress)",
+      "Creativity",
+      "Product Descriptions",
+      "Long-Form Content",
+      "Headline Crafting",
+      "Grammar & Style",
+      "Collaboration",
+      "Landing Page Copy",
+      "Editing"
+    ]
   },
   {
     "career": "Social Media Manager",
-    "skills": ["Content Creation", "Social Media Strategy", "Platform Knowledge (Instagram, TikTok, Twitter, LinkedIn)", "Analytics", "Community Management", "Paid Advertising", "SEO Basics", "Graphic Design (Canva)", "Video Editing", "Scheduling Tools (Buffer, Hootsuite)", "Influencer Coordination", "Campaign Management", "Copywriting", "A/B Testing", "Trend Monitoring", "Customer Engagement", "Collaboration", "PR Basics", "Reporting", "Brand Consistency"]
+    "skills": [
+      "Content Creation",
+      "Social Media Strategy",
+      "Platform Knowledge (Instagram, TikTok, Twitter, LinkedIn)",
+      "Paid Advertising",
+      "SEO Basics",
+      "Graphic Design (Canva)",
+      "Scheduling Tools (Buffer, Hootsuite)",
+      "Influencer Coordination",
+      "Copywriting",
+      "A/B Testing",
+      "Trend Monitoring",
+      "Customer Engagement",
+      "Collaboration",
+      "Reporting",
+      "Brand Consistency",
+      "Analytics",
+      "Community Management",
+      "Video Editing",
+      "Campaign Management"
+    ]
   },
   {
     "career": "Growth Hacker",
-    "skills": ["Growth Strategy", "A/B Testing", "Funnel Optimization", "SEO", "Paid Ads (Facebook, Google)", "Email Marketing", "Python (Basic)", "SQL", "Analytics (Google Analytics, Mixpanel)", "Referral Programs", "Viral Marketing", "Product Analytics", "User Onboarding Optimization", "CRO", "Content Marketing", "Performance Marketing", "LTV/CAC Optimization", "Experimentation Mindset", "Data-Driven Decision Making", "Communication"]
+    "skills": [
+      "Growth Strategy",
+      "A/B Testing",
+      "SEO",
+      "Email Marketing",
+      "Python (Basic)",
+      "SQL",
+      "Referral Programs",
+      "Viral Marketing",
+      "Product Analytics",
+      "User Onboarding Optimization",
+      "CRO",
+      "Content Marketing",
+      "Performance Marketing",
+      "Experimentation Mindset",
+      "Data-Driven Decision Making",
+      "Communication",
+      "Funnel Optimization",
+      "Paid Ads (Facebook, Google)",
+      "Analytics (Google Analytics, Mixpanel)",
+      "LTV/CAC Optimization"
+    ]
   },
   {
     "career": "E-Commerce Manager",
-    "skills": ["Shopify/WooCommerce", "Product Listing Optimization", "Marketplace Management (Amazon, Flipkart)", "SEO", "Paid Ads", "Inventory Management", "Analytics", "Email Marketing", "Customer Service", "Conversion Rate Optimization", "Pricing Strategy", "Returns Management", "Social Commerce", "Data Analysis", "Supply Chain Basics", "Photography (Product)", "Content Management", "Affiliate Marketing", "UX Principles", "Customer Retention"]
+    "skills": [
+      "Shopify/WooCommerce",
+      "Product Listing Optimization",
+      "Marketplace Management (Amazon, Flipkart)",
+      "SEO",
+      "Inventory Management",
+      "Email Marketing",
+      "Customer Service",
+      "Conversion Rate Optimization",
+      "Pricing Strategy",
+      "Returns Management",
+      "Social Commerce",
+      "Data Analysis",
+      "Photography (Product)",
+      "Affiliate Marketing",
+      "UX Principles",
+      "Customer Retention",
+      "Paid Ads",
+      "Analytics",
+      "Supply Chain Basics",
+      "Content Management"
+    ]
   },
   {
     "career": "Logistics Manager",
-    "skills": ["Supply Chain Management", "Warehouse Management", "Fleet Management", "Inventory Control", "ERP Systems", "SAP", "Route Optimization", "Vendor Negotiation", "Import/Export Regulations", "Customs Clearance", "Cost Reduction", "KPI Tracking", "Data Analysis", "Communication", "Risk Management", "Cold Chain Logistics", "Last Mile Delivery", "Procurement", "Contracts", "Team Leadership"]
+    "skills": [
+      "Warehouse Management",
+      "Inventory Control",
+      "ERP Systems",
+      "Route Optimization",
+      "Vendor Negotiation",
+      "Import/Export Regulations",
+      "Customs Clearance",
+      "Cost Reduction",
+      "KPI Tracking",
+      "Data Analysis",
+      "Communication",
+      "Risk Management",
+      "Last Mile Delivery",
+      "Procurement",
+      "Team Leadership",
+      "Supply Chain Management",
+      "Fleet Management",
+      "SAP",
+      "Cold Chain Logistics"
+    ]
   },
   {
     "career": "Agricultural Scientist",
-    "skills": ["Soil Science", "Crop Management", "Remote Sensing (GIS)", "Precision Agriculture", "Agronomy", "Pest Management", "Irrigation Systems", "Data Analysis", "Plant Pathology", "Genetics", "Research Methods", "Statistics (R/Python)", "Biotechnology Basics", "Farm Equipment", "Sustainable Agriculture", "Extension Services", "Grant Writing", "Climate Adaptation", "Food Safety", "Laboratory Techniques"]
+    "skills": [
+      "Soil Science",
+      "Crop Management",
+      "Remote Sensing (GIS)",
+      "Precision Agriculture",
+      "Agronomy",
+      "Irrigation Systems",
+      "Data Analysis",
+      "Research Methods",
+      "Statistics (R/Python)",
+      "Sustainable Agriculture",
+      "Extension Services",
+      "Grant Writing",
+      "Food Safety",
+      "Laboratory Techniques",
+      "Pest Management",
+      "Plant Pathology",
+      "Genetics",
+      "Biotechnology Basics",
+      "Climate Adaptation"
+    ]
   },
   {
     "career": "Marine Biologist",
-    "skills": ["Marine Ecology", "Field Research", "SCUBA Diving", "Species Identification", "Data Collection", "Statistics (R/Python)", "GIS", "Oceanography", "Scientific Writing", "Conservation", "Water Quality Monitoring", "Taxonomy", "Marine Behavior", "Grant Writing", "Lab Techniques", "Genetic Analysis", "Remote Sensing", "Report Writing", "Public Outreach", "Photography (Underwater)"]
+    "skills": [
+      "Marine Ecology",
+      "Field Research",
+      "Species Identification",
+      "Data Collection",
+      "Statistics (R/Python)",
+      "Oceanography",
+      "Scientific Writing",
+      "Conservation",
+      "Water Quality Monitoring",
+      "Marine Behavior",
+      "Grant Writing",
+      "Remote Sensing",
+      "Report Writing",
+      "Public Outreach",
+      "SCUBA Diving",
+      "GIS",
+      "Taxonomy",
+      "Lab Techniques",
+      "Genetic Analysis"
+    ]
   },
   {
     "career": "Wildlife Biologist",
-    "skills": ["Wildlife Ecology", "Field Research", "Animal Tracking", "Population Dynamics", "GIS/GPS", "Species Identification", "Statistical Analysis", "Camera Trapping", "Behavioral Observation", "Scientific Writing", "Conservation Planning", "Data Management", "Telemetry", "Grant Writing", "Report Writing", "Genetics", "Python/R", "Database Management", "Regulatory Knowledge", "Public Outreach"]
+    "skills": [
+      "Field Research",
+      "Animal Tracking",
+      "Species Identification",
+      "Camera Trapping",
+      "Behavioral Observation",
+      "Scientific Writing",
+      "Conservation Planning",
+      "Telemetry",
+      "Grant Writing",
+      "Report Writing",
+      "Python/R",
+      "Regulatory Knowledge",
+      "Public Outreach",
+      "Wildlife Ecology",
+      "Population Dynamics",
+      "GIS/GPS",
+      "Statistical Analysis",
+      "Data Management",
+      "Genetics",
+      "Database Management"
+    ]
   },
   {
     "career": "Geologist",
-    "skills": ["Rock Identification", "Geological Mapping", "GIS (ArcGIS)", "Field Surveys", "Sedimentology", "Structural Geology", "Geochemistry", "Hydrogeology", "Remote Sensing", "Petrography", "Sample Analysis", "Scientific Writing", "MATLAB/Python", "Drilling Knowledge", "Seismic Interpretation", "Environmental Geology", "Mineral Exploration", "Mining Knowledge", "Risk Assessment", "Regulatory Compliance"]
+    "skills": [
+      "Rock Identification",
+      "Geological Mapping",
+      "GIS (ArcGIS)",
+      "Field Surveys",
+      "Structural Geology",
+      "Geochemistry",
+      "Hydrogeology",
+      "Remote Sensing",
+      "Petrography",
+      "Scientific Writing",
+      "MATLAB/Python",
+      "Drilling Knowledge",
+      "Seismic Interpretation",
+      "Environmental Geology",
+      "Mineral Exploration",
+      "Risk Assessment",
+      "Regulatory Compliance",
+      "Sedimentology",
+      "Sample Analysis",
+      "Mining Knowledge"
+    ]
   },
   {
     "career": "Astronomer",
-    "skills": ["Astrophysics", "Python", "MATLAB", "Telescope Operations", "Data Reduction", "IDL", "LaTeX", "Statistical Analysis", "Spectroscopy", "Photometry", "Numerical Simulations", "Machine Learning", "Celestial Mechanics", "Scientific Writing", "High Performance Computing", "Visualization", "Image Processing", "Radio Astronomy", "Research Methods", "Linux"]
+    "skills": [
+      "Astrophysics",
+      "Python",
+      "Telescope Operations",
+      "Data Reduction",
+      "Spectroscopy",
+      "Photometry",
+      "Numerical Simulations",
+      "Machine Learning",
+      "Scientific Writing",
+      "High Performance Computing",
+      "Image Processing",
+      "Radio Astronomy",
+      "Research Methods",
+      "Linux",
+      "MATLAB",
+      "LaTeX",
+      "Statistical Analysis",
+      "Celestial Mechanics",
+      "Visualization"
+    ]
   },
   {
     "career": "Sports Scientist",
-    "skills": ["Exercise Physiology", "Biomechanics", "Strength & Conditioning", "Nutrition", "Data Analysis", "GPS & Wearables Technology", "Video Analysis", "Statistics (R/SPSS)", "Sport Psychology", "Injury Prevention", "Recovery Protocols", "Performance Testing", "Sport-Specific Knowledge", "Communication", "Team Collaboration", "Lactate Testing", "VO2 Max Testing", "Training Periodization", "Athlete Monitoring", "Research Methods"]
+    "skills": [
+      "Exercise Physiology",
+      "Biomechanics",
+      "Strength & Conditioning",
+      "Nutrition",
+      "Data Analysis",
+      "GPS & Wearables Technology",
+      "Statistics (R/SPSS)",
+      "Sport Psychology",
+      "Injury Prevention",
+      "Recovery Protocols",
+      "Performance Testing",
+      "Sport-Specific Knowledge",
+      "Communication",
+      "Team Collaboration",
+      "Training Periodization",
+      "Athlete Monitoring",
+      "Research Methods",
+      "Video Analysis"
+    ]
   },
   {
     "career": "Sports Coach",
-    "skills": ["Coaching Techniques", "Tactical Knowledge", "Physical Conditioning", "Athlete Development", "Communication", "Video Analysis", "Motivation", "Injury Prevention Awareness", "Sports Psychology", "Game Planning", "Recruitment", "Team Management", "Leadership", "Scouting", "Nutrition Basics", "Recovery Protocols", "Training Periodization", "Data Analysis Basics", "Ethics", "Youth Development"]
+    "skills": [
+      "Communication",
+      "Injury Prevention Awareness",
+      "Sports Psychology",
+      "Game Planning",
+      "Leadership",
+      "Nutrition Basics",
+      "Recovery Protocols",
+      "Training Periodization",
+      "Data Analysis Basics",
+      "Ethics",
+      "Coaching Techniques",
+      "Tactical Knowledge",
+      "Physical Conditioning",
+      "Athlete Development",
+      "Video Analysis",
+      "Motivation",
+      "Team Management",
+      "Scouting",
+      "Youth Development"
+    ]
   },
   {
     "career": "Librarian",
-    "skills": ["Cataloging (Dewey Decimal, LC Classification)", "Library Management Systems (Koha, FOLIO)", "Reference Services", "Collection Development", "Research Assistance", "Information Literacy Instruction", "Digital Resources Management", "Archives Management", "Database Searching", "Customer Service", "Programming (Community Events)", "Digitization", "Metadata Standards", "Communication", "Grant Writing", "Budget Management", "Copyright Knowledge", "Multilingual Resources", "Children's Services", "Academic Liaison"]
+    "skills": [
+      "Library Management Systems (Koha, FOLIO)",
+      "Reference Services",
+      "Research Assistance",
+      "Information Literacy Instruction",
+      "Digital Resources Management",
+      "Archives Management",
+      "Database Searching",
+      "Customer Service",
+      "Programming (Community Events)",
+      "Digitization",
+      "Metadata Standards",
+      "Communication",
+      "Grant Writing",
+      "Copyright Knowledge",
+      "Children's Services",
+      "Cataloging (Dewey Decimal, LC Classification)",
+      "Collection Development",
+      "Budget Management"
+    ]
   },
   {
     "career": "Archivist",
-    "skills": ["Archival Theory", "Collection Management", "Digitization", "Metadata Standards (EAD, Dublin Core)", "Preservation Techniques", "Records Management", "Cataloging", "Research Assistance", "Database Management", "Finding Aid Creation", "Copyright & Privacy Law", "Oral History", "Document Conservation", "Digital Preservation", "Communication", "Donor Relations", "Grant Writing", "Historical Research", "Collaboration", "Technical Writing"]
+    "skills": [
+      "Archival Theory",
+      "Digitization",
+      "Metadata Standards (EAD, Dublin Core)",
+      "Preservation Techniques",
+      "Records Management",
+      "Research Assistance",
+      "Finding Aid Creation",
+      "Copyright & Privacy Law",
+      "Document Conservation",
+      "Digital Preservation",
+      "Communication",
+      "Donor Relations",
+      "Grant Writing",
+      "Historical Research",
+      "Collaboration",
+      "Technical Writing",
+      "Collection Management",
+      "Cataloging",
+      "Database Management"
+    ]
   },
   {
     "career": "Museum Curator",
-    "skills": ["Collection Management", "Art History/Cultural Knowledge", "Exhibition Design", "Preservation & Conservation", "Research", "Provenance Research", "Grant Writing", "Budget Management", "Public Programming", "Education Outreach", "Catalog Writing", "Loan Coordination", "Communication", "Database Management", "Fundraising", "Press & Media Relations", "Community Engagement", "Acquisition Strategy", "Digital Exhibitions", "Legal Knowledge (Cultural Property)"]
+    "skills": [
+      "Art History/Cultural Knowledge",
+      "Preservation & Conservation",
+      "Research",
+      "Provenance Research",
+      "Grant Writing",
+      "Public Programming",
+      "Education Outreach",
+      "Catalog Writing",
+      "Communication",
+      "Fundraising",
+      "Press & Media Relations",
+      "Acquisition Strategy",
+      "Digital Exhibitions",
+      "Legal Knowledge (Cultural Property)",
+      "Collection Management",
+      "Exhibition Design",
+      "Budget Management",
+      "Database Management",
+      "Community Engagement"
+    ]
   },
   {
     "career": "Security Guard / Officer",
-    "skills": ["Patrol Techniques", "Incident Reporting", "Access Control", "CCTV Monitoring", "Emergency Response", "Crowd Control", "First Aid/CPR", "Communication", "Conflict De-escalation", "Report Writing", "Physical Fitness", "Legal Knowledge (Security Laws)", "Perimeter Security", "Fire Safety", "Customer Service", "Night Vision Equipment", "Alarm Systems", "Key Control", "Body Search Procedures", "Teamwork"]
+    "skills": [
+      "Patrol Techniques",
+      "Incident Reporting",
+      "Access Control",
+      "CCTV Monitoring",
+      "Emergency Response",
+      "Crowd Control",
+      "First Aid/CPR",
+      "Communication",
+      "Report Writing",
+      "Legal Knowledge (Security Laws)",
+      "Perimeter Security",
+      "Fire Safety",
+      "Customer Service",
+      "Alarm Systems",
+      "Teamwork",
+      "Conflict De-escalation",
+      "Physical Fitness"
+    ]
   },
   {
     "career": "Pilot",
-    "skills": ["Flight Operations", "Navigation (VFR/IFR)", "Aircraft Systems", "Meteorology", "Air Traffic Control Communication", "Emergency Procedures", "Crew Resource Management", "Instrument Flying", "Weight & Balance", "Flight Planning", "Aviation Regulations (DGCA/FAA)", "Multi-Engine Operations", "Aerodynamics", "Aviation English", "Decision Making", "Fatigue Management", "Systems Failure Handling", "Checklists", "Record Keeping", "Jet Operations"]
+    "skills": [
+      "Flight Operations",
+      "Navigation (VFR/IFR)",
+      "Aircraft Systems",
+      "Meteorology",
+      "Air Traffic Control Communication",
+      "Emergency Procedures",
+      "Crew Resource Management",
+      "Instrument Flying",
+      "Flight Planning",
+      "Aviation Regulations (DGCA/FAA)",
+      "Multi-Engine Operations",
+      "Aerodynamics",
+      "Systems Failure Handling",
+      "Record Keeping",
+      "Jet Operations",
+      "Weight & Balance",
+      "Aviation English",
+      "Decision Making",
+      "Checklists"
+    ]
   },
   {
     "career": "Air Traffic Controller",
-    "skills": ["Radar Operations", "Communication (English Proficiency)", "Situational Awareness", "Emergency Procedures", "Aviation Regulations", "Flight Strip Management", "Conflict Resolution", "Weather Interpretation", "Standard Phraseology", "Traffic Sequencing", "Airspace Management", "Decision Making Under Pressure", "Teamwork", "Fatigue Management", "Technology (ATC Systems)", "Navigation Aids", "Coordination with Pilots", "Documentation", "Continuous Training", "Mental Agility"]
+    "skills": [
+      "Radar Operations",
+      "Communication (English Proficiency)",
+      "Situational Awareness",
+      "Emergency Procedures",
+      "Aviation Regulations",
+      "Conflict Resolution",
+      "Weather Interpretation",
+      "Standard Phraseology",
+      "Traffic Sequencing",
+      "Airspace Management",
+      "Decision Making Under Pressure",
+      "Teamwork",
+      "Coordination with Pilots",
+      "Documentation",
+      "Continuous Training",
+      "Technology (ATC Systems)",
+      "Navigation Aids",
+      "Mental Agility"
+    ]
   },
   {
     "career": "Maritime Captain",
-    "skills": ["Navigation", "GMDSS", "COLREGS", "Ship Handling", "Cargo Operations", "Emergency Management", "Meteorology", "SOLAS Compliance", "Chart Plotting", "Crew Management", "Communication", "Port Operations", "Maintenance Oversight", "Environmental Regulations (MARPOL)", "Safety Management Systems (SMS)", "Customs Documentation", "Budget Management", "Leadership", "Engine Room Knowledge Basics", "ECDIS"]
+    "skills": [
+      "COLREGS",
+      "Cargo Operations",
+      "Emergency Management",
+      "Meteorology",
+      "Chart Plotting",
+      "Crew Management",
+      "Communication",
+      "Port Operations",
+      "Maintenance Oversight",
+      "Environmental Regulations (MARPOL)",
+      "Customs Documentation",
+      "Leadership",
+      "Navigation",
+      "GMDSS",
+      "Ship Handling",
+      "SOLAS Compliance",
+      "Safety Management Systems (SMS)",
+      "Budget Management",
+      "ECDIS"
+    ]
   },
   {
     "career": "Railway Engineer",
-    "skills": ["Railway Systems", "Signal Engineering", "Track Design", "Electrification", "Train Control Systems", "ETCS/ERTMS", "AutoCAD", "Safety Standards", "Project Management", "Maintenance Planning", "Civil Engineering Basics", "Tunneling", "Bridge Design", "Communication", "Data Analysis", "PLC Programming", "RAMS (Reliability, Availability)", "Regulatory Compliance", "BIM", "Operations Research"]
+    "skills": [
+      "Railway Systems",
+      "Signal Engineering",
+      "Track Design",
+      "Electrification",
+      "Train Control Systems",
+      "ETCS/ERTMS",
+      "Safety Standards",
+      "Project Management",
+      "Maintenance Planning",
+      "Civil Engineering Basics",
+      "Communication",
+      "Data Analysis",
+      "PLC Programming",
+      "RAMS (Reliability, Availability)",
+      "Regulatory Compliance",
+      "Operations Research",
+      "AutoCAD",
+      "BIM"
+    ]
   },
   {
     "career": "Construction Manager",
-    "skills": ["Project Planning", "Budget Management", "Site Supervision", "MS Project", "Primavera P6", "Contract Management", "Risk Management", "Health & Safety (OSHA)", "Quality Control", "BIM (Revit)", "Stakeholder Communication", "Resource Allocation", "Procurement", "Subcontractor Management", "Technical Drawings", "Dispute Resolution", "Scheduling", "Cost Estimation", "Environmental Compliance", "Leadership"]
+    "skills": [
+      "Project Planning",
+      "Site Supervision",
+      "Primavera P6",
+      "Contract Management",
+      "Risk Management",
+      "Quality Control",
+      "BIM (Revit)",
+      "Stakeholder Communication",
+      "Resource Allocation",
+      "Procurement",
+      "Subcontractor Management",
+      "Technical Drawings",
+      "Scheduling",
+      "Environmental Compliance",
+      "Leadership",
+      "Budget Management",
+      "Health & Safety (OSHA)",
+      "Cost Estimation"
+    ]
   },
   {
     "career": "Safety Officer (HSE)",
-    "skills": ["Risk Assessment", "Hazard Identification", "OSHA Regulations", "Incident Investigation", "Emergency Response Planning", "Fire Safety", "Safety Audits", "PPE Management", "Safety Training", "Documentation", "Environmental Compliance", "Chemical Safety (MSDS)", "First Aid", "Communication", "Inspection Techniques", "Permit to Work Systems", "BBS (Behavior Based Safety)", "Statistics", "ISO 45001", "Leadership"]
+    "skills": [
+      "Risk Assessment",
+      "Hazard Identification",
+      "OSHA Regulations",
+      "Emergency Response Planning",
+      "Fire Safety",
+      "Safety Training",
+      "Documentation",
+      "Environmental Compliance",
+      "First Aid",
+      "Communication",
+      "Permit to Work Systems",
+      "Statistics",
+      "Leadership",
+      "Incident Investigation",
+      "Safety Audits",
+      "PPE Management",
+      "Chemical Safety (MSDS)",
+      "Inspection Techniques",
+      "ISO 45001"
+    ]
   },
   {
     "career": "Quality Assurance Manager",
-    "skills": ["Quality Management Systems (ISO 9001)", "Six Sigma", "Lean", "SPC (Statistical Process Control)", "Audit Management", "FMEA", "Root Cause Analysis", "CAPA", "Documentation", "Testing", "Supplier Quality", "Regulatory Compliance", "Minitab", "Measurement Systems Analysis (MSA)", "Quality Planning", "Customer Complaints Handling", "Risk Management", "KPI Tracking", "Team Leadership", "Communication"]
+    "skills": [
+      "SPC (Statistical Process Control)",
+      "Audit Management",
+      "Root Cause Analysis",
+      "Documentation",
+      "Testing",
+      "Supplier Quality",
+      "Regulatory Compliance",
+      "Quality Planning",
+      "Customer Complaints Handling",
+      "Risk Management",
+      "KPI Tracking",
+      "Team Leadership",
+      "Communication",
+      "Quality Management Systems (ISO 9001)",
+      "Six Sigma",
+      "Lean",
+      "FMEA",
+      "CAPA"
+    ]
   },
   {
     "career": "Procurement Manager",
-    "skills": ["Supplier Sourcing", "Negotiation", "Contract Management", "Purchase Order Management", "SAP (MM Module)", "Cost Analysis", "RFQ/RFP Management", "Supplier Relationship Management", "Risk Management", "Supply Chain", "Inventory Management", "Market Research", "Compliance", "Spend Analysis", "Cross-Functional Collaboration", "ERP Systems", "Communication", "Vendor Evaluation", "Category Management", "Budgeting"]
+    "skills": [
+      "Supplier Sourcing",
+      "Negotiation",
+      "Contract Management",
+      "Purchase Order Management",
+      "Cost Analysis",
+      "RFQ/RFP Management",
+      "Supplier Relationship Management",
+      "Risk Management",
+      "Inventory Management",
+      "Market Research",
+      "Cross-Functional Collaboration",
+      "ERP Systems",
+      "Communication",
+      "Vendor Evaluation",
+      "Budgeting",
+      "SAP (MM Module)",
+      "Supply Chain",
+      "Compliance",
+      "Spend Analysis"
+    ]
   },
   {
     "career": "Entrepreneur",
-    "skills": ["Business Planning", "Financial Literacy", "Marketing", "Sales", "Leadership", "Product Development", "Customer Discovery", "Pitch Decks", "Fundraising (Venture Capital, Angel)", "Networking", "Legal Knowledge (Business)", "Digital Marketing", "Operations Management", "Team Building", "Risk Management", "Customer Service", "Resilience", "Innovation", "Lean Startup Methodology", "Growth Strategy"]
+    "skills": [
+      "Business Planning",
+      "Financial Literacy",
+      "Marketing",
+      "Leadership",
+      "Product Development",
+      "Customer Discovery",
+      "Fundraising (Venture Capital, Angel)",
+      "Networking",
+      "Digital Marketing",
+      "Operations Management",
+      "Risk Management",
+      "Customer Service",
+      "Resilience",
+      "Lean Startup Methodology",
+      "Growth Strategy",
+      "Sales",
+      "Pitch Decks",
+      "Legal Knowledge (Business)",
+      "Team Building",
+      "Innovation"
+    ]
   },
   {
     "career": "Startup Founder",
-    "skills": ["Ideation", "Business Model Canvas", "MVP Development", "Fundraising", "Pitch Decks", "Product Management", "Technical Knowledge", "Team Building", "Go-to-Market Strategy", "Customer Development", "Financial Modeling", "Legal Basics (Company Formation)", "Branding", "Networking", "Marketing", "Sales", "Hiring", "Equity Management (ESOPs)", "Investor Relations", "Resilience"]
+    "skills": [
+      "Business Model Canvas",
+      "Fundraising",
+      "Product Management",
+      "Go-to-Market Strategy",
+      "Customer Development",
+      "Legal Basics (Company Formation)",
+      "Branding",
+      "Networking",
+      "Marketing",
+      "Hiring",
+      "Investor Relations",
+      "Resilience",
+      "Ideation",
+      "MVP Development",
+      "Pitch Decks",
+      "Technical Knowledge",
+      "Team Building",
+      "Financial Modeling",
+      "Sales"
+    ]
   },
   {
     "career": "Brand Manager",
-    "skills": ["Brand Strategy", "Market Research", "Consumer Insights", "Marketing Communications", "Campaign Management", "Agency Management", "Advertising", "Packaging Design", "Competitive Analysis", "P&L Management", "Communication", "Creative Direction", "Digital Marketing", "Social Media", "Product Launches", "Storytelling", "Budget Management", "Cross-Functional Collaboration", "Customer Journey Mapping", "Analytics"]
+    "skills": [
+      "Brand Strategy",
+      "Market Research",
+      "Consumer Insights",
+      "Marketing Communications",
+      "Advertising",
+      "Competitive Analysis",
+      "Communication",
+      "Creative Direction",
+      "Digital Marketing",
+      "Social Media",
+      "Product Launches",
+      "Storytelling",
+      "Cross-Functional Collaboration",
+      "Customer Journey Mapping",
+      "Campaign Management",
+      "Packaging Design",
+      "P&L Management",
+      "Budget Management",
+      "Analytics"
+    ]
   },
   {
     "career": "E-Learning Developer",
-    "skills": ["Articulate Storyline 360", "Adobe Captivate", "Instructional Design", "HTML/CSS (Basics)", "JavaScript for eLearning", "LMS Administration", "SCORM/xAPI Standards", "Video Production", "Storyboarding", "Graphic Design (Canva, Photoshop)", "Voiceover Recording", "Accessibility (Section 508)", "Gamification", "Microlearning Design", "Content Writing", "Collaboration", "SME Interviews", "Adult Learning Theory", "Assessment Design", "Evaluation Methods"]
+    "skills": [
+      "Articulate Storyline 360",
+      "Instructional Design",
+      "HTML/CSS (Basics)",
+      "JavaScript for eLearning",
+      "LMS Administration",
+      "SCORM/xAPI Standards",
+      "Video Production",
+      "Storyboarding",
+      "Graphic Design (Canva, Photoshop)",
+      "Voiceover Recording",
+      "Microlearning Design",
+      "Content Writing",
+      "Collaboration",
+      "Adult Learning Theory",
+      "Adobe Captivate",
+      "Accessibility (Section 508)",
+      "Gamification",
+      "Assessment Design",
+      "Evaluation Methods"
+    ]
   },
   {
     "career": "Crypto Analyst",
-    "skills": ["Blockchain Technology", "Tokenomics", "On-Chain Analysis", "DeFi Protocols", "Python", "Trading Analysis", "Smart Contract Reading", "Market Analysis", "Risk Assessment", "Excel", "Glassnode", "Nansen", "Dune Analytics", "Fundamental Analysis", "Technical Analysis", "Portfolio Management", "Web3 Ecosystem", "NFT Valuation", "Regulatory Landscape", "Report Writing"]
+    "skills": [
+      "Python",
+      "Trading Analysis",
+      "Market Analysis",
+      "Risk Assessment",
+      "Excel",
+      "Portfolio Management",
+      "Regulatory Landscape",
+      "Report Writing",
+      "Blockchain Technology",
+      "Tokenomics",
+      "On-Chain Analysis",
+      "Nansen",
+      "Dune Analytics",
+      "Fundamental Analysis",
+      "Technical Analysis",
+      "Web3 Ecosystem",
+      "DeFi Protocols",
+      "Smart Contract Reading"
+    ]
   },
   {
     "career": "Drone Operator / UAV Pilot",
-    "skills": ["UAV Flight Operations", "FAA/DGCA Regulations", "Mission Planning", "Aerial Photography & Videography", "Photogrammetry", "LiDAR Data Collection", "GIS Integration", "Pre-Flight Checks", "Emergency Procedures", "GPS Navigation", "Data Processing (Pix4D, DroneDeploy)", "Remote Sensing", "Agriculture Mapping", "Inspection Surveys", "Communication", "Safety Protocols", "Battery Management", "Weather Assessment", "Payload Operations", "3D Mapping"]
+    "skills": [
+      "UAV Flight Operations",
+      "FAA/DGCA Regulations",
+      "Mission Planning",
+      "Aerial Photography & Videography",
+      "Photogrammetry",
+      "LiDAR Data Collection",
+      "GIS Integration",
+      "Pre-Flight Checks",
+      "Emergency Procedures",
+      "Data Processing (Pix4D, DroneDeploy)",
+      "Remote Sensing",
+      "Agriculture Mapping",
+      "Inspection Surveys",
+      "Communication",
+      "Safety Protocols",
+      "Battery Management",
+      "Weather Assessment",
+      "GPS Navigation",
+      "3D Mapping"
+    ]
   },
   {
     "career": "Data Privacy Officer",
-    "skills": ["GDPR", "CCPA", "PDPA", "Privacy Impact Assessments", "Data Mapping", "Risk Assessment", "Legal Knowledge", "Compliance Management", "Data Governance", "Incident Response", "Training & Awareness", "Vendor Management", "Communication", "Policy Writing", "Technical Understanding of Systems", "Cross-Border Data Transfers", "Audit Management", "Privacy by Design", "Security Basics", "Regulatory Liaison"]
+    "skills": [
+      "GDPR",
+      "Privacy Impact Assessments",
+      "Risk Assessment",
+      "Data Governance",
+      "Incident Response",
+      "Training & Awareness",
+      "Vendor Management",
+      "Communication",
+      "Policy Writing",
+      "Technical Understanding of Systems",
+      "Cross-Border Data Transfers",
+      "Audit Management",
+      "Privacy by Design",
+      "Security Basics",
+      "Regulatory Liaison",
+      "CCPA",
+      "Data Mapping",
+      "Legal Knowledge",
+      "Compliance Management"
+    ]
   },
   {
     "career": "Sustainability Analyst",
-    "skills": ["ESG Reporting (GRI, TCFD, SASB)", "Carbon Footprint Analysis", "Life Cycle Assessment", "Environmental Regulations", "Data Analysis", "Excel", "Python", "Stakeholder Engagement", "Sustainability Strategy", "Green Finance", "Energy Management", "Climate Risk Assessment", "Supply Chain Sustainability", "Communication", "Report Writing", "Project Management", "Circular Economy", "UN SDGs Knowledge", "Materiality Assessment", "Renewable Energy"]
+    "skills": [
+      "Carbon Footprint Analysis",
+      "Environmental Regulations",
+      "Data Analysis",
+      "Excel",
+      "Python",
+      "Stakeholder Engagement",
+      "Sustainability Strategy",
+      "Green Finance",
+      "Energy Management",
+      "Climate Risk Assessment",
+      "Communication",
+      "Report Writing",
+      "Project Management",
+      "Circular Economy",
+      "Materiality Assessment",
+      "Renewable Energy",
+      "Life Cycle Assessment",
+      "Supply Chain Sustainability",
+      "ESG Reporting (GRI, TCFD, SASB)"
+    ]
   },
   {
     "career": "Renewable Energy Engineer",
-    "skills": ["Solar PV Design", "Wind Energy Systems", "Energy Storage (Batteries)", "MATLAB/Python", "PVsyst", "AutoCAD", "Grid Integration", "Power Electronics", "Control Systems", "Energy Modeling (HOMER, SAM)", "Inverters", "Electrical Engineering", "Project Management", "Feasibility Studies", "Regulatory Compliance", "Financial Modeling (Energy Projects)", "Structural Basics (for Solar Mounting)", "Environmental Assessments", "SCADA", "Safety Standards"]
+    "skills": [
+      "Solar PV Design",
+      "Wind Energy Systems",
+      "MATLAB/Python",
+      "Grid Integration",
+      "Power Electronics",
+      "Control Systems",
+      "Energy Modeling (HOMER, SAM)",
+      "Inverters",
+      "Electrical Engineering",
+      "Project Management",
+      "Regulatory Compliance",
+      "Financial Modeling (Energy Projects)",
+      "Environmental Assessments",
+      "Safety Standards",
+      "PVsyst",
+      "AutoCAD",
+      "SCADA",
+      "Energy Storage (Batteries)",
+      "Feasibility Studies"
+    ]
   },
   {
     "career": "Ethical Hacker / Bug Bounty Hunter",
-    "skills": ["Web Application Testing", "Burp Suite", "Kali Linux", "Network Pentesting", "Metasploit", "Python/Bash Scripting", "OWASP Top 10", "API Security Testing", "Mobile App Testing", "Source Code Review", "Privilege Escalation", "Bug Report Writing", "CVE Research", "Cryptography", "Social Engineering", "Reverse Engineering", "Active Directory Exploits", "Cloud Exploitation", "CTF Participation", "Responsible Disclosure"]
+    "skills": [
+      "Web Application Testing",
+      "Burp Suite",
+      "Kali Linux",
+      "Network Pentesting",
+      "Python/Bash Scripting",
+      "API Security Testing",
+      "Mobile App Testing",
+      "Source Code Review",
+      "Bug Report Writing",
+      "CVE Research",
+      "Social Engineering",
+      "CTF Participation",
+      "Responsible Disclosure",
+      "Metasploit",
+      "OWASP Top 10",
+      "Privilege Escalation",
+      "Cryptography",
+      "Reverse Engineering",
+      "Active Directory Exploits",
+      "Cloud Exploitation"
+    ]
   },
   {
     "career": "Digital Forensics Analyst",
-    "skills": ["Forensic Investigation", "Autopsy/FTK/Encase", "Memory Forensics", "Disk Imaging", "Log Analysis", "Malware Analysis", "Network Forensics", "Mobile Forensics", "Chain of Custody", "Report Writing", "Legal Knowledge (eDiscovery)", "Linux", "Python/Bash", "Steganography Detection", "Timeline Analysis", "Email Header Analysis", "Dark Web Investigation", "SIEM Tools", "Encryption Analysis", "Reverse Engineering"]
+    "skills": [
+      "Forensic Investigation",
+      "Network Forensics",
+      "Mobile Forensics",
+      "Report Writing",
+      "Legal Knowledge (eDiscovery)",
+      "Linux",
+      "Python/Bash",
+      "Email Header Analysis",
+      "Encryption Analysis",
+      "Autopsy/FTK/Encase",
+      "Disk Imaging",
+      "Log Analysis",
+      "Chain of Custody",
+      "Timeline Analysis",
+      "SIEM Tools",
+      "Memory Forensics",
+      "Malware Analysis",
+      "Reverse Engineering"
+    ]
   },
   {
     "career": "Technical Support Engineer",
-    "skills": ["Troubleshooting", "Linux/Windows", "Networking Basics", "Customer Communication", "Ticketing Systems (Zendesk, JIRA)", "Database Basics", "Scripting (Python, Bash)", "Logs Analysis", "Cloud Platforms", "APIs", "Documentation", "Escalation Management", "Product Knowledge", "Remote Desktop Tools", "SQL", "SLA Management", "Problem Solving", "Time Management", "Knowledge Base Maintenance", "Cross-Team Collaboration"]
+    "skills": [
+      "Troubleshooting",
+      "Linux/Windows",
+      "Networking Basics",
+      "Customer Communication",
+      "Ticketing Systems (Zendesk, JIRA)",
+      "Scripting (Python, Bash)",
+      "Cloud Platforms",
+      "Documentation",
+      "Product Knowledge",
+      "SQL",
+      "Problem Solving",
+      "Time Management",
+      "Cross-Team Collaboration",
+      "Database Basics",
+      "Logs Analysis",
+      "APIs",
+      "Escalation Management",
+      "SLA Management",
+      "Knowledge Base Maintenance"
+    ]
   },
   {
     "career": "IT Auditor",
-    "skills": ["IT General Controls", "Risk Assessment", "Audit Frameworks (COBIT, CISA)", "Data Analysis (ACL, IDEA)", "SQL", "Excel", "ERP Auditing", "Cybersecurity Basics", "Regulatory Compliance (SOX, GDPR)", "Penetration Testing Basics", "Report Writing", "Communication", "Documentation", "Access Controls Review", "Change Management Review", "Business Continuity", "Fraud Detection", "Cloud Auditing", "Scripting Basics", "Project Management"]
+    "skills": [
+      "IT General Controls",
+      "Risk Assessment",
+      "Audit Frameworks (COBIT, CISA)",
+      "Data Analysis (ACL, IDEA)",
+      "SQL",
+      "Excel",
+      "ERP Auditing",
+      "Cybersecurity Basics",
+      "Regulatory Compliance (SOX, GDPR)",
+      "Report Writing",
+      "Communication",
+      "Documentation",
+      "Access Controls Review",
+      "Change Management Review",
+      "Fraud Detection",
+      "Project Management",
+      "Business Continuity",
+      "Cloud Auditing",
+      "Penetration Testing Basics"
+    ]
   },
   {
     "career": "Statistician",
-    "skills": ["Statistical Theory", "R", "Python", "SPSS", "SAS", "MATLAB", "Hypothesis Testing", "Regression Analysis", "Bayesian Statistics", "Data Visualization", "Time Series Analysis", "Survey Design", "Experimental Design", "Multivariate Analysis", "Machine Learning Basics", "Stata", "Excel", "Technical Writing", "Research Methods", "Communication"]
+    "skills": [
+      "Statistical Theory",
+      "R",
+      "Python",
+      "Hypothesis Testing",
+      "Regression Analysis",
+      "Bayesian Statistics",
+      "Data Visualization",
+      "Time Series Analysis",
+      "Survey Design",
+      "Experimental Design",
+      "Multivariate Analysis",
+      "Machine Learning Basics",
+      "Excel",
+      "Technical Writing",
+      "Research Methods",
+      "Communication",
+      "SPSS",
+      "SAS",
+      "MATLAB"
+    ]
   },
   {
     "career": "Economist",
-    "skills": ["Econometrics", "Stata", "R", "Python", "Microeconomics", "Macroeconomics", "Policy Analysis", "Game Theory", "Regression Analysis", "MATLAB", "Financial Modeling", "Survey Design", "Data Analysis", "Report Writing", "Communication", "Research Methods", "Public Finance", "International Trade", "Labor Economics", "Excel"]
+    "skills": [
+      "Econometrics",
+      "R",
+      "Python",
+      "Microeconomics",
+      "Macroeconomics",
+      "Game Theory",
+      "Regression Analysis",
+      "Survey Design",
+      "Data Analysis",
+      "Report Writing",
+      "Communication",
+      "Research Methods",
+      "International Trade",
+      "Labor Economics",
+      "Excel",
+      "Policy Analysis",
+      "MATLAB",
+      "Financial Modeling",
+      "Public Finance"
+    ]
   },
   {
     "career": "Political Scientist",
-    "skills": ["Policy Analysis", "Research Methods", "Statistics (R/SPSS)", "Political Theory", "Qualitative Analysis", "Survey Design", "International Relations", "Comparative Politics", "Writing", "Presentation", "Public Speaking", "Grant Writing", "GIS Basics", "Data Analysis", "Lobbying Knowledge", "Legislative Process", "Communication", "Fact-Checking", "Media Relations", "Advocacy"]
+    "skills": [
+      "Research Methods",
+      "Statistics (R/SPSS)",
+      "Political Theory",
+      "Survey Design",
+      "International Relations",
+      "Comparative Politics",
+      "Writing",
+      "Presentation",
+      "Grant Writing",
+      "Data Analysis",
+      "Legislative Process",
+      "Communication",
+      "Media Relations",
+      "Policy Analysis",
+      "Qualitative Analysis",
+      "Public Speaking",
+      "GIS Basics",
+      "Fact-Checking",
+      "Advocacy"
+    ]
   },
   {
     "career": "Linguist",
-    "skills": ["Phonetics & Phonology", "Morphology & Syntax", "Semantics & Pragmatics", "Corpus Linguistics", "Computational Linguistics", "Language Documentation", "Python/R (NLP Basics)", "Field Research", "Sociolinguistics", "Historical Linguistics", "Multilingual Proficiency", "Discourse Analysis", "Language Teaching", "Lexicography", "Translation Theory", "LaTeX", "Research Methods", "Technical Writing", "Data Annotation", "Collaboration"]
+    "skills": [
+      "Morphology & Syntax",
+      "Corpus Linguistics",
+      "Language Documentation",
+      "Python/R (NLP Basics)",
+      "Field Research",
+      "Historical Linguistics",
+      "Multilingual Proficiency",
+      "Discourse Analysis",
+      "Translation Theory",
+      "Research Methods",
+      "Technical Writing",
+      "Collaboration",
+      "Phonetics & Phonology",
+      "Computational Linguistics",
+      "Sociolinguistics",
+      "Language Teaching",
+      "LaTeX",
+      "Data Annotation",
+      "Semantics & Pragmatics"
+    ]
   },
   {
     "career": "Translator / Interpreter",
-    "skills": ["Language Proficiency (Source & Target)", "Translation Software (SDL Trados, MemoQ)", "Subject Matter Expertise", "Cultural Knowledge", "Research Skills", "Legal Translation", "Technical Translation", "Medical Translation", "Consecutive Interpreting", "Simultaneous Interpreting", "Localization", "Terminology Management", "Quality Assurance", "Time Management", "Client Communication", "Ethics", "Post-Editing (MTPE)", "Transcription", "Proofreading", "Confidentiality"]
+    "skills": [
+      "Language Proficiency (Source & Target)",
+      "Translation Software (SDL Trados, MemoQ)",
+      "Subject Matter Expertise",
+      "Cultural Knowledge",
+      "Research Skills",
+      "Legal Translation",
+      "Technical Translation",
+      "Medical Translation",
+      "Consecutive Interpreting",
+      "Simultaneous Interpreting",
+      "Terminology Management",
+      "Quality Assurance",
+      "Time Management",
+      "Client Communication",
+      "Ethics",
+      "Proofreading",
+      "Localization",
+      "Post-Editing (MTPE)",
+      "Confidentiality"
+    ]
   },
   {
     "career": "Philosopher / Ethicist",
-    "skills": ["Critical Thinking", "Argumentation", "Ethics Theory", "Logic", "Research", "Academic Writing", "Teaching", "Applied Ethics", "Bioethics", "AI Ethics", "Philosophy of Mind", "Political Philosophy", "Phenomenology", "Epistemology", "Communication", "Public Speaking", "Grant Writing", "Interdisciplinary Collaboration", "Policy Advising", "Curriculum Development"]
+    "skills": [
+      "Critical Thinking",
+      "Argumentation",
+      "Ethics Theory",
+      "Research",
+      "Academic Writing",
+      "Applied Ethics",
+      "Bioethics",
+      "AI Ethics",
+      "Communication",
+      "Grant Writing",
+      "Interdisciplinary Collaboration",
+      "Curriculum Development",
+      "Logic",
+      "Teaching",
+      "Philosophy of Mind",
+      "Political Philosophy",
+      "Epistemology",
+      "Public Speaking",
+      "Policy Advising"
+    ]
   },
   {
     "career": "AI Ethics Researcher",
-    "skills": ["AI/ML Knowledge", "Ethics Theory", "Policy Analysis", "Research Methods", "Writing", "Stakeholder Engagement", "Risk Assessment", "Fairness in ML", "Bias Detection", "Privacy Law", "Regulatory Landscape", "Interdisciplinary Thinking", "Communication", "Philosophy", "Human-Computer Interaction", "Data Governance", "Public Speaking", "Survey Design", "Critical Analysis", "Collaboration"]
+    "skills": [
+      "Ethics Theory",
+      "Research Methods",
+      "Writing",
+      "Stakeholder Engagement",
+      "Risk Assessment",
+      "Fairness in ML",
+      "Privacy Law",
+      "Regulatory Landscape",
+      "Interdisciplinary Thinking",
+      "Communication",
+      "Human-Computer Interaction",
+      "Data Governance",
+      "Critical Analysis",
+      "Collaboration",
+      "AI/ML Knowledge",
+      "Policy Analysis",
+      "Bias Detection",
+      "Philosophy",
+      "Public Speaking"
+    ]
   },
   {
     "career": "UX Researcher",
-    "skills": ["User Interviews", "Usability Testing", "Survey Design", "Ethnographic Research", "Quantitative Research", "Qualitative Analysis", "A/B Testing", "Persona Development", "Journey Mapping", "Report Writing", "Data Analysis", "Statistics Basics", "Synthesis & Insights", "Collaboration with Designers", "Stakeholder Communication", "Eye Tracking", "Card Sorting", "Tree Testing", "Figma (Basic)", "Presentation Skills"]
+    "skills": [
+      "User Interviews",
+      "Usability Testing",
+      "Survey Design",
+      "Ethnographic Research",
+      "Quantitative Research",
+      "A/B Testing",
+      "Persona Development",
+      "Journey Mapping",
+      "Report Writing",
+      "Data Analysis",
+      "Statistics Basics",
+      "Collaboration with Designers",
+      "Stakeholder Communication",
+      "Card Sorting",
+      "Figma (Basic)",
+      "Presentation Skills",
+      "Qualitative Analysis",
+      "Synthesis & Insights"
+    ]
   },
   {
     "career": "DevRel (Developer Relations Engineer)",
-    "skills": ["Technical Writing", "Public Speaking", "Developer Advocacy", "API Usage", "Content Creation (Blogs, Tutorials)", "Community Building", "Social Media", "GitHub", "Coding (Python, JavaScript)", "Demo Building", "Documentation", "Event Organization", "Feedback Loop (Dev Community to Product)", "Empathy", "Technical Presentations", "Video Creation", "SEO Basics", "Developer Experience", "SDK Knowledge", "Collaboration"]
+    "skills": [
+      "Technical Writing",
+      "Developer Advocacy",
+      "Content Creation (Blogs, Tutorials)",
+      "Social Media",
+      "GitHub",
+      "Coding (Python, JavaScript)",
+      "Documentation",
+      "Event Organization",
+      "Feedback Loop (Dev Community to Product)",
+      "Technical Presentations",
+      "Video Creation",
+      "SEO Basics",
+      "Developer Experience",
+      "Collaboration",
+      "Public Speaking",
+      "API Usage",
+      "Community Building",
+      "Demo Building",
+      "Empathy",
+      "SDK Knowledge"
+    ]
   },
   {
     "career": "Information Security Manager",
-    "skills": ["CISM", "Risk Management", "Security Policies", "Incident Response", "Compliance (ISO 27001, NIST)", "Vendor Risk Management", "Security Awareness Training", "Budget Management", "Team Leadership", "SIEM", "Vulnerability Management", "Cloud Security", "Identity Management", "Penetration Testing Basics", "Data Privacy", "Business Continuity", "Communication", "Audit Management", "Threat Intelligence", "Reporting to Leadership"]
+    "skills": [
+      "Risk Management",
+      "Security Policies",
+      "Incident Response",
+      "Vendor Risk Management",
+      "Security Awareness Training",
+      "Team Leadership",
+      "Vulnerability Management",
+      "Cloud Security",
+      "Data Privacy",
+      "Communication",
+      "Audit Management",
+      "Threat Intelligence",
+      "Reporting to Leadership",
+      "CISM",
+      "Compliance (ISO 27001, NIST)",
+      "Budget Management",
+      "SIEM",
+      "Identity Management",
+      "Business Continuity",
+      "Penetration Testing Basics"
+    ]
   },
   {
     "career": "Chief Technology Officer (CTO)",
-    "skills": ["Technology Strategy", "Engineering Leadership", "Architecture Design", "Product Roadmap", "Budget Management", "Vendor Management", "Hiring & Team Building", "Agile/DevOps", "Cloud Platforms", "AI/ML Awareness", "Security Governance", "Stakeholder Communication", "Innovation Management", "Technical Due Diligence (M&A)", "Startup Experience", "Communication", "OKRs", "Open Source Strategy", "IP Management", "Board Reporting"]
+    "skills": [
+      "Technology Strategy",
+      "Engineering Leadership",
+      "Architecture Design",
+      "Product Roadmap",
+      "Vendor Management",
+      "Hiring & Team Building",
+      "Agile/DevOps",
+      "Cloud Platforms",
+      "AI/ML Awareness",
+      "Security Governance",
+      "Stakeholder Communication",
+      "Startup Experience",
+      "Communication",
+      "OKRs",
+      "Open Source Strategy",
+      "Board Reporting",
+      "Budget Management",
+      "Innovation Management",
+      "Technical Due Diligence (M&A)"
+    ]
   },
   {
     "career": "Chief Data Officer (CDO)",
-    "skills": ["Data Strategy", "Data Governance", "Data Architecture", "AI/ML Strategy", "Privacy & Compliance", "Stakeholder Management", "Data Monetization", "Data Culture Building", "Business Intelligence", "Cloud Data Platforms", "Team Leadership", "Budget Management", "Communication", "Executive Reporting", "Vendor Management", "Master Data Management", "Risk Management", "Analytics Strategy", "Technical Leadership", "Change Management"]
+    "skills": [
+      "Data Strategy",
+      "Data Governance",
+      "Data Architecture",
+      "AI/ML Strategy",
+      "Privacy & Compliance",
+      "Stakeholder Management",
+      "Data Culture Building",
+      "Cloud Data Platforms",
+      "Team Leadership",
+      "Communication",
+      "Executive Reporting",
+      "Vendor Management",
+      "Master Data Management",
+      "Risk Management",
+      "Analytics Strategy",
+      "Technical Leadership",
+      "Business Intelligence",
+      "Budget Management",
+      "Change Management"
+    ]
   },
   {
     "career": "Smart Contract Auditor",
-    "skills": ["Solidity", "Blockchain Protocols", "Security Vulnerabilities (Reentrancy, Overflow)", "Fuzzing Tools (Echidna, Foundry)", "Static Analysis (Slither, MythX)", "Formal Verification", "JavaScript", "Python", "Ethereum Virtual Machine", "Audit Report Writing", "DeFi Protocol Knowledge", "Testing Frameworks (Hardhat)", "Gas Optimization", "Cryptography", "Bug Bounty Experience", "Rust (for Solana)", "Protocol Review", "Risk Assessment", "Communication", "Continuous Learning"]
+    "skills": [
+      "Static Analysis (Slither, MythX)",
+      "JavaScript",
+      "Python",
+      "Ethereum Virtual Machine",
+      "Audit Report Writing",
+      "Testing Frameworks (Hardhat)",
+      "Bug Bounty Experience",
+      "Protocol Review",
+      "Risk Assessment",
+      "Communication",
+      "Continuous Learning",
+      "Solidity",
+      "Gas Optimization",
+      "Blockchain Protocols",
+      "Security Vulnerabilities (Reentrancy, Overflow)",
+      "Fuzzing Tools (Echidna, Foundry)",
+      "Formal Verification",
+      "DeFi Protocol Knowledge",
+      "Cryptography"
+    ]
   },
   {
     "career": "Web3 Developer",
-    "skills": ["Solidity", "JavaScript", "TypeScript", "React", "Hardhat/Foundry", "Ethers.js/Web3.js", "IPFS", "Smart Contract Development", "DApp Development", "Wallet Integration (MetaMask)", "Subgraph Development (The Graph)", "DeFi Protocols", "NFT Standards (ERC-721, ERC-1155)", "Layer 2 Solutions", "Chainlink Oracles", "Testing", "Gas Optimization", "Security Auditing Basics", "Multi-Chain Development", "Community Participation (DAO)"]
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Hardhat/Foundry",
+      "Ethers.js/Web3.js",
+      "Wallet Integration (MetaMask)",
+      "NFT Standards (ERC-721, ERC-1155)",
+      "Layer 2 Solutions",
+      "Chainlink Oracles",
+      "Testing",
+      "Community Participation (DAO)",
+      "Solidity",
+      "IPFS",
+      "DApp Development",
+      "Gas Optimization",
+      "Multi-Chain Development",
+      "Smart Contract Development",
+      "DeFi Protocols",
+      "Security Auditing Basics"
+    ]
   },
   {
     "career": "Digital Twins Engineer",
-    "skills": ["IoT Integration", "Simulation Software (ANSYS Twin Builder)", "Python", "MATLAB", "Industrial Protocols", "Cloud Platforms (Azure Digital Twins)", "Data Modeling", "3D Visualization", "Machine Learning", "Real-Time Data Streaming", "REST APIs", "PLC Systems", "Sensor Integration", "Predictive Maintenance", "Calibration", "Systems Engineering", "BIM (for Buildings)", "Cybersecurity Basics", "Operations Technology", "Communication"]
+    "skills": [
+      "IoT Integration",
+      "Simulation Software (ANSYS Twin Builder)",
+      "Python",
+      "Industrial Protocols",
+      "Cloud Platforms (Azure Digital Twins)",
+      "Machine Learning",
+      "Real-Time Data Streaming",
+      "REST APIs",
+      "Sensor Integration",
+      "Predictive Maintenance",
+      "Systems Engineering",
+      "BIM (for Buildings)",
+      "Cybersecurity Basics",
+      "Operations Technology",
+      "Communication",
+      "MATLAB",
+      "Data Modeling",
+      "3D Visualization",
+      "PLC Systems"
+    ]
   },
   {
     "career": "Edge Computing Engineer",
-    "skills": ["Linux", "Docker", "Kubernetes at Edge (K3s)", "IoT Protocols", "C/C++", "Python", "FPGA", "Embedded Systems", "Networking", "Cloud-Edge Integration", "Real-Time Processing", "Machine Learning at Edge (TensorFlow Lite)", "NVIDIA Jetson", "OpenVINO", "Security", "Firmware", "Containerization", "OTA Updates", "Remote Management", "5G Protocols"]
+    "skills": [
+      "Linux",
+      "Docker",
+      "IoT Protocols",
+      "C/C++",
+      "Python",
+      "Networking",
+      "Cloud-Edge Integration",
+      "Real-Time Processing",
+      "Security",
+      "Firmware",
+      "Containerization",
+      "Remote Management",
+      "5G Protocols",
+      "FPGA",
+      "Embedded Systems",
+      "NVIDIA Jetson",
+      "OpenVINO",
+      "OTA Updates",
+      "Kubernetes at Edge (K3s)",
+      "Machine Learning at Edge (TensorFlow Lite)"
+    ]
   },
   {
     "career": "Synthetic Biology Engineer",
-    "skills": ["Genetic Engineering", "CRISPR", "Metabolic Engineering", "Python (Bioinformatics)", "BioBrick Parts", "DNA Synthesis", "Lab Techniques (PCR, Gel Electrophoresis)", "Bioinformatics Tools", "Strain Development", "Protein Engineering", "Fermentation", "Mass Spectrometry", "Microscopy", "Literature Review", "Safety Regulations", "Technical Writing", "Cell Biology", "Modeling (COPASI, MATLAB)", "Research Methods", "Ethics in Synthetic Biology"]
+    "skills": [
+      "Genetic Engineering",
+      "Python (Bioinformatics)",
+      "Lab Techniques (PCR, Gel Electrophoresis)",
+      "Bioinformatics Tools",
+      "Strain Development",
+      "Fermentation",
+      "Mass Spectrometry",
+      "Microscopy",
+      "Literature Review",
+      "Safety Regulations",
+      "Technical Writing",
+      "Research Methods",
+      "Ethics in Synthetic Biology",
+      "Cell Biology",
+      "Modeling (COPASI, MATLAB)",
+      "CRISPR",
+      "Metabolic Engineering",
+      "DNA Synthesis",
+      "Protein Engineering"
+    ]
   },
   {
     "career": "Space Systems Engineer",
-    "skills": ["Systems Engineering (MBSE)", "Satellite Design", "Orbital Mechanics", "MATLAB/Python", "RF Communications", "Attitude Control", "Thermal Analysis", "Structural Analysis (FEA)", "Mission Planning", "CCSDS Protocols", "Risk Analysis", "Testing (Environmental, Vibration)", "Launch Vehicle Knowledge", "Software (AOCS, OBC)", "Space Standards (ECSS)", "Ground Segment Operations", "Telemetry Analysis", "Project Management", "Technical Documentation", "Cross-Disciplinary Collaboration"]
+    "skills": [
+      "Systems Engineering (MBSE)",
+      "MATLAB/Python",
+      "RF Communications",
+      "Thermal Analysis",
+      "Mission Planning",
+      "Risk Analysis",
+      "Testing (Environmental, Vibration)",
+      "Software (AOCS, OBC)",
+      "Space Standards (ECSS)",
+      "Ground Segment Operations",
+      "Telemetry Analysis",
+      "Project Management",
+      "Technical Documentation",
+      "Cross-Disciplinary Collaboration",
+      "Satellite Design",
+      "Orbital Mechanics",
+      "Attitude Control",
+      "Structural Analysis (FEA)",
+      "Launch Vehicle Knowledge"
+    ]
   }
 ]
