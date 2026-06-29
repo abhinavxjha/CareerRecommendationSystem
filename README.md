@@ -129,27 +129,27 @@ Career Insights Dashboard
 
 ## Dashboard
 
-(Add screenshot here)
+(screenshot here)
 
 ## Career Matching
 
-(Add screenshot here)
+(screenshot here)
 
 ## Skill Gap Analysis
 
-(Add screenshot here)
+(screenshot here)
 
 ## Recommended Courses
 
-(Add screenshot here)
+(screenshot here)
 
 ## Learning Roadmap
 
-(Add screenshot here)
+(screenshot here)
 
 ## Career Insights
 
-(Add screenshot here)
+(screenshot here)
 
 ---
 
