@@ -1,4 +1,4 @@
-# AI-Powered Career Recommendation and Skill Gap Analysis System 🎯
+# AI-Powered Career Recommendation and Skill Gap Analysis System 
 
 ## Overview
 
