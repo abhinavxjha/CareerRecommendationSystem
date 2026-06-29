@@ -228,6 +228,8 @@ if analyze:
     ##################################################
 
 
+    st.write("")
+    st.write("")
     st.markdown(
     "<h3 style='text-align: center;'>RECOMMENDED COURSES</h3>",
     unsafe_allow_html=True)
@@ -247,5 +249,24 @@ if analyze:
         }
     )
 
+    ##################################################
+    #                    ROADMAP                     #
+    ##################################################
 
+    st.write("")
+    st.write("")
+    st.markdown(
+    "<h3 style='text-align: center;'>ROADMAP</h3>",
+    unsafe_allow_html=True)
 
+    mskills=skill_gap_analysis(required_skills_data, selected_career, user_skills)
+    courses=course_recommendation(mskills, courses_data)
+    roadmap_generator(mskills, courses)
+    columns = st.columns(min(len(mskills), 5))
+    
+    for i, col in enumerate(columns):
+        with col:
+            with st.container(height=175, border=True):
+                st.markdown(f"#### 📅 Month {i+1}")
+                st.write("")
+                st.success(mskills[i])

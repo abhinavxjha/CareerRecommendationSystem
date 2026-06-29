@@ -125,7 +125,7 @@ def roadmap_generator(mskills, courses):
     roadmap={}
     for month, skill in enumerate(mskills, start=1):
         roadmap[f"Month {month}"]={"skill":skill}
-        if month==3:
+        if month==5:
             break
     return roadmap
 
