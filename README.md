@@ -1,77 +1,119 @@
-# AI-Powered Career Recommendation and Skill Gap Analysis System
+# AI-Powered Career Recommendation and Skill Gap Analysis System 🎯
 
 ## Overview
 
-The AI-Powered Career Recommendation and Skill Gap Analysis System is a data-driven career guidance platform designed to help students identify suitable career paths based on their existing skills and career interests.
+The AI-Powered Career Recommendation and Skill Gap Analysis System is an interactive Streamlit-based web application that helps students identify suitable career paths based on their existing skills and career aspirations.
 
-The system analyzes user skills, compares them with industry-required skills for multiple career roles, identifies missing skills, calculates career readiness, recommends learning resources, and generates a personalized learning roadmap.
+The application analyzes user skills, compares them with industry-required skills, identifies missing competencies, calculates career readiness, recommends learning resources, and generates a personalized learning roadmap to guide users toward their desired career.
 
-This project aims to provide students with structured guidance for career planning and skill development using data analysis and recommendation techniques.
-
----
-
-## Features
-
-### 1. Career Matching Engine
-
-* Matches user skills with multiple career roles.
-* Calculates compatibility scores for each career.
-* Displays ranked career recommendations.
-* Implemented using Python and NumPy.
-
-### 2. Skill Gap Analysis
-
-* Identifies missing skills for a selected career.
-* Highlights areas requiring improvement.
-* Helps users understand skill deficiencies.
-
-### 3. Career Readiness Score
-
-* Calculates readiness percentage for a chosen career.
-* Measures how many required skills are already possessed.
-* Provides a quick assessment of career preparedness.
-
-### 4. Course Recommendation System
-
-* Suggests courses based on identified skill gaps.
-* Recommends relevant learning resources.
-* Displays course information and providers.
-
-### 5. Personalized Learning Roadmap
-
-* Generates a structured month-wise learning plan.
-* Organizes missing skills into achievable milestones.
-* Provides a clear path toward career readiness.
+Designed as a college data science project, the system combines data analysis, recommendation techniques, and an intuitive dashboard to simplify career planning.
 
 ---
 
-## Project Workflow
+# Features
 
-User Skills
+### 🎯 Career Matching Engine
+
+* Matches user skills with multiple career paths.
+* Calculates compatibility scores using NumPy.
+* Displays the Top 5 most suitable careers.
+* Visualizes career match percentages using interactive charts.
+
+### 📉 Skill Gap Analysis
+
+* Identifies missing skills for the selected career.
+* Highlights areas that require improvement.
+* Helps users understand their current skill gaps.
+
+### 📊 Career Readiness Score
+
+* Calculates career readiness as a percentage.
+* Shows how prepared the user is for the selected career.
+* Displays readiness through an intuitive dashboard card.
+
+### 📚 Course Recommendation
+
+* Recommends learning resources based on missing skills.
+* Provides direct course links.
+* Suggests resources for each missing skill.
+
+### 🛣️ Personalized Learning Roadmap
+
+* Generates a month-wise learning roadmap.
+* Suggests one focus skill for each learning stage.
+* Provides a structured learning journey.
+
+### 📈 Career Insights Dashboard
+
+* Compares careers based on:
+
+  * Match Score
+  * Difficulty
+  * Learning Time
+* Displays comparison using tables and charts.
+
+### 📄 Resume Parsing
+
+* Upload a PDF resume.
+* Automatically extract skills from the resume.
+* Manual skill entry is also supported.
+
+---
+
+# Workflow
+
+Resume Upload / Manual Skill Input
+
 ↓
-Career Matching Engine
+
+Career Matching
+
 ↓
+
 Career Selection
+
 ↓
+
 Skill Gap Analysis
+
 ↓
+
 Career Readiness Score
+
 ↓
-Course Recommendation System
+
+Course Recommendation
+
 ↓
-Personalized Learning Roadmap
+
+Learning Roadmap
+
+↓
+
+Career Insights Dashboard
 
 ---
 
-## Technologies Used
+# Tech Stack
 
 ### Programming Language
 
 * Python
 
+### Frontend
+
+* Streamlit
+
 ### Libraries
 
 * NumPy
+* Pandas
+* Matplotlib
+* Plotly
+* pdfplumber
+
+### Data Storage
+
 * JSON
 
 ### Tools
@@ -83,48 +125,64 @@ Personalized Learning Roadmap
 
 ---
 
-## Project Structure
+# Screenshots
 
-CareerRecommendationSystem/
+## Dashboard
 
-├── data/
-│   ├── careers.json
-│   ├── courses.json
-│   └── skills.json
-│
-├── modules/
-│   └── helpers.py
-│
-├── features/
-│   ├── 02_skill_gap.ipynb
-│   ├── 03_readiness_score.ipynb
-│   ├── 04_career_matching.ipynb
-│   ├── 05_course_recommendation.ipynb
-│   └── 06_roadmap_generator.ipynb
-│
-└── .gitignore
+(Add screenshot here)
+
+## Career Matching
+
+(Add screenshot here)
+
+## Skill Gap Analysis
+
+(Add screenshot here)
+
+## Recommended Courses
+
+(Add screenshot here)
+
+## Learning Roadmap
+
+(Add screenshot here)
+
+## Career Insights
+
+(Add screenshot here)
 
 ---
 
-## Future Enhancements
+# Installation
 
-* Resume Parsing and Skill Extraction
-* Career Comparison Dashboard
-* Data Visualizations and Analytics
-* PDF Career Report Generation
-* Streamlit Web Application
-* Machine Learning-Based Career Matching
+```bash
+git clone https://github.com/yourusername/your-repository.git
+
+cd CareerRecommendationSystem
+
+pip install -r requirements.txt
+
+streamlit run app.py
+```
+
+---
+
+# Future Improvements
+
+* Machine Learning based Career Prediction
 * AI Career Mentor Chatbot
-* Internship Recommendations
-* Job Market Trend Analysis
+* Resume Score Analysis
+* Internship Recommendation System
+* PDF Career Report Generation
+* User Authentication
+* Database Integration
 
 ---
 
-## Author
+# Author
 
-Abhinav Jha
-BTech CSE
-JUIT Solan
+**Abhinav Jha**
 
+B.Tech Computer Science & Engineering
 
-
+Jaypee University of Information Technology, Solan
