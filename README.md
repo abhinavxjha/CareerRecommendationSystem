@@ -6,7 +6,7 @@ The AI-Powered Career Recommendation and Skill Gap Analysis System is an interac
 
 The application analyzes user skills, compares them with industry-required skills, identifies missing competencies, calculates career readiness, recommends learning resources, and generates a personalized learning roadmap to guide users toward their desired career.
 
-Designed as a college data science project, the system combines data analysis, recommendation techniques, and an intuitive dashboard to simplify career planning.
+Designed as a college data science project, the system combines data analysis, recommendation techniques, and an intuitive dashboard to simplify career planning..
 
 ---
 
