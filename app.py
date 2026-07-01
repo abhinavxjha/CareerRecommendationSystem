@@ -193,7 +193,7 @@ if analyze:
                 unsafe_allow_html=True)
 
                 df=pd.DataFrame(rec_career, columns=["Rank","Career","Match Score"])
-                st.bar_chart(df, x="Career", y="Match Score", )
+                st.bar_chart(df, x="Career", y="Match Score", )     #will replace this with matplotlib or seaborn
 
 
 
@@ -218,7 +218,7 @@ if analyze:
                 .str.replace(" Months", "", regex=False)
                 .astype(int)
                 )
-                st.bar_chart(df3, x="Career", y="Learning Time")
+                st.bar_chart(df3, x="Career", y="Learning Time")     #will replace this with matplotlib or seaborn
             
         with col3:
             with st.container(height=445, border=True):
