@@ -5,6 +5,7 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 import streamlit as st
 import plotly.graph_objects as go
 from modules.helpers import (
@@ -193,7 +194,18 @@ if analyze:
                 unsafe_allow_html=True)
 
                 df=pd.DataFrame(rec_career, columns=["Rank","Career","Match Score"])
-                st.bar_chart(df, x="Career", y="Match Score", )     #will replace this with matplotlib or seaborn
+
+                plt.figure(figsize=(4,4), facecolor="#0E1117")
+                ax = plt.gca()              
+                ax.set_facecolor("#0E1117") 
+                ax.spines["top"].set_visible(False)
+                ax.spines["right"].set_visible(False)                
+                plt.barh(df["Career"], df["Match Score"])
+                plt.xlabel("Match Score (%)", color="white")
+                plt.ylabel("", color="white")
+                plt.xticks(color="white")
+                plt.yticks(color="white")
+                st.pyplot(plt)
 
 
 
@@ -218,8 +230,64 @@ if analyze:
                 .str.replace(" Months", "", regex=False)
                 .astype(int)
                 )
-                st.bar_chart(df3, x="Career", y="Learning Time")     #will replace this with matplotlib or seaborn
-            
+
+                def convert_time(time):                         #helped by ai
+                    if "Months" in time:
+                        return int(time.replace(" Months", ""))
+                    elif "Years" in time:
+                        return int(time.replace(" Years", "")) * 12
+                    df3["Learning Time"] = df3["Learning Time"].apply(convert_time)    
+
+
+                career_labels = [name[:12] + "..." if len(name) > 12 else name for name in df3["Career"]]
+
+
+#matplotlib
+#------graph colors--------
+
+                plt.figure(figsize=(8,4), facecolor="#0E1117")
+                colors=[]
+                for i in df3["Difficulty"]:
+                    if i=="Low":
+                        colors.append("green")
+                    elif i=="Medium":
+                        colors.append("gold")
+                    elif i=="High":
+                        colors.append("orange")
+                    else:
+                        colors.append("red")
+
+#------graph lines-------
+
+                ax = plt.gca()              
+                ax.set_facecolor("#0E1117") 
+                ax.spines["top"].set_visible(False)
+                ax.spines["right"].set_visible(False)     
+
+#-------for graph--------
+
+                plt.bar(career_labels, df3["Learning Time"], color=colors)
+                plt.xlabel("Career", color="white")
+                plt.ylabel("Learning Time (Months)", color="white")
+                plt.xticks(color="white")
+                plt.yticks(color="white")
+                plt.tight_layout()
+
+#-------for legend--------
+
+                low = mpatches.Patch(color="green", label="Low")
+                medium = mpatches.Patch(color="gold", label="Medium")
+                high = mpatches.Patch(color="orange", label="High")
+                very_high = mpatches.Patch(color="red", label="Very High")
+                plt.legend(
+                    handles=[low, medium, high, very_high],
+                    loc="upper right",
+                    facecolor="#0E1117",
+                    edgecolor="#0E1117",
+                    labelcolor="white"
+                )
+                st.pyplot(plt)
+                
         with col3:
             with st.container(height=445, border=True):
                 st.markdown(f"""
