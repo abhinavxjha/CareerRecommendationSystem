@@ -129,27 +129,21 @@ Career Insights Dashboard
 
 ## Dashboard
 
-(screenshot here)
+<img width="1918" height="912" alt="image" src="https://github.com/user-attachments/assets/838296c3-25dc-4d93-b983-3c0e57b0243e" />
 
-## Career Matching
 
-(screenshot here)
+## Career Matching   ## Skill Gap Analysis   ## Readiness Score
+<img width="1918" height="916" alt="image" src="https://github.com/user-attachments/assets/f29e3c0c-ce35-4e92-a3c3-08ff5ae27acc" />
 
-## Skill Gap Analysis
 
-(screenshot here)
+## Recommended Courses   ## Matched Career insights   ##Best Career Match
+<img width="1918" height="977" alt="image" src="https://github.com/user-attachments/assets/39eb53e1-90e9-4574-9297-cb95fcba8ef4" />
 
-## Recommended Courses
-
-(screenshot here)
 
 ## Learning Roadmap
+<img width="1918" height="977" alt="image" src="https://github.com/user-attachments/assets/c19f0a55-e0ba-429a-9cea-4ed4627383ff" />
 
-(screenshot here)
 
-## Career Insights
-
-(screenshot here)
 
 ---
 
