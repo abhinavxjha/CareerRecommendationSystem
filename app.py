@@ -31,7 +31,6 @@ from modules.helpers import (
     extract_skills,
     career_matching
 )
-from modules.helpers import *
 
 required_skills_data = load_skills("data/careers.json")
 courses_data = load_courses("data/courses.json")
@@ -61,7 +60,8 @@ unsafe_allow_html=True,
 ##################################################
 
 
-
+user_skills = []
+uploaded_file = None
 col2, col3 = st.columns(2)
 with col2:
         with st.container(height=300,border=True):
@@ -72,15 +72,17 @@ with col2:
             if input_method == "Manual Skills":
                 skills=st.text_area("Enter Your Skills")
                 user_skills = [ skill.strip() for skill in skills.split(",") if skill.strip()]
+                
                 if user_skills:
                     st.success("Skills Entered Successfully")
-                            
+                         
             elif input_method == "Resume Upload":
                 uploaded_file=st.file_uploader("Upload Resume", type=["pdf"], max_upload_size=10, accept_multiple_files=False)
                 if uploaded_file:
                     resume_text = text_from_pdf(uploaded_file)
                     all_skills = skills_list(skills_data)
                     user_skills = extract_skills(resume_text, all_skills)
+
 
 
 ##################################################
@@ -103,253 +105,270 @@ with col3:
             analyze=st.button("Analyze", use_container_width=True)
 st.divider()
 
+
+
+
 ##################################################
 #              SKILL GAP ANALYSIS                #
 ##################################################
 
 
+
 if analyze:
-    errors = []
-
-    if input_method == "Resume Upload" and uploaded_file is None:
-        errors.append("Upload your resume.")
-
-    if input_method == "Manual Skills" and not user_skills:
-        errors.append("Enter your skills.")
-
-    if selected_career is None:
-        errors.append("Select your target career.")
-
-    if errors:
-        st.warning("Please complete the following before analyzing:\n\n" + "\n".join(f"- {e}" for e in errors))
-    else:
-
-        st.markdown(
-        "<h2 style='text-align: center;' id='#skill-gap'>RESULTS</h2>",
-        unsafe_allow_html=True, 
-        )
-
-        st.divider()
-
-        missing_skills=skill_gap_analysis(required_skills_data, selected_career, user_skills)
-        col1, col2, col3 = st.columns(3)
-        with col1:
-            with st.container(height=470,border=True):
-
-                st.markdown(
-                "<h3 style='text-align: center;' id='home'>SKILL GAP ANALYSIS</h3>",
-                unsafe_allow_html=True)
-
-                for skill in missing_skills:
-                        st.write(f"• {skill}")
-
-                st.divider()
-
-
-##################################################
-#             CAREER READINESS SCORE             #
-##################################################
     
+    try:
+        errors = []
 
-        with col2:
-            with st.container(height=470,border=True):
+        if input_method == "Resume Upload":
+            if uploaded_file is None:
+                errors.append("Upload your resume.")
+            elif len(user_skills) == 0:
+                st.warning("No relevant technical skills were found in this resume. Please upload a valid resume or enter skills manually.")
+                st.stop()
 
-                career_readiness_score=readiness_score(required_skills_data, selected_career, user_skills)
+        if input_method == "Manual Skills" and not user_skills:
+            errors.append("Enter your skills.")
 
-                st.markdown(
-                "<h3 style='text-align: center;'>CAREER READINESS SCORE</h3>",
-                unsafe_allow_html=True)
+        if selected_career is None:
+            errors.append("Select your target career.")
 
-                fig = go.Figure(go.Indicator(
-                    mode="gauge+number",
-                    value=career_readiness_score,
-                    gauge={"axis": {"range": [0, 100]}}
-                    )
-                )
+        if errors:
+            st.warning("Please complete the following before analyzing:\n\n" + "\n".join(f"- {e}" for e in errors))
+        else:
 
-                st.plotly_chart(fig)
-                    
-                if career_readiness_score >= 80:
-                    st.success("Excellent readiness for this career!")
-                elif career_readiness_score >= 50:
-                    st.warning("You are on the right track. Keep learning.")
-                else:
-                    st.error("Significant skill gaps detected.")
-                st.divider()
-
-
-    ##################################################
-    #                MATCHING CAREER                 #
-    ##################################################
-
-
-        with col3:
-            with st.container(height=470, border=True):
-
-                results = matching_score(required_skills_data, user_skills)
-                rec_career=career_matching(results)
-
-                st.markdown(
-                "<h3 style='text-align: center;'>TOP 5 MATCHED CAREER</h3>",
-                unsafe_allow_html=True)
-
-                df=pd.DataFrame(rec_career, columns=["Rank","Career","Match Score"])
-
-                plt.figure(figsize=(4,4), facecolor="#0E1117")
-                ax = plt.gca()              
-                ax.set_facecolor("#0E1117") 
-                ax.spines["top"].set_visible(False)
-                ax.spines["right"].set_visible(False)                
-                plt.barh(df["Career"], df["Match Score"])
-                plt.xlabel("Match Score (%)", color="white")
-                plt.ylabel("", color="white")
-                plt.xticks(color="white")
-                plt.yticks(color="white")
-                st.pyplot(plt)
-
-
-
-    ##################################################
-    #               CAREER COMPARISON                #
-    ##################################################
-
-
-        col2, col3 = st.columns(2)
-        with col2:
-            with st.container(height=445,border=True):
-                st.markdown(
-                "<h3 style='text-align: center;'>MATCHED CAREER INSIGHTS</h3>",
-                unsafe_allow_html=True)
-
-                get_career_info(career_info_data, selected_career)
-                comp_rows=career_comparison(results, career_info_data)
-                df3=career_comparison_table(comp_rows)
-                df3=df3.iloc[0:5]
-                df3["Learning Time"] = (
-                df3["Learning Time"]
-                .str.replace(" Months", "", regex=False)
-                .astype(int)
-                )
-
-                def convert_time(time):                         #helped by ai
-                    if "Months" in time:
-                        return int(time.replace(" Months", ""))
-                    elif "Years" in time:
-                        return int(time.replace(" Years", "")) * 12
-                    df3["Learning Time"] = df3["Learning Time"].apply(convert_time)    
-
-
-                career_labels = [name[:12] + "..." if len(name) > 12 else name for name in df3["Career"]]
-
-
-#matplotlib
-#------graph colors--------
-
-                plt.figure(figsize=(8,4), facecolor="#0E1117")
-                colors=[]
-                for i in df3["Difficulty"]:
-                    if i=="Low":
-                        colors.append("green")
-                    elif i=="Medium":
-                        colors.append("gold")
-                    elif i=="High":
-                        colors.append("orange")
-                    else:
-                        colors.append("red")
-
-#------graph lines-------
-
-                ax = plt.gca()              
-                ax.set_facecolor("#0E1117") 
-                ax.spines["top"].set_visible(False)
-                ax.spines["right"].set_visible(False)     
-
-#-------for graph--------
-
-                plt.bar(career_labels, df3["Learning Time"], color=colors)
-                plt.xlabel("Career", color="white")
-                plt.ylabel("Learning Time (Months)", color="white")
-                plt.xticks(color="white")
-                plt.yticks(color="white")
-                plt.tight_layout()
-
-#-------for legend--------
-
-                low = mpatches.Patch(color="green", label="Low")
-                medium = mpatches.Patch(color="gold", label="Medium")
-                high = mpatches.Patch(color="orange", label="High")
-                very_high = mpatches.Patch(color="red", label="Very High")
-                plt.legend(
-                    handles=[low, medium, high, very_high],
-                    loc="upper right",
-                    facecolor="#0E1117",
-                    edgecolor="#0E1117",
-                    labelcolor="white"
-                )
-                st.pyplot(plt)
-                
-        with col3:
-            with st.container(height=445, border=True):
-                st.markdown(f"""
-                <div style="
-                text-align:center;
-                padding:15px;
-                border:1px;
-                border-radius:10px;
-                ">
-                <h3 style="margin:0;">BEST CAREER MATCH</h3>
-                <h1 style="margin:50px 0;">{df3.iloc[0]["Career"]}</h1>
-                <h3 style="color:#22c55e;">{df3.iloc[0]["Match Score"]:.2f}% Match</h3>
-                </div>
-    """, unsafe_allow_html=True)
-
-
-
-        ##################################################
-        #             COURSE RECOMMENDATION              #
-        ##################################################
-
-
-        st.write("")
-        st.write("")
-        st.markdown(
-        "<h3 style='text-align: center;'>RECOMMENDED COURSES</h3>",
-        unsafe_allow_html=True)
-
-        required_skills=get_required_skills(required_skills_data, selected_career)
-        courses=course_recommendation(missing_skills, courses_data)
-        recommend_courses=fcourse_recommend(required_skills, courses_data)
-
-        for skill, course, provider, link in recommend_courses:
-            df2=pd.DataFrame(recommend_courses, columns=["Skills","Course","Provider","Link"])
-        st.dataframe(df2, hide_index=True, use_container_width=True, column_config={
-            "Link": st.column_config.LinkColumn(
-                "Course Link",
-                display_text="Open Course 🔗",
-                width="small"
+            st.markdown(
+            "<h2 style='text-align: center;' id='#skill-gap'>RESULTS</h2>",
+            unsafe_allow_html=True, 
             )
-            }
-        )
 
-        ##################################################
-        #                    ROADMAP                     #
-        ##################################################
+            st.divider()
 
-        st.write("")
-        st.write("")
-        st.markdown(
-        "<h3 style='text-align: center;'>ROADMAP</h3>",
-        unsafe_allow_html=True)
+            missing_skills=skill_gap_analysis(required_skills_data, selected_career, user_skills)
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                with st.container(height=470,border=True):
 
-        mskills=skill_gap_analysis(required_skills_data, selected_career, user_skills)
-        courses=course_recommendation(mskills, courses_data)
-        roadmap_generator(mskills, courses)
-        columns = st.columns(min(len(mskills), 5))
+                    st.markdown(
+                    "<h3 style='text-align: center;' id='home'>SKILL GAP ANALYSIS</h3>",
+                    unsafe_allow_html=True)
+
+                    for skill in missing_skills:
+                            st.write(f"• {skill}")
+
+                    st.divider()
+
+
+    ##################################################
+    #             CAREER READINESS SCORE             #
+    ##################################################
         
-        for i, col in enumerate(columns):
-            with col:
-                with st.container(height=175, border=True):
-                    st.markdown(f"#### 📅 Month {i+1}")
-                    st.write("")
-                    st.success(mskills[i])
+
+            with col2:
+                with st.container(height=470,border=True):
+
+                    career_readiness_score=readiness_score(required_skills_data, selected_career, user_skills)
+
+                    st.markdown(
+                    "<h3 style='text-align: center;'>CAREER READINESS SCORE</h3>",
+                    unsafe_allow_html=True)
+
+                    fig = go.Figure(go.Indicator(
+                        mode="gauge+number",
+                        value=career_readiness_score,
+                        gauge={"axis": {"range": [0, 100]}}
+                        )
+                    )
+
+                    st.plotly_chart(fig)
+                        
+                    if career_readiness_score >= 80:
+                        st.success("Excellent readiness for this career!")
+                    elif career_readiness_score >= 50:
+                        st.warning("You are on the right track. Keep learning.")
+                    else:
+                        st.error("Significant skill gaps detected.")
+                    st.divider()
+
+
+        ##################################################
+        #                MATCHING CAREER                 #
+        ##################################################
+
+
+            with col3:
+                with st.container(height=470, border=True):
+
+                    results = matching_score(required_skills_data, user_skills)
+                    rec_career=career_matching(results)
+
+                    st.markdown(
+                    "<h3 style='text-align: center;'>TOP 5 MATCHED CAREER</h3>",
+                    unsafe_allow_html=True)
+
+                    df=pd.DataFrame(rec_career, columns=["Rank","Career","Match Score"])
+
+                    plt.figure(figsize=(4,4), facecolor="#0E1117")
+                    ax = plt.gca()              
+                    ax.set_facecolor("#0E1117") 
+                    ax.spines["top"].set_visible(False)
+                    ax.spines["right"].set_visible(False)                
+                    plt.barh(df["Career"], df["Match Score"])
+                    plt.xlabel("Match Score (%)", color="white")
+                    plt.ylabel("", color="white")
+                    plt.xticks(color="white")
+                    plt.yticks(color="white")
+                    st.pyplot(plt)
+
+
+
+        ##################################################
+        #               CAREER COMPARISON                #
+        ##################################################
+
+
+            col2, col3 = st.columns(2)
+            with col2:
+                with st.container(height=445,border=True):
+                    st.markdown(
+                    "<h3 style='text-align: center;'>MATCHED CAREER INSIGHTS</h3>",
+                    unsafe_allow_html=True)
+
+                    get_career_info(career_info_data, selected_career)
+                    comp_rows=career_comparison(results, career_info_data)
+                    df3=career_comparison_table(comp_rows)
+                    df3=df3.iloc[0:5]
+                    df3["Learning Time"] = (
+                    df3["Learning Time"]
+                    .str.replace(" Months", "", regex=False)
+                    .astype(int)
+                    )
+
+                    def convert_time(time):                         #helped by ai
+                        if "Months" in time:
+                            return int(time.replace(" Months", ""))
+                        elif "Years" in time:
+                            return int(time.replace(" Years", "")) * 12
+                        df3["Learning Time"] = df3["Learning Time"].apply(convert_time)    
+
+
+                    career_labels = [name[:12] + "..." if len(name) > 12 else name for name in df3["Career"]]
+
+
+    #matplotlib
+    #------graph colors--------
+
+                    plt.figure(figsize=(8,4), facecolor="#0E1117")
+                    colors=[]
+                    for i in df3["Difficulty"]:
+                        if i=="Low":
+                            colors.append("green")
+                        elif i=="Medium":
+                            colors.append("gold")
+                        elif i=="High":
+                            colors.append("orange")
+                        else:
+                            colors.append("red")
+
+    #------graph lines-------
+
+                    ax = plt.gca()              
+                    ax.set_facecolor("#0E1117") 
+                    ax.spines["top"].set_visible(False)
+                    ax.spines["right"].set_visible(False)     
+
+    #-------for graph--------
+
+                    plt.bar(career_labels, df3["Learning Time"], color=colors)
+                    plt.xlabel("Career", color="white")
+                    plt.ylabel("Learning Time (Months)", color="white")
+                    plt.xticks(color="white")
+                    plt.yticks(color="white")
+                    plt.tight_layout()
+
+    #-------for legend--------
+
+                    low = mpatches.Patch(color="green", label="Low")
+                    medium = mpatches.Patch(color="gold", label="Medium")
+                    high = mpatches.Patch(color="orange", label="High")
+                    very_high = mpatches.Patch(color="red", label="Very High")
+                    plt.legend(
+                        handles=[low, medium, high, very_high],
+                        loc="upper right",
+                        facecolor="#0E1117",
+                        edgecolor="#0E1117",
+                        labelcolor="white"
+                    )
+                    st.pyplot(plt)
                     
+            with col3:
+                with st.container(height=445, border=True):
+                    st.markdown(f"""
+                    <div style="
+                    text-align:center;
+                    padding:15px;
+                    border:1px;
+                    border-radius:10px;
+                    ">
+                    <h3 style="margin:0;">BEST CAREER MATCH</h3>
+                    <h1 style="margin:50px 0;">{df3.iloc[0]["Career"]}</h1>
+                    <h3 style="color:#22c55e;">{df3.iloc[0]["Match Score"]:.2f}% Match</h3>
+                    </div>
+        """, unsafe_allow_html=True)
+
+
+
+            ##################################################
+            #             COURSE RECOMMENDATION              #
+            ##################################################
+
+
+            st.write("")
+            st.write("")
+            st.markdown(
+            "<h3 style='text-align: center;'>RECOMMENDED COURSES</h3>",
+            unsafe_allow_html=True)
+
+            required_skills=get_required_skills(required_skills_data, selected_career)
+            courses=course_recommendation(missing_skills, courses_data)
+            recommend_courses=fcourse_recommend(missing_skills, courses_data)
+            df2=pd.DataFrame(recommend_courses, columns=["Skills","Course","Provider","Link"])
+            if len(df2) == 0:
+                st.info("No courses found.")
+            else:
+                st.dataframe(df2, hide_index=True, use_container_width=True, column_config={
+                    "Link": st.column_config.LinkColumn(
+                        "Course Link",
+                        display_text="Open Course 🔗",
+                        width="small"
+                    )
+                    }
+                )
+
+            ##################################################
+            #                    ROADMAP                     #
+            ##################################################
+
+            st.write("")
+            st.write("")
+            st.markdown(
+            "<h3 style='text-align: center;'>ROADMAP</h3>",
+            unsafe_allow_html=True)
+
+            mskills=skill_gap_analysis(required_skills_data, selected_career, user_skills)
+            courses=course_recommendation(mskills, courses_data)
+            roadmap_generator(mskills, courses)
+            columns = st.columns(min(len(mskills), 5))
+            
+            for i, col in enumerate(columns):
+                with col:
+                    with st.container(height=175, border=True):
+                        st.markdown(f"#### 📅 Month {i+1}")
+                        st.write("")
+                        st.success(mskills[i])
+
+##################################################
+#                   exception                    #
+##################################################                
+    except Exception:
+        st.error("Unable to analyze this document. Please upload a valid resume PDF.")
+        st.stop()
