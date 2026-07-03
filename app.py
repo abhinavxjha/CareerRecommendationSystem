@@ -72,7 +72,6 @@ with col2:
             if input_method == "Manual Skills":
                 skills=st.text_area("Enter Your Skills")
                 user_skills = [ skill.strip() for skill in skills.split(",") if skill.strip()]
-                
                 if user_skills:
                     st.success("Skills Entered Successfully")
                          
@@ -106,16 +105,12 @@ with col3:
 st.divider()
 
 
-
-
 ##################################################
 #              SKILL GAP ANALYSIS                #
 ##################################################
 
 
-
 if analyze:
-    
     try:
         errors = []
 
@@ -134,8 +129,8 @@ if analyze:
 
         if errors:
             st.warning("Please complete the following before analyzing:\n\n" + "\n".join(f"- {e}" for e in errors))
-        else:
 
+        else:
             st.markdown(
             "<h2 style='text-align: center;' id='#skill-gap'>RESULTS</h2>",
             unsafe_allow_html=True, 
@@ -158,9 +153,9 @@ if analyze:
                     st.divider()
 
 
-    ##################################################
-    #             CAREER READINESS SCORE             #
-    ##################################################
+##################################################
+#             CAREER READINESS SCORE             #
+##################################################
         
 
             with col2:
@@ -190,9 +185,9 @@ if analyze:
                     st.divider()
 
 
-        ##################################################
-        #                MATCHING CAREER                 #
-        ##################################################
+##################################################
+#              TOP 5 MATCHED CAREER              #
+##################################################
 
 
             with col3:
@@ -220,10 +215,9 @@ if analyze:
                     st.pyplot(plt)
 
 
-
-        ##################################################
-        #               CAREER COMPARISON                #
-        ##################################################
+##################################################
+#                 CAREER INSIGHTS                #
+##################################################
 
 
             col2, col3 = st.columns(2)
@@ -237,7 +231,7 @@ if analyze:
                     comp_rows=career_comparison(results, career_info_data)
                     df3=career_comparison_table(comp_rows)
                     df3=df3.iloc[0:5]
-                    df3["Learning Time"] = (
+                    df3["Learning Time"]=(
                     df3["Learning Time"]
                     .str.replace(" Months", "", regex=False)
                     .astype(int)
@@ -254,7 +248,7 @@ if analyze:
                     career_labels = [name[:12] + "..." if len(name) > 12 else name for name in df3["Career"]]
 
 
-    #matplotlib
+        #matplotlib
     #------graph colors--------
 
                     plt.figure(figsize=(8,4), facecolor="#0E1117")
@@ -300,6 +294,7 @@ if analyze:
                     )
                     st.pyplot(plt)
                     
+
             with col3:
                 with st.container(height=445, border=True):
                     st.markdown(f"""
@@ -316,10 +311,9 @@ if analyze:
         """, unsafe_allow_html=True)
 
 
-
-            ##################################################
-            #             COURSE RECOMMENDATION              #
-            ##################################################
+##################################################
+#             COURSE RECOMMENDATION              #
+##################################################
 
 
             st.write("")
@@ -344,9 +338,11 @@ if analyze:
                     }
                 )
 
-            ##################################################
-            #                    ROADMAP                     #
-            ##################################################
+
+##################################################
+#                    ROADMAP                     #
+##################################################
+
 
             st.write("")
             st.write("")
@@ -365,6 +361,7 @@ if analyze:
                         st.markdown(f"#### 📅 Month {i+1}")
                         st.write("")
                         st.success(mskills[i])
+
 
 ##################################################
 #                   exception                    #

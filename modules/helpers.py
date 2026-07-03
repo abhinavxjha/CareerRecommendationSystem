@@ -70,7 +70,7 @@ def readiness_score(required_skills_data, selected_career, user_skills):
 
 
 ##################################################
-#               CAREER MATCHING                  #
+#               TOP 5 MATCHED CAREER             #
 ##################################################
 
 
@@ -117,7 +117,7 @@ def get_required_skills(required_skills_data, selected_career):
 
 
 ##################################################
-#               ROADMAP GENERATOR                #
+#                    ROADMAP                     #
 ##################################################
 
 
@@ -138,7 +138,7 @@ def final_roadmap(mskills, courses):
 
 
 ##################################################
-#               CAREER COMPARISON                #
+#                 CAREER INSIGHTS                #
 ##################################################
 
 
@@ -186,7 +186,7 @@ def career_comparison_table(comp_rows):
 
 
 ##################################################
-#                  RESUME PARSER                 #
+#        RESUME PARSER (FOR SKILL INPUT)         #
 ##################################################
 
 
