@@ -3,7 +3,6 @@
 ##################################################
 
 
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
@@ -71,7 +70,7 @@ with col2:
             input_method=st.radio("Choose Input Method", ["Manual Skills", "Resume Upload"])
 
             if input_method == "Manual Skills":
-                skills=st.text_area("Enter Your Skills")
+                skills = st.text_area("Enter Your Skills", placeholder="Enter skills separated by commas.\nExample:\nPython, SQL, Pandas, NumPy, Machine Learning")
                 user_skills = [ skill.strip() for skill in skills.split(",") if skill.strip()]
                 if user_skills:
                     st.success("Skills Entered Successfully")
