@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Recommendation System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <a class="titlen" href="#inputsection">CareerRecommendationSystem</a>
+    </nav>
+
+    <main>
+        <section id="inputsection">
+            <div class="inputmainclass">
+                <h1 id="heading">Welcome To Your Career Analysis</h1>
+                <div class="inputmainclass1">
+                    <div id="resumeinput" class="resumeinputclass">
+                        <h2 id="resumein">Upload Your Resume</h2>
+                        <input type="file" id="file-upload" name="user-file" hidden>
+                        <label for="file-upload" id="file-upload-label">Upload File</label>
+                    </div>
+
+                    <div id="skillinput" class="skillinputclass">
+                        <h2 id="skillin">Enter Your Skills</h2>
+                        <input id="skillinputbar" type="text" placeholder="Enter Your Skills">
+                        <button id="skillinputbtn" type="button">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="careerinput">
+            <h2 id="careerhead">Enter Your Desired Career</h2>
+            <div class="inputcareer">
+                <form>
+                    <select id="careerinputbar" name="Career" disabled>
+                        <option value="">Loading careers...</option>
+                    </select>
+                </form>
+            </div>
+        </section>
+
+        <div id="anabtn">
+            <button id="Analyze" type="button">Analyze</button>
+        </div>
+
+        <section id="features" hidden aria-live="polite">
+            <h2 class="results-heading">RESULTS</h2>
+            <div id="allfeatures">
+                <div class="feature-row first-row">
+                    <article class="features" id="SkillGap">
+                        <h3>Skill Gap Analysis</h3>
+                        <div class="feature-content" id="skill-gap-content"></div>
+                    </article>
+                    <article class="features" id="MatchedCareer">
+                        <h3>Top 5 Matched Careers</h3>
+                        <div class="feature-content"><div class="chart-wrap"><canvas id="match-chart"></canvas></div><p id="match-empty" hidden>No matches found yet.</p></div>
+                    </article>
+                    <article class="features" id="ReadinessScore">
+                        <h3>Career Readiness Score</h3>
+                        <div class="feature-content"><div class="gauge-wrap"><canvas id="readiness-chart"></canvas><p class="gauge-value" id="gauge-value">0<small>%</small></p></div><p id="readiness-message"></p></div>
+                    </article>
+                </div>
+
+                <div class="feature-row second-row">
+                    <article class="features" id="CourseRecommend">
+                        <h3>Recommended Courses</h3>
+                        <div class="feature-content" id="course-content"></div>
+                    </article>
+                    <article class="features" id="CareerInsights">
+                        <h3>Matched Career Insights</h3>
+                        <div class="feature-content"><p class="best-match" id="best-match"></p><div class="chart-wrap"><canvas id="insights-chart"></canvas></div><p class="difficulty-key"><i class="low"></i> Low <i class="medium"></i> Medium <i class="high"></i> High <i class="very-high"></i> Very High</p></div>
+                    </article>
+                </div>
+
+                <div class="feature-row third-row">
+                    <article class="features" id="roadmap"><h3>Learning Roadmap</h3><div class="feature-content" id="roadmap-content"></div></article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/xabhinavjha?igsh=Z21vOGhhMjVqZWs4" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/abhinav-jha-a52386367" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/abhinavxjha" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/iam_abhinavjha" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; <span id="year"></span> Abhinav Jha &mdash; Solan, Himachal Pradesh</p>
+        <p class="footer-sub">Built with HTML, CSS &amp; a lot of curiosity.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
