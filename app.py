@@ -3,8 +3,6 @@
 ##################################################
 
 
-from pathlib import Path
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
@@ -34,13 +32,10 @@ from modules.helpers import (
     career_matching
 )
 
-BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR / "data"
-
-required_skills_data = load_skills(DATA_DIR / "careers.json")
-courses_data = load_courses(DATA_DIR / "courses.json")
-career_info_data = load_career(DATA_DIR / "career_info.json")
-skills_data = load_skills(DATA_DIR / "skills.json")
+required_skills_data = load_skills("data/careers.json")
+courses_data = load_courses("data/courses.json")
+career_info_data = load_career("data/career_info.json")
+skills_data=load_skills("data/skills.json")
 
 
 ##################################################
@@ -234,24 +229,21 @@ if analyze:
 
                     get_career_info(career_info_data, selected_career)
                     comp_rows=career_comparison(results, career_info_data)
-                    df3 = career_comparison_table(comp_rows)
-                    df3 = df3.iloc[0:5]
+                    df3=career_comparison_table(comp_rows)
+                    df3=df3.iloc[0:5]
+                    df3["Learning Time"]=(
+                    df3["Learning Time"]
+                    .str.replace(" Months", "", regex=False)
+                    .astype(int)
+                    )
 
-                    def convert_time(time_value):
-                        if pd.isna(time_value):
-                            return 0
-                        time_text = str(time_value).strip()
-                        if "Months" in time_text:
-                            return int(time_text.replace(" Months", ""))
-                        if "Month" in time_text:
-                            return int(time_text.replace(" Month", ""))
-                        if "Years" in time_text:
-                            return int(time_text.replace(" Years", "")) * 12
-                        if "Year" in time_text:
-                            return int(time_text.replace(" Year", "")) * 12
-                        return 0
+                    def convert_time(time):                         #helped by ai
+                        if "Months" in time:
+                            return int(time.replace(" Months", ""))
+                        elif "Years" in time:
+                            return int(time.replace(" Years", "")) * 12
+                        df3["Learning Time"] = df3["Learning Time"].apply(convert_time)    
 
-                    df3["Learning Time"] = df3["Learning Time"].apply(convert_time)
 
                     career_labels = [name[:12] + "..." if len(name) > 12 else name for name in df3["Career"]]
 
